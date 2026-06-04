@@ -1,0 +1,146 @@
+// ---------------------------------------------------
+// Basic DMSP V4 municipality-year-satellite extraction
+// 1992–2013
+// Belize, Guatemala, El Salvador, Honduras, Nicaragua,
+// Costa Rica, Panama
+//
+// Output: one row per satellite x municipality x year
+// Lean version with stable_sum and stable_count only
+// ---------------------------------------------------
+
+// 1) Municipality boundaries
+var adm2 = ee.FeatureCollection('FAO/GAUL/2015/level2');
+
+var countryList = [
+  'Belize',
+  'Guatemala',
+  'El Salvador',
+  'Honduras',
+  'Nicaragua',
+  'Costa Rica',
+  'Panama'
+];
+
+var munis = adm2
+  .filter(ee.Filter.inList('ADM0_NAME', countryList))
+  .map(function(f) {
+    var muni_key = ee.String(f.get('ADM0_CODE'))
+      .cat('_')
+      .cat(ee.String(f.get('ADM1_CODE')))
+      .cat('_')
+      .cat(ee.String(f.get('ADM2_CODE')));
+    return f.set('muni_key', muni_key);
+  });
+
+// 2) DMSP V4 annual lights
+var dmsp = ee.ImageCollection('NOAA/DMSP-OLS/NIGHTTIME_LIGHTS');
+
+// 3) Label each image with satellite and year from system:index
+var dmspLabeled = dmsp.map(function(img) {
+  var idx = ee.String(img.get('system:index'));
+  var satellite = idx.slice(0, 3);
+  var year = ee.Number.parse(idx.slice(3, 7));
+
+  return img
+    .set('satellite', satellite)
+    .set('year', year)
+    .set('image_id', idx);
+});
+
+// 4) Keep only 1992–2013
+var dmspFiltered = dmspLabeled
+  .filter(ee.Filter.gte('year', 1992))
+  .filter(ee.Filter.lte('year', 2013));
+
+// 5) Helper to join two feature collections by muni_key
+function joinCollections(left, right) {
+  var joined = ee.Join.inner().apply({
+    primary: left,
+    secondary: right,
+    condition: ee.Filter.equals({
+      leftField: 'muni_key',
+      rightField: 'muni_key'
+    })
+  });
+
+  return ee.FeatureCollection(joined.map(function(f) {
+    var l = ee.Feature(f.get('primary'));
+    var r = ee.Feature(f.get('secondary'));
+    return l.copyProperties(r, r.propertyNames());
+  }));
+}
+
+// 6) Extract stable_sum and stable_count for each image
+var allStats = ee.FeatureCollection(
+  dmspFiltered.map(function(img) {
+    var year = img.get('year');
+    var satellite = img.get('satellite');
+    var imageId = img.get('image_id');
+
+    var stable = ee.Image(img).select('stable_lights').rename('stable');
+
+    // Sum of stable_lights values
+    var stableSumStats = stable.reduceRegions({
+      collection: munis,
+      reducer: ee.Reducer.sum(),
+      scale: 927.67,
+      crs: 'EPSG:4326',
+      tileScale: 4
+    }).map(function(f) {
+      return ee.Feature(null, {
+        muni_key: f.get('muni_key'),
+        ADM0_NAME: f.get('ADM0_NAME'),
+        ADM1_NAME: f.get('ADM1_NAME'),
+        ADM2_NAME: f.get('ADM2_NAME'),
+        ADM0_CODE: f.get('ADM0_CODE'),
+        ADM1_CODE: f.get('ADM1_CODE'),
+        ADM2_CODE: f.get('ADM2_CODE'),
+        satellite: satellite,
+        year: year,
+        image_id: imageId,
+        stable_sum: f.get('sum')
+      });
+    });
+
+    // Count of valid DMSP pixels
+    var stableCountStats = stable.reduceRegions({
+      collection: munis,
+      reducer: ee.Reducer.count().unweighted(),
+      scale: 927.67,
+      crs: 'EPSG:4326',
+      tileScale: 4
+    }).map(function(f) {
+      return ee.Feature(null, {
+        muni_key: f.get('muni_key'),
+        stable_count: f.get('count')
+      });
+    });
+
+    return joinCollections(stableSumStats, stableCountStats);
+
+  }).flatten()
+);
+
+// 7) Inspect
+print('DMSP satellite-year municipality table', allStats.limit(10));
+print('Number of rows', allStats.size());
+
+// 8) Export
+Export.table.toDrive({
+  collection: allStats,
+  description: 'dmsp_satellite_municipality_year_1992_2013_ca7_sum_count',
+  fileFormat: 'CSV',
+  selectors: [
+    'satellite',
+    'ADM0_NAME',
+    'ADM1_NAME',
+    'ADM2_NAME',
+    'ADM0_CODE',
+    'ADM1_CODE',
+    'ADM2_CODE',
+    'year',
+    'stable_sum',
+    'stable_count',
+    'image_id'
+  ]
+});

@@ -1,0 +1,8 @@
+{
+  "matched_municipalities": 1132,
+  "ntl_municipalities": 1211,
+  "match_policy": "Exact normalized country+ADM1+ADM2 names plus audited 1:1 aliases. Ambiguous, placeholder, island-fragment, lake, and unresolved names are excluded rather than forced.",
+  "alias_matched_municipalities": 84,
+  "unmatched_municipalities_after_aliases": 79,
+  "belize_policy": "Belize GAUL units have ADM2_NAME='Administrative unit not available'; GeoBoundaries ADM1 geometries are used."
+}

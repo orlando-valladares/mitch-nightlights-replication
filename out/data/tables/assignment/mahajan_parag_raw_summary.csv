@@ -1,0 +1,3 @@
+sample,rows,countries,mean_pwind,mean_x_gjst,sd_x_gjst
+All raw rows,96,El Salvador: 1; Faroe Islands: 2; Honduras: 71; Mexico: 22,39.20614286263784,0.003609909576058954,0.03276523370131508
+Central America rows,72,El Salvador: 1; Honduras: 71,40.33517058690389,0.00017907996210606323,0.0002825439767793313

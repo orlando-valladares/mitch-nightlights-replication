@@ -1,0 +1,7 @@
+Treatment,Year FE,Coefficient,SE,p-value,N,R-squared,Treated units,Control units
+Best Track,No,0.138,(0.128),0.282,10362,0.850,6,465
+Best Track,Yes,0.138,(0.128),0.282,10362,0.904,6,465
+Mahajan-Parag grid,No,0.161**,(0.082),0.049,10362,0.850,31,440
+Mahajan-Parag grid,Yes,0.161**,(0.082),0.049,10362,0.905,31,440
+Deaths per capita,No,-0.014,(0.103),0.894,1540,0.894,12,58
+Deaths per capita,Yes,-0.014,(0.104),0.895,1540,0.950,12,58

@@ -1,0 +1,11 @@
+metric,value,matched_municipalities,unmatched_municipalities
+ntl_municipalities,1211,,
+exact_name_matched_municipalities,1132,,
+unmatched_municipalities,79,,
+Belize,6,6.0,0.0
+Costa Rica,81,75.0,6.0
+El Salvador,262,241.0,21.0
+Guatemala,336,331.0,5.0
+Honduras,291,288.0,3.0
+Nicaragua,158,130.0,28.0
+Panama,77,61.0,16.0

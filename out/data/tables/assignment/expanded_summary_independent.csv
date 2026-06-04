@@ -1,0 +1,29 @@
+measure,source,unit,mean,sd,p10,p50,p90,count,treated_munis,treated_depts
+64 kt area coverage >= 100%,Extended Best Track,Municipality share,0.008879301204819277,0.08801860083729127,0.0,0.0,0.0,996,6,2
+64 kt area coverage >= 75%,Extended Best Track,Municipality share,0.008879301204819277,0.08801860083729127,0.0,0.0,0.0,996,7,2
+64 kt area coverage >= 50%,Extended Best Track,Municipality share,0.008879301204819277,0.08801860083729127,0.0,0.0,0.0,996,9,2
+64 kt area coverage >= 25%,Extended Best Track,Municipality share,0.008879301204819277,0.08801860083729127,0.0,0.0,0.0,996,10,2
+64 kt continuous area share,Extended Best Track,All municipalities,0.008879301204819277,0.08801860083729127,0.0,0.0,0.0,996,,
+"64 kt continuous area share, if > 0",Extended Best Track,Positive coverage,0.5895855999999999,0.42869375090446893,0.03358660000000001,0.623859,1.0,15,,
+50 kt area coverage >= 100%,Extended Best Track,Municipality share,0.016595704819277107,0.12153465035398979,0.0,0.0,0.0,996,12,2
+50 kt area coverage >= 75%,Extended Best Track,Municipality share,0.016595704819277107,0.12153465035398979,0.0,0.0,0.0,996,14,3
+50 kt area coverage >= 50%,Extended Best Track,Municipality share,0.016595704819277107,0.12153465035398979,0.0,0.0,0.0,996,16,4
+50 kt area coverage >= 25%,Extended Best Track,Municipality share,0.016595704819277107,0.12153465035398979,0.0,0.0,0.0,996,19,6
+50 kt continuous area share,Extended Best Track,All municipalities,0.016595704819277107,0.12153465035398979,0.0,0.0,0.0,996,,
+"50 kt continuous area share, if > 0",Extended Best Track,Positive coverage,0.68872175,0.3949149636096414,0.05800920000000001,0.9932705,1.0,24,,
+34 kt area coverage >= 100%,Extended Best Track,Municipality share,0.26028443072289154,0.42686456882786755,0.0,0.0,1.0,996,222,27
+34 kt area coverage >= 75%,Extended Best Track,Municipality share,0.26028443072289154,0.42686456882786755,0.0,0.0,1.0,996,243,29
+34 kt area coverage >= 50%,Extended Best Track,Municipality share,0.26028443072289154,0.42686456882786755,0.0,0.0,1.0,996,258,29
+34 kt area coverage >= 25%,Extended Best Track,Municipality share,0.26028443072289154,0.42686456882786755,0.0,0.0,1.0,996,272,29
+34 kt continuous area share,Extended Best Track,All municipalities,0.26028443072289154,0.42686456882786755,0.0,0.0,1.0,996,,
+"34 kt continuous area share, if > 0",Extended Best Track,Positive coverage,0.8787908237288136,0.26699804615702627,0.40989200000000003,1.0,1.0,295,,
+CHIRPS max rainfall anomaly,CHIRPS,mm anomaly,55.575594352543675,29.668318783576044,20.33489253752761,50.510639667510986,97.26246211683595,935,94,28
+Average CHIRPS rainfall anomaly,CHIRPS,Mean over sample,55.575594352543675,,55.575594352543675,55.575594352543675,55.575594352543675,1,,
+Deaths per capita,Government reports,All departments/states,0.00036977457123287666,0.0010059321155357422,0.0,1.20996e-05,0.0011079783199999995,73,,8
+"Deaths per capita, if > 0",Government reports,Positive departments/states,0.0005868161673913045,0.0012201824681957033,5.5711e-06,6.03363e-05,0.0018752268499999999,46,,8
+Mahajan-Parag x_gjst,Mahajan-Parag,All municipalities,2.056944061088013e-05,9.244573737123781e-05,0.0,0.0,2.0964893337804824e-05,996,,
+"Mahajan-Parag x_gjst, if > 0",Mahajan-Parag,Positive exposure,0.00013567657515520934,0.0002024065986390552,6.850258614576887e-06,6.509637023555115e-05,0.0003680914815049,151,,
+Mahajan-Parag predicted wind,Mahajan-Parag,All municipalities,5.670356091725299,13.51562215468417,0.0,0.0,34.643001556396484,996,,
+"Mahajan-Parag predicted wind, if > 0",Mahajan-Parag,Positive exposure,37.401818989128465,4.1228653896384575,34.21703338623047,36.31320190429688,42.43930435180664,151,,
+Mahajan-Parag grid population,Mahajan-Parag,All municipalities,5109.719275417098,14418.2121275072,0.0,0.0,23075.58984375,996,,
+"Mahajan-Parag grid population, if > 0",Mahajan-Parag,Positive exposure,33703.84369745318,20219.116337592674,8849.583984375,32115.849609375,62807.87890625,151,,

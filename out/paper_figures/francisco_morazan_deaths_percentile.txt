@@ -1,0 +1,3 @@
+Francisco Morazan deaths_per_capita =  0.000883596
+Ascending rank among nonmissing states =        10 of        96
+Weak percentile, share less than or equal =   10.4

@@ -1,0 +1,8 @@
+panel,measure,unit,included_units,treated_units,control_units,treated_municipalities,control_municipalities,mean_score,sd_score,assumptions
+default,Best Track,municipality,471,6,465,6,465,.011368653,.082092904,64 kt hurricane-force threshold; 150 km radius; scaled wind; cutoff score >= 0.50; pre-Mitch mean NTL >= 100
+no_ntl_filter,Best Track,municipality,912,12,900,12,900,.01409201,.08949706,"Same Best Track assumptions, but the pre-Mitch NTL filter is off"
+default,Mahajan-Parag grid,municipality,471,31,440,31,440,.065817408,.2482263,Original Yang-Parag treated grid; no expansion; municipality assigned by nearest original treated/control grid; pre-Mitch mean NTL >= 100
+no_ntl_filter,Mahajan-Parag grid,municipality,912,142,770,142,770,.15570176,.3627713,"Same Yang-Parag assumptions, but the pre-Mitch NTL filter is off"
+default,Deaths per capita,state,70,12,58,188,719,.05722874,.15752633,First-level administrative death-rate proxy; state-level unit of analysis; cutoff score >= 0.05; pre-Mitch state NTL >= 100
+no_ntl_filter,Deaths per capita,state,72,13,59,190,722,.057077616,.1554002,"Same deaths-per-capita assumptions, but the pre-Mitch NTL filter is off"
+default,CHIRPS 90th percentile,municipality,,,,,,,,Placeholder: treatment not yet written; section 2.2.4 intentionally header-only

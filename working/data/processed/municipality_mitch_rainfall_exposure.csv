@@ -1,0 +1,1256 @@
+muni_key,country_name,department_name,municipality_name,mean_rainfall_mm,max_rainfall_mm,p90_rainfall_mm,rainfall_pixel_count,area_weighted_rainfall_mm,rainfall_weighting_note
+1456440B83071961973491,BLZ,BLZ,Stann Creek West,94.48001637776693,120.39537811279297,110.19652099609375,75,94.48001637776693,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B68597198845590,BLZ,BLZ,Orange Walk South,25.239193039218875,69.85722351074219,42.705359649658206,137,25.239193039218875,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B92384260503294,BLZ,BLZ,Corozal South East,74.43856332657185,101.82122802734375,91.74008636474609,47,74.43856332657185,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B35586034015504,BLZ,BLZ,Cayo South,51.01998561620712,107.52297973632812,75.20567321777344,128,51.01998561620712,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B19707016539712,BLZ,BLZ,Toledo West,66.89007639001917,123.72423553466797,98.98717498779297,81,66.89007639001917,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B99535609172770,BLZ,BLZ,Dangriga,78.91897201538086,88.10034942626953,84.77346496582031,4,78.91897201538086,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B94766097213569,BLZ,BLZ,Toledo East,66.69526863098145,111.79016876220703,90.66154327392579,60,66.69526863098145,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B56382702891578,BLZ,BLZ,Cayo North East,12.361379623413086,32.22941970825195,29.27901268005371,7,12.361379623413086,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B44452540624114,BLZ,BLZ,Cayo North,4.410759290059407,26.464555740356445,13.232277870178223,6,4.410759290059407,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B60992682417348,BLZ,BLZ,Cayo West,12.436385228083683,27.41111946105957,27.32722587585449,13,12.436385228083683,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B94896318880673,BLZ,BLZ,Cayo Central,23.385765007564,59.97441101074219,32.698926544189455,28,23.385765007564,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B54194515366168,BLZ,BLZ,Belmopan,49.63626480102539,49.63626480102539,49.63626480102539,1,49.63626480102539,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B17189259529244,BLZ,BLZ,Corozal Bay,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B5266372606878,BLZ,BLZ,Corozal North,61.73326396942139,74.48715209960938,71.43626098632812,12,61.73326396942139,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B54087410472023,BLZ,BLZ,Corozal South West,49.55435752868652,61.625404357910156,56.60891914367676,6,49.55435752868652,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B42858998503900,BLZ,BLZ,Orange Walk North,40.96604428972517,48.265350341796875,46.40994033813477,7,40.96604428972517,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B2347802332561,BLZ,BLZ,Orange Walk Central,17.068265914916992,17.068265914916992,17.068265914916992,1,17.068265914916992,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B63332510884225,BLZ,BLZ,Orange Walk East,43.36867065429688,80.3795394897461,66.90809326171875,15,43.36867065429688,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B85935550107059,BLZ,BLZ,Freetown,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B62290110422722,BLZ,BLZ,Port Loyola,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B59769308078565,BLZ,BLZ,Lake Independence,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B38299420542047,BLZ,BLZ,Fort George,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B69828690893614,BLZ,BLZ,Albert,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B41515061278311,BLZ,BLZ,Queen Square,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B30022647812570,BLZ,BLZ,Mesopotamia,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B45455972514267,BLZ,BLZ,Freetown,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B85489993561805,BLZ,BLZ,Pickstock,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B59944424745172,BLZ,BLZ,Caribbean Shores,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B30822357340136,BLZ,BLZ,Collet,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B3381431616278,BLZ,BLZ,Belize Rural North,56.584153429667154,84.1258544921875,76.45759658813476,60,56.584153429667154,simple raster-cell mean; exact pixel-area weighting not applied
+1456440B76393603142959,BLZ,BLZ,Belize Rural North,88.61432773590087,123.0722427368164,116.00503463745117,50,88.61432773590087,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B12090025276311,CRI,CRI,Puerto Jimenez,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B23652443238408,CRI,CRI,Osa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B75428693831232,CRI,CRI,Buenos Aires,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B67962139153797,CRI,CRI,Coto Brus,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B12763689767454,CRI,CRI,Golfito,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B38265631296352,CRI,CRI,Corredores,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B81779324435882,CRI,CRI,Perez Zeledon,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B17277375937001,CRI,CRI,Talamanca,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B50274844038256,CRI,CRI,Limon,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B83376986375247,CRI,CRI,Matina,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B38119903555726,CRI,CRI,Turrialba,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B31180817365439,CRI,CRI,Jimenez,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B14644895644866,CRI,CRI,Alvarado,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B47231661736374,CRI,CRI,Siquirres,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B32500402146996,CRI,CRI,Guacimo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B34064705280782,CRI,CRI,Paraiso,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B47119988095233,CRI,CRI,Oreamuno,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B47934258203273,CRI,CRI,Vazquez de Coronado,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B79132997728490,CRI,CRI,Goicoechea,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B86060640293430,CRI,CRI,Dota,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B87567829139505,CRI,CRI,El Guarco,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B19971785414820,CRI,CRI,Cartago,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B23984119166299,CRI,CRI,La Union,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B71445254022700,CRI,CRI,Curridabat,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B49166054866519,CRI,CRI,Montes de Oca,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B8745227271040,CRI,CRI,Moravia,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B23001731443143,CRI,CRI,San Isidro,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B13959019821859,CRI,CRI,Tibas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B42528660936066,CRI,CRI,Santo Domingo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B49814687345557,CRI,CRI,San Pablo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B33619943127012,CRI,CRI,San Rafael,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B27145305633617,CRI,CRI,Heredia,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B75019906256139,CRI,CRI,Flores,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B97828735780055,CRI,CRI,Belen,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B17043328523941,CRI,CRI,San Jose,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B93518789602304,CRI,CRI,Barva,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B69757092766150,CRI,CRI,Santa Barbara,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B53955295164101,CRI,CRI,Desamparados,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B70383874576114,CRI,CRI,Leon Cortes Castro,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B1589353169511,CRI,CRI,Aserri,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B83189782085425,CRI,CRI,Tarrazu,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B46063821008241,CRI,CRI,Alajuelita,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B13672837232461,CRI,CRI,Escazu,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B14800778897380,CRI,CRI,Santa Ana,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B86670924775866,CRI,CRI,Acosta,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B40218222859815,CRI,CRI,Mora,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B96368575688704,CRI,CRI,Pococi,28.52558199564616,31.359359741210938,30.522951507568358,3,28.52558199564616,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B54791236061025,CRI,CRI,Sarapiqui,8.24360466003418,24.73081398010254,19.784651184082033,3,8.24360466003418,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B67061549070759,CRI,CRI,Alajuela,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B26047404335903,CRI,CRI,Poas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B916692676755,CRI,CRI,Rio Cuarto,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B60213245209904,CRI,CRI,Grecia,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B48608079710211,CRI,CRI,Sarchi,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B12549595917957,CRI,CRI,Naranjo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B69998662066275,CRI,CRI,Zarcero,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B65263454965640,CRI,CRI,Palmeras,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B19113363200971,CRI,CRI,Atenas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B36005628367911,CRI,CRI,Puriscal,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B44597277334716,CRI,CRI,Turrubares,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B51019647816434,CRI,CRI,Orotina,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B56019207244783,CRI,CRI,San Mateo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B75539048151546,CRI,CRI,San Ramon,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B94446731774240,CRI,CRI,Esparza,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B99490544719136,CRI,CRI,Montes de Oro,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B93009353653886,CRI,CRI,San Carlos,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B82753262426654,CRI,CRI,Los Chiles,1.696599006652832,11.876193046569824,4.750477218627934,7,1.696599006652832,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B87915732060573,CRI,CRI,Guatuso,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B12916636175246,CRI,CRI,Tilaran,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B97209373697434,CRI,CRI,Upala,22.362369219462078,30.71330451965332,29.285185623168946,3,22.362369219462078,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B9758970649099,CRI,CRI,Puntarenas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B65281330352027,CRI,CRI,Canas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B76041075166072,CRI,CRI,Bagaces,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B57161008538161,CRI,CRI,Liberia,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B52146458356886,CRI,CRI,La Cruz,40.887243588765465,50.33676528930664,47.26664733886719,6,40.887243588765465,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B81157491697278,CRI,CRI,Carrillo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B7119067190129,CRI,CRI,Santa Cruz,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B54508558874137,CRI,CRI,Nicoya,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B12403637236294,CRI,CRI,Hojancha,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B45904534583509,CRI,CRI,Nandayure,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B17800837418236,CRI,CRI,Abangares,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B76673798564195,CRI,CRI,Garabito,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B16992586441876,CRI,CRI,Quepos,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+36466004B95019586049956,CRI,CRI,Parrita,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B13136333773356,GTM,GTM,Acatenango,3.761582374572754,8.648153305053711,8.203351020812988,6,3.761582374572754,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B57715659618061,GTM,GTM,Agua Blanca,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B67295913435518,GTM,GTM,Aguacatán,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B59267896905043,GTM,GTM,Almolonga,6.170628547668457,6.170628547668457,6.170628547668457,1,6.170628547668457,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B60145282500225,GTM,GTM,Alotenango,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B1608091480167,GTM,GTM,Amatitlán,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B72939253081387,GTM,GTM,Antigua Guatemala,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B73925022965475,GTM,GTM,Asunción Mita,0.8202424730573382,11.483394622802734,0.0,14,0.8202424730573382,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B46496054688907,GTM,GTM,Atescatempa,5.582205295562744,11.164410591125488,10.047969532012939,2,5.582205295562744,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B23985435861738,GTM,GTM,Ayutla,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B64045433059615,GTM,GTM,Barberena,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B26055354107156,GTM,GTM,Barillas,1.8031293324061803,50.48762130737305,0.0,28,1.8031293324061803,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B64001111402492,GTM,GTM,Cabañas,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20493832744336,GTM,GTM,Cabricán,4.163446426391602,8.834982872009277,8.530128860473633,4,4.163446426391602,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65664017230403,GTM,GTM,Cahabón,22.977241304185654,34.73704528808594,33.38878402709961,27,22.977241304185654,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B33960112872468,GTM,GTM,Cajolá,4.014657974243164,8.029315948486328,7.2263843536376955,2,4.014657974243164,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B72038924069090,GTM,GTM,Camotán,49.29617118835449,74.2752685546875,72.18439102172852,6,49.29617118835449,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B48890406696018,GTM,GTM,Canillá,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B39486283603330,GTM,GTM,Cantel,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B57906860405823,GTM,GTM,Casillas,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B50413520272297,GTM,GTM,Catarina,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B23943610665473,GTM,GTM,Chahal,32.05528602600098,61.29167175292969,39.584615325927736,15,32.05528602600098,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B19159342798902,GTM,GTM,Chajul,0.0,0.0,0.0,18,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B86216931252561,GTM,GTM,Champerico,9.503044033050537,12.896897315979004,12.67114715576172,10,9.503044033050537,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B62653815483929,GTM,GTM,Chiantla,0.0,0.0,0.0,17,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B95007488956615,GTM,GTM,Chicacao,9.554447054862976,10.399551391601562,10.194947910308837,8,9.554447054862976,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B15638381256287,GTM,GTM,Chicamán,0.0,0.0,0.0,17,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B58448783087993,GTM,GTM,Chiché,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B12794992131800,GTM,GTM,Chichicastenango,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80074787415799,GTM,GTM,Chimaltenango,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B40156667013427,GTM,GTM,Chinautla,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B24163547134196,GTM,GTM,Chinique,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B13186946486683,GTM,GTM,Chiquimula,2.5869211717085405,28.456132888793945,0.0,11,2.5869211717085405,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B27028234589447,GTM,GTM,Chiquimulilla,0.6365213871002198,12.730427742004395,0.0,20,0.6365213871002198,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B86099287791236,GTM,GTM,Chisec,0.0,0.0,0.0,34,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B45501962231680,GTM,GTM,Chuarrancho,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B53030566243177,GTM,GTM,Ciudad Vieja,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B84423325132752,GTM,GTM,Coatepeque,0.0,0.0,0.0,14,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B25337893511969,GTM,GTM,Cobán,0.0,0.0,0.0,77,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28232035709765,GTM,GTM,Colomba,16.313183665275574,19.39063262939453,17.4891939163208,8,16.313183665275574,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B36067757797746,GTM,GTM,Colotenango,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20533835568795,GTM,GTM,Comalapa,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B15373267205562,GTM,GTM,Comapa,1.644822120666504,9.868932723999023,4.934466361999512,6,1.644822120666504,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B17220282453163,GTM,GTM,Comitancillo,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28359200258392,GTM,GTM,Concepción,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B62244811980671,GTM,GTM,Concepción Chiquirichapa,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B71807144537859,GTM,GTM,Concepción Huista,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28925037655820,GTM,GTM,Concepción Las Minas,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B54986860813663,GTM,GTM,Concepción Tutuapa,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31085680066755,GTM,GTM,Conguaco,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B69115234632813,GTM,GTM,Cubulco,0.0,0.0,0.0,23,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B18848858610216,GTM,GTM,Cuilapa,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28423402187553,GTM,GTM,Cuilco,0.0,0.0,0.0,16,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B6309522429005,GTM,GTM,Cunén,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B79840770909304,GTM,GTM,Cuyotenango,10.448319753011068,10.5991792678833,10.563280296325683,3,10.448319753011068,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B81519160116587,GTM,GTM,Dolores,29.497544655433067,79.47781372070312,48.993167877197266,52,29.497544655433067,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B13602510028618,GTM,GTM,El Adelanto,11.991891384124756,12.140138626098633,12.110489177703858,2,11.991891384124756,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B44377460468141,GTM,GTM,El Asintal,12.859911155700683,16.88386344909668,15.292926788330078,5,12.859911155700683,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B2800048141456,GTM,GTM,El Chal,42.86123878725113,77.0837631225586,65.08336639404297,31,42.86123878725113,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B40581937082552,GTM,GTM,El Chol,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B63823362918265,GTM,GTM,El Estor,38.18263560075026,76.85595703125,58.62675323486328,52,38.18263560075026,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65572825799154,GTM,GTM,El Jícaro,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B16576514502159,GTM,GTM,El Palmar,12.236124992370605,13.603691101074219,13.181114292144775,4,12.236124992370605,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B52166049172952,GTM,GTM,El Progreso,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B99595855877041,GTM,GTM,El Quetzal,4.209957122802734,16.839828491210938,11.78787994384766,4,4.209957122802734,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B79064464802759,GTM,GTM,El Rodeo,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B23918140958816,GTM,GTM,El Tejar,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B55604290540821,GTM,GTM,El Tumbador,6.938100179036458,21.157926559448242,20.814300537109375,6,6.938100179036458,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B12428075404525,GTM,GTM,Escuintla,12.501961019304064,20.915668487548828,19.29394989013672,18,12.501961019304064,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80702943511797,GTM,GTM,Esquipulas,15.089393840116614,79.6495361328125,53.01720657348634,17,15.089393840116614,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B77634541568433,GTM,GTM,Esquipulas Palo Gordo,21.328370094299316,22.665090560913086,22.39774646759033,2,21.328370094299316,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B47925591058231,GTM,GTM,Estanzuela,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29101343458737,GTM,GTM,Flores,10.558913630823936,29.675701141357422,26.37431526184082,124,10.558913630823936,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B83292540692788,GTM,GTM,Flores Costa Cuca,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B66624198993086,GTM,GTM,Fraijanes,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B41204934399249,GTM,GTM,Fray Bartolomé de Las Casas,35.391896390914916,78.16541290283203,74.16864929199218,40,35.391896390914916,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B90055848837962,GTM,GTM,Génova,3.353760528564453,16.768802642822266,10.061281585693362,5,3.353760528564453,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B60020502053438,GTM,GTM,Granados,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B90602875847956,GTM,GTM,Gualán,70.41897854438194,104.53516387939453,99.04291534423828,26,70.41897854438194,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B46302810770825,GTM,GTM,Guanagazapa,8.735874993460518,14.50809097290039,13.571647834777833,7,8.735874993460518,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B25176741785216,GTM,GTM,Guastatoya,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B25759952858694,GTM,GTM,Guatemala,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B7979151806096,GTM,GTM,Guazacapán,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B83999365209014,GTM,GTM,Huehuetenango,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B44657953271022,GTM,GTM,Huitán,6.873674392700195,6.873674392700195,6.873674392700195,1,6.873674392700195,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B89457517012818,GTM,GTM,Huité,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B7392170561334,GTM,GTM,Ipala,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29604867633206,GTM,GTM,Ixcán,23.18030772001847,56.93537902832031,54.17178726196289,46,23.18030772001847,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80517752911806,GTM,GTM,Ixchiguán,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B38724413967486,GTM,GTM,Ixtahuacán,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B85452841744981,GTM,GTM,Iztapa,9.060686588287354,9.435869216918945,9.360832691192627,2,9.060686588287354,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56243891035553,GTM,GTM,Jacaltenango,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B86525651589488,GTM,GTM,Jalapa,0.0,0.0,0.0,23,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B35053973506085,GTM,GTM,Jalpatagua,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56030865521274,GTM,GTM,Jerez,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B84991525520377,GTM,GTM,Jocotán,20.704533767700195,35.950096130371094,29.693286132812496,10,20.704533767700195,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20964806196125,GTM,GTM,Jocotenango,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B91239548931928,GTM,GTM,Joyabaj,0.0,0.0,0.0,15,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B37757283668569,GTM,GTM,Jutiapa,1.6146267890930175,11.631391525268555,9.323420333862309,20,1.6146267890930175,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B67582520223271,GTM,GTM,La Blanca,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56611035242385,GTM,GTM,La Democracia,13.007072925567627,13.937166213989258,13.880221843719482,10,13.007072925567627,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B38360675898536,GTM,GTM,La Democracia,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B77884380500547,GTM,GTM,La Esperanza,7.644319534301758,7.644319534301758,7.644319534301758,1,7.644319534301758,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56387033973668,GTM,GTM,La Gomera,11.592997312545776,12.513113975524902,12.22471284866333,16,11.592997312545776,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B32919336538902,GTM,GTM,La Libertad,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31281143780542,GTM,GTM,La Libertad,0.19042139168245248,31.60995101928711,0.0,166,0.19042139168245248,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B25623182739171,GTM,GTM,La Reforma,9.851097106933594,19.702194213867188,17.731974792480468,2,9.851097106933594,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65794247030645,GTM,GTM,La Unión,54.86593682425363,75.33698272705078,70.56566162109375,7,54.86593682425363,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78554632874353,GTM,GTM,Lago De Amatitlan,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B18487207511943,GTM,GTM,Lago De Atitlan,2.4299336433410645,6.793253421783447,6.2185179710388185,5,2.4299336433410645,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B47647601026557,GTM,GTM,Lanquín,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B61221719902426,GTM,GTM,Las Cruces,0.6183158098641088,36.48063278198242,0.0,59,0.6183158098641088,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B12175852129517,GTM,GTM,Lívingston,72.38816109186486,122.96173095703125,110.59799041748047,79,72.38816109186486,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B97671971478727,GTM,GTM,Los Amates,54.589257789380625,83.41925048828125,73.83164825439454,33,54.589257789380625,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B1840985123579,GTM,GTM,Magdalena Milpas Altas,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B54780709245522,GTM,GTM,Malacatán,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B52740095306971,GTM,GTM,Malacatancito,5.033404957164418,13.78341293334961,13.002589225769043,11,5.033404957164418,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B43224707646328,GTM,GTM,Masagua,12.681799720315372,16.567466735839844,15.74512596130371,17,12.681799720315372,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B64260644411461,GTM,GTM,Mataquescuintla,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B41985315945162,GTM,GTM,Mazatenango,11.507460594177246,11.507460594177246,11.507460594177246,1,11.507460594177246,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B26662084929959,GTM,GTM,Melchor de Mencos,18.39446618556976,54.98951721191406,48.779645156860354,80,18.39446618556976,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B33293515878982,GTM,GTM,Mixco,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B37040053715230,GTM,GTM,Momostenango,3.711988647778829,8.430315017700195,7.13668532371521,12,3.711988647778829,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B55723885178845,GTM,GTM,Monjas,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B97649712901036,GTM,GTM,Morales,75.35329732027921,113.09252166748047,101.02764892578126,44,75.35329732027921,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B64841514160726,GTM,GTM,Morazán,0.0,0.0,0.0,10,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B23671365948765,GTM,GTM,Moyuta,0.0,0.0,0.0,13,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B99753253329912,GTM,GTM,Nahualá,3.143457531929016,12.740575790405273,12.507131862640382,8,3.143457531929016,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B6718623285372,GTM,GTM,Nebaj,0.0,0.0,0.0,27,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B15120752201699,GTM,GTM,Nentón,0.0,0.0,0.0,24,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B35747325654374,GTM,GTM,Nueva Concepción,9.890563011169434,11.127435684204102,10.993429374694824,19,9.890563011169434,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B8683235112277,GTM,GTM,Nueva Santa Rosa,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31379081578596,GTM,GTM,Nuevo Progreso,12.163967895507813,21.56133270263672,21.249387359619142,5,12.163967895507813,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B2823208304542,GTM,GTM,Nuevo San Carlos,12.828836917877197,13.704230308532715,13.52915163040161,2,12.828836917877197,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29002473426991,GTM,GTM,Ocós,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B90968408613772,GTM,GTM,Olintepeque,5.661865711212158,5.661865711212158,5.661865711212158,1,5.661865711212158,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B46690826995670,GTM,GTM,Olopa,16.068339665730793,24.36569595336914,24.260421371459962,3,16.068339665730793,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B83773112277760,GTM,GTM,Oratorio,0.0,0.0,0.0,10,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B83673504677566,GTM,GTM,Ostuncalco,4.787289937337239,14.361869812011719,11.489495849609376,3,4.787289937337239,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B39093617577569,GTM,GTM,Pachalum,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B67367283540012,GTM,GTM,Pajapita,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B84749841265640,GTM,GTM,Palencia,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B38894333871635,GTM,GTM,Palestina de Los Altos,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28219742708023,GTM,GTM,Palín,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B15499572594181,GTM,GTM,Panajachel,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B48438720482803,GTM,GTM,Panzós,21.856311950683594,32.56079864501953,30.603655242919924,25,21.856311950683594,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B95275885163057,GTM,GTM,Parramos,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B50334197995085,GTM,GTM,Pasaco,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B63522445953752,GTM,GTM,Pastores,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31102822949903,GTM,GTM,Patulul,8.89283857345581,9.92449951171875,9.676401615142822,10,8.89283857345581,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B67566663524639,GTM,GTM,Patzicía,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B43387572026262,GTM,GTM,Patzité,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B61157694740062,GTM,GTM,Patzún,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B74125992353590,GTM,GTM,Petapa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B18515174231727,GTM,GTM,Petatán,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B89019096689616,GTM,GTM,Pochuta,8.08364200592041,9.446202278137207,9.246456241607666,4,8.08364200592041,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B98225728966625,GTM,GTM,Poptún,54.21745811809193,81.5803451538086,75.28729553222657,44,54.21745811809193,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B83256235526272,GTM,GTM,Pueblo Nuevo,11.606940269470215,11.606940269470215,11.606940269470215,1,11.606940269470215,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B34201935898883,GTM,GTM,Pueblo Nuevo Viñas,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20471919033812,GTM,GTM,Puerto Barrios,49.424344562348864,87.1542739868164,66.14190139770507,42,49.424344562348864,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B41794626766416,GTM,GTM,Purulhá,0.0,0.0,0.0,15,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B71071315687381,GTM,GTM,Quesada,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80303982129661,GTM,GTM,Quetzaltenango,6.4573720296223955,10.314933776855469,10.063383483886719,3,6.4573720296223955,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B70587573094312,GTM,GTM,Quezaltepeque,0.0,0.0,0.0,10,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B87613469920283,GTM,GTM,Rabinal,0.0,0.0,0.0,12,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B33979032902189,GTM,GTM,Raxruhá,0.0,0.0,0.0,21,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31149940203077,GTM,GTM,Retalhuleu,7.853029949324472,13.310534477233887,13.12640314102173,28,7.853029949324472,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B55305987595848,GTM,GTM,Río Blanco,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B98045843880740,GTM,GTM,Río Bravo,8.994285392761231,9.48827838897705,9.483927726745605,5,8.994285392761231,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B55217962729749,GTM,GTM,Río Hondo,29.046785736083983,64.638671875,61.30970306396485,15,29.046785736083983,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B69929365391108,GTM,GTM,Sacapulas,0.0,0.0,0.0,13,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B18875713614503,GTM,GTM,Salamá,0.0,0.0,0.0,23,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B86011585476581,GTM,GTM,Salcajá,4.919471740722656,4.919471740722656,4.919471740722656,1,4.919471740722656,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B7655458484390,GTM,GTM,Samayac,11.93899917602539,11.93899917602539,11.93899917602539,1,11.93899917602539,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B82802507944465,GTM,GTM,San Agustín Acasaguastlán,0.0,0.0,0.0,16,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B48357778365605,GTM,GTM,San Andrés,0.0,0.0,0.0,275,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B72665543071269,GTM,GTM,San Andrés Itzapa,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B6703764087341,GTM,GTM,San Andrés Sajcabajá,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B93234456554890,GTM,GTM,San Andrés Semetabaj,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B254233596558,GTM,GTM,San Andrés Villa Seca,11.825777326311384,14.795040130615234,13.138229751586914,14,11.825777326311384,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B53537343705712,GTM,GTM,San Andrés Xecul,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B38855532318009,GTM,GTM,San Antonio Aguas Calientes,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B52230984514052,GTM,GTM,San Antonio Huista,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B34214096561703,GTM,GTM,San Antonio Ilotenango,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78137762102304,GTM,GTM,San Antonio La Paz,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56849944054802,GTM,GTM,San Antonio Palopó,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B59585261586559,GTM,GTM,San Antonio Sacatepéquez,15.231237411499023,15.628762245178223,15.549257278442383,2,15.231237411499023,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B26922695910316,GTM,GTM,San Antonio Suchitepéquez,11.076622009277344,11.792216300964355,11.649097442626953,2,11.076622009277344,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B3234848459955,GTM,GTM,San Bartolo,5.006337642669678,7.786187171936035,7.675514888763428,3,5.006337642669678,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B4206970956801,GTM,GTM,San Bartolomé Jocotenango,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B34478073333157,GTM,GTM,San Bartolomé Milpas Altas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B93827188855866,GTM,GTM,San Benito,0.0,0.0,0.0,19,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B44616748162902,GTM,GTM,San Bernardino,12.26818561553955,12.26818561553955,12.26818561553955,1,12.26818561553955,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B59357563721623,GTM,GTM,San Carlos Alzatate,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B11845713959586,GTM,GTM,San Carlos Sija,7.77414608001709,9.210339546203613,9.103182792663574,6,7.77414608001709,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B13418311867324,GTM,GTM,San Cristóbal Acasaguastlán,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28404659355934,GTM,GTM,San Cristóbal Cucho,15.60689640045166,15.60689640045166,15.60689640045166,1,15.60689640045166,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B68551302151771,GTM,GTM,San Cristóbal Totonicapán,5.449355602264404,5.449355602264404,5.449355602264404,1,5.449355602264404,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B68623160282073,GTM,GTM,San Cristóbal Verapaz,0.0,0.0,0.0,12,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B11427655280903,GTM,GTM,San Diego,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B46607071550315,GTM,GTM,San Felipe,10.562161445617676,10.562161445617676,10.562161445617676,1,10.562161445617676,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B83427933273433,GTM,GTM,San Francisco,27.941613267969203,65.7542724609375,39.26913414001465,54,27.941613267969203,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B12043571614717,GTM,GTM,San Francisco El Alto,6.0175832112630205,6.559963703155518,6.430937480926514,3,6.0175832112630205,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B13739271835933,GTM,GTM,San Francisco La Unión,5.9979729652404785,5.9979729652404785,5.9979729652404785,1,5.9979729652404785,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B91697613076803,GTM,GTM,San Francisco Zapotitlán,12.032792568206787,12.596222877502441,12.48353681564331,2,12.032792568206787,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B61166037793938,GTM,GTM,San Gabriel,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65859415879145,GTM,GTM,San Gaspar Ixchil,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29365665250893,GTM,GTM,San Jacinto,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29506691541664,GTM,GTM,San Jerónimo,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B24520983200883,GTM,GTM,San Jorge,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B23443659204690,GTM,GTM,San José,9.090633916854859,10.754141807556152,9.979801368713378,10,9.090633916854859,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B657648809250,GTM,GTM,San José,0.0,0.0,0.0,64,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B89624307194233,GTM,GTM,San José Acatempa,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B53734633338650,GTM,GTM,San José Chacayá,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B18750582081906,GTM,GTM,San José del Golfo,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B37305924039286,GTM,GTM,San José El Ídolo,9.855302810668945,10.633373260498047,10.470928192138672,5,9.855302810668945,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B89151585354949,GTM,GTM,San José La Arada,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B14696818502524,GTM,GTM,San José La Máquina,11.079480409622192,11.706242561340332,11.524167346954346,4,11.079480409622192,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B2462316079287,GTM,GTM,San José Ojetenam,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29005595464714,GTM,GTM,San José Pinula,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B26188939943042,GTM,GTM,San José Poaquil,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B84828217033389,GTM,GTM,San Juan Atitán,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B53380304625786,GTM,GTM,San Juan Bautista,8.62037181854248,8.62037181854248,8.62037181854248,1,8.62037181854248,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B61159508916708,GTM,GTM,San Juan Chamelco,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B84889349679373,GTM,GTM,San Juan Cotzal,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B27447388470202,GTM,GTM,San Juan Ermita,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B73654259569509,GTM,GTM,San Juan Ixcoy,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B17327710580812,GTM,GTM,San Juan La Laguna,8.423584938049316,8.423584938049316,8.423584938049316,1,8.423584938049316,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B9598749560130,GTM,GTM,San Juan Sacatepéquez,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56577131945853,GTM,GTM,San Juan Tecuaco,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B60827763716614,GTM,GTM,San Lorenzo,9.431828022003174,11.506319999694824,10.936399841308594,12,9.431828022003174,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B14386686272745,GTM,GTM,San Lorenzo,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B92764455721704,GTM,GTM,San Lucas Sacatepéquez,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B2167419407314,GTM,GTM,San Lucas Tolimán,6.493977189064026,8.030869483947754,7.6522056579589846,4,6.493977189064026,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B4836456001209,GTM,GTM,San Luis,42.6333392400008,82.86927032470703,69.80792388916016,104,42.6333392400008,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B90526341743732,GTM,GTM,San Luis Jilotepeque,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B10388039742951,GTM,GTM,San Manuel Chaparrón,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B32898701467657,GTM,GTM,San Marcos,11.728376007080078,22.35671043395996,21.209946060180663,5,11.728376007080078,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78154513463269,GTM,GTM,San Marcos La Laguna,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B81292522353259,GTM,GTM,San Martín Jilotepeque,0.0,0.0,0.0,14,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B85200654086420,GTM,GTM,San Martín Sacatepéquez,8.318888982137045,13.645074844360352,13.178378295898437,3,8.318888982137045,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B10941026506975,GTM,GTM,San Martín Zapotitlán,11.87069320678711,11.87069320678711,11.87069320678711,1,11.87069320678711,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B40376522775505,GTM,GTM,San Mateo,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B68216544960730,GTM,GTM,San Mateo Ixtatán,0.0,0.0,0.0,18,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B13081043036874,GTM,GTM,San Miguel Acatán,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B93573685997449,GTM,GTM,San Miguel Chicaj,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B97668033547878,GTM,GTM,San Miguel Dueñas,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B62576691905378,GTM,GTM,San Miguel Ixtahuacán,9.315806070963541,13.162689208984375,12.360884189605713,6,9.315806070963541,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B30152308361282,GTM,GTM,San Miguel Panán,10.204881191253662,10.35595989227295,10.325744152069092,2,10.204881191253662,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B47659250151681,GTM,GTM,San Miguel Sigüila,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B73669305526668,GTM,GTM,San Pablo,5.6178998947143555,22.471599578857422,15.730119705200199,4,5.6178998947143555,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B77711429461890,GTM,GTM,San Pablo Jocopilas,11.182594299316406,11.182594299316406,11.182594299316406,1,11.182594299316406,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65058222740389,GTM,GTM,San Pablo La Laguna,6.8173041343688965,6.8173041343688965,6.8173041343688965,1,6.8173041343688965,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B57117467929955,GTM,GTM,San Pedro Ayampuc,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B56532928318150,GTM,GTM,San Pedro Carchá,0.0,0.0,0.0,44,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B58420470493896,GTM,GTM,San Pedro Jocopilas,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B50823159206102,GTM,GTM,San Pedro La Laguna,8.604430675506592,9.161286354064941,9.049915218353272,2,8.604430675506592,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78521623494839,GTM,GTM,San Pedro Necta,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B26197491104474,GTM,GTM,San Pedro Pinula,0.0,0.0,0.0,19,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65982966467051,GTM,GTM,San Pedro Sacatepéquez,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B62908040243136,GTM,GTM,San Pedro Sacatepéquez,16.061750411987305,16.061750411987305,16.061750411987305,1,16.061750411987305,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B73195694709107,GTM,GTM,San Rafael La Independencia,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B42432820540382,GTM,GTM,San Rafael Las Flores,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B67895884485700,GTM,GTM,San Rafael Petzal,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B609636359228,GTM,GTM,San Rafael Pie de la Cuesta,22.895267486572266,22.895267486572266,22.895267486572266,1,22.895267486572266,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B35150348928705,GTM,GTM,San Raimundo,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80062128439556,GTM,GTM,San Sebastián,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B42561724893677,GTM,GTM,San Sebastián Coatán,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B22472302807981,GTM,GTM,San Sebastián Huehuetenango,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B46542077194483,GTM,GTM,San Vicente Pacaya,6.148146629333496,15.938241004943848,15.483941459655762,5,6.148146629333496,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B63820217074048,GTM,GTM,Sanarate,0.0,0.0,0.0,10,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B35387126526580,GTM,GTM,Sansare,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B84602984839461,GTM,GTM,Santa Ana,15.098871620333924,52.45441818237305,27.756150817871095,49,15.098871620333924,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B69747530390651,GTM,GTM,Santa Ana Huista,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B14911635135013,GTM,GTM,Santa Apolonia,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B82403769630407,GTM,GTM,Santa Bárbara,8.99503231048584,9.247982025146484,9.210872650146484,5,8.99503231048584,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B43226162523151,GTM,GTM,Santa Bárbara,2.035567124684652,12.21340274810791,6.106701374053955,6,2.035567124684652,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B69051418753494,GTM,GTM,Santa Catalina La Tinta,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B35254467846514,GTM,GTM,Santa Catarina Barahona,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B97067153005308,GTM,GTM,Santa Catarina Ixtahuacán,5.460272407531738,11.63590145111084,10.891863822937012,5,5.460272407531738,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B98787750844284,GTM,GTM,Santa Catarina Mita,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20909144417391,GTM,GTM,Santa Catarina Palopó,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31337947825966,GTM,GTM,Santa Catarina Pinula,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B26793890214768,GTM,GTM,Santa Clara La Laguna,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B16496006430587,GTM,GTM,Santa Cruz Balanyá,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B15247969306160,GTM,GTM,Santa Cruz del Quiché,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B11038489211128,GTM,GTM,Santa Cruz La Laguna,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78170683113897,GTM,GTM,Santa Cruz Muluá,10.36682071685791,12.2759428024292,11.933520317077637,5,10.36682071685791,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20602166984582,GTM,GTM,Santa Cruz Naranjo,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B71576598572752,GTM,GTM,Santa Cruz Verapaz,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B65740660783251,GTM,GTM,Santa Eulalia,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B85033757561509,GTM,GTM,Santa Lucía Cotzumalguapa,11.135262080601283,13.754849433898926,13.220791149139405,14,11.135262080601283,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B7402563693044,GTM,GTM,Santa Lucía La Reforma,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78305211974628,GTM,GTM,Santa Lucía Milpas Altas,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B3203772279069,GTM,GTM,Santa Lucía Utatlán,5.942849159240723,5.942849159240723,5.942849159240723,1,5.942849159240723,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B31639983176614,GTM,GTM,Santa María Chiquimula,1.2071311208936903,5.769505023956299,5.2296410560607915,9,1.2071311208936903,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B23332784997029,GTM,GTM,Santa María de Jesús,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B67666952430364,GTM,GTM,Santa María Ixhuatán,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B29728839269099,GTM,GTM,Santa María Visitación,7.031198024749756,7.031198024749756,7.031198024749756,1,7.031198024749756,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80857552483649,GTM,GTM,Santa Rosa de Lima,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B45388350866104,GTM,GTM,Santiago Atitlán,7.480992674827576,8.030540466308594,8.003621530532836,4,7.480992674827576,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B81878845839698,GTM,GTM,Santiago Chimaltenango,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B66116547115808,GTM,GTM,Santiago Sacatepéquez,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B35646197433450,GTM,GTM,Santo Domingo Suchitepéquez,9.467525084813436,10.923949241638184,10.694403648376465,6,9.467525084813436,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B12925018589584,GTM,GTM,Santo Domingo Xenacoj,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B46149189037387,GTM,GTM,Santo Tomás La Unión,11.666680335998535,11.666680335998535,11.666680335998535,1,11.666680335998535,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B52336301108850,GTM,GTM,Sayaxché,4.342027136620055,40.82537078857422,34.40570640563965,94,4.342027136620055,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B39749576611846,GTM,GTM,Senahú,15.046789350963774,30.52507781982422,29.815906524658203,21,15.046789350963774,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B93967770843500,GTM,GTM,Sibilia,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B17563879064897,GTM,GTM,Sibinal,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B25557085984198,GTM,GTM,Sipacapa,6.929425875345866,11.24100112915039,11.190091609954834,6,6.929425875345866,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B96502800486536,GTM,GTM,Sipacate,10.281514739990234,10.900697708129883,10.627792167663575,10,10.281514739990234,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B25163774414820,GTM,GTM,Siquinalá,13.786871115366617,14.510971069335938,14.330975532531738,6,13.786871115366617,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B95687067740249,GTM,GTM,Sololá,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B1417859081281,GTM,GTM,Soloma,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B37174278421226,GTM,GTM,Sumpango,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B77121462598505,GTM,GTM,Tacaná,0.0,0.0,0.0,12,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B42752756974630,GTM,GTM,Tactic,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B52566348974333,GTM,GTM,Tajumulco,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B44639416757608,GTM,GTM,Tamahú,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B64159565485617,GTM,GTM,Taxisco,3.8410881649364126,11.633678436279297,10.896264839172364,22,3.8410881649364126,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B20320299128156,GTM,GTM,Tecpán Guatemala,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B96618305654863,GTM,GTM,Tectitán,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B78410714598363,GTM,GTM,Teculután,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B17053106613054,GTM,GTM,Tejutla,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B69803572716764,GTM,GTM,Tiquisate,8.295100182294846,8.86944580078125,8.793267250061035,16,8.295100182294846,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B37558522420753,GTM,GTM,Todos Santos Cuchumatán,0.0,0.0,0.0,10,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B19896834166836,GTM,GTM,Totonicapán,2.231998562812805,6.407560348510742,5.995648384094238,8,2.231998562812805,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B80923191364064,GTM,GTM,Tucurú,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B38315595445593,GTM,GTM,Unión Cantinil,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B86057243605305,GTM,GTM,Uspantán,0.0,0.0,0.0,30,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B70422154839704,GTM,GTM,Usumatlán,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B61187237098810,GTM,GTM,Villa Canales,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B28171431447945,GTM,GTM,Villa Nueva,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B24340573402590,GTM,GTM,Yepocapa,8.65874163309733,11.226578712463379,10.940492630004883,6,8.65874163309733,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B99403768988666,GTM,GTM,Yupiltepeque,7.67659854888916,11.545415878295898,11.533208656311036,3,7.67659854888916,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B10782882700872,GTM,GTM,Zacapa,34.2069945702186,100.55192565917969,83.72974090576174,13,34.2069945702186,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B97254104766130,GTM,GTM,Zacualpa,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B8015591970970,GTM,GTM,Zapotitlán,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B82010668835108,GTM,GTM,Zaragoza,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B54074459386490,GTM,GTM,Zunil,9.382793426513672,10.71903133392334,10.51839370727539,3,9.382793426513672,simple raster-cell mean; exact pixel-area weighting not applied
+79465075B91860193952418,GTM,GTM,Zunilito,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B21921991690225,HND,HND,Lago de Yojoa,24.670438766479492,27.54288673400879,26.96839714050293,2,24.670438766479492,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B56820248384798,HND,HND,La Ceiba,32.332634517124724,45.94904708862305,45.64482498168945,21,32.332634517124724,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B38540325718950,HND,HND,Esparta,30.651511192321777,34.74348831176758,34.063880920410156,16,30.651511192321777,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B3977655085649,HND,HND,Jutiapa,43.067570630241846,61.85944747924805,61.31408004760742,17,43.067570630241846,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B29134923600773,HND,HND,La Masica,28.502446055412292,34.06431198120117,31.97560405731201,16,28.502446055412292,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B12880656557631,HND,HND,San Francisco,30.033342997233074,34.43476104736328,33.08248329162598,12,30.033342997233074,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B55788691524887,HND,HND,Tela,37.15739328433306,55.57001876831055,50.838443756103516,39,37.15739328433306,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B1306465468635,HND,HND,Arizona,35.55212540096707,50.410247802734375,42.432686996459964,18,35.55212540096707,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B42436933929514,HND,HND,Trujillo,70.6462215423584,85.22909545898438,78.23973236083985,30,70.6462215423584,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B79832367470433,HND,HND,Balfate,49.237589263916014,62.91749572753906,61.16840362548828,10,49.237589263916014,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B61075928676863,HND,HND,Iriona,54.81501391461787,74.67668151855469,64.31025695800781,131,54.81501391461787,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B22880782572265,HND,HND,Limon,71.88844524730335,84.25006866455078,81.41638107299805,22,71.88844524730335,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B48928402740143,HND,HND,Saba,28.78402955191476,36.63529968261719,34.0915771484375,14,28.78402955191476,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B82036397342560,HND,HND,Santa Fe,70.8886022567749,76.51048278808594,75.00685958862304,8,70.8886022567749,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B37116409669852,HND,HND,Santa Rosa de Aguan,76.26279640197754,78.46442413330078,77.90205001831055,4,76.26279640197754,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B31402086681403,HND,HND,Sonaguera,35.520412581307546,60.319278717041016,37.949453353881836,14,35.520412581307546,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B94157421146472,HND,HND,Tocoa,52.32789688110351,76.47771453857422,71.97624053955079,30,52.32789688110351,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B94434942697031,HND,HND,Bonito Oriental,71.97887936760398,85.82122039794922,84.77045135498047,17,71.97887936760398,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B46551792620795,HND,HND,Comayagua,24.04723693584574,31.680221557617188,30.382910919189452,29,24.04723693584574,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B64266786808273,HND,HND,Ajuterique,23.096147537231445,23.70204734802246,23.58086738586426,2,23.096147537231445,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B23416368136478,HND,HND,El Rosario,19.88053035736084,22.952442169189453,22.11574058532715,10,19.88053035736084,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B47131670478697,HND,HND,Esquias,23.815229688371932,30.373043060302734,26.721367263793944,14,23.815229688371932,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B63492556097189,HND,HND,Humuya,20.892351150512695,20.892351150512695,20.892351150512695,1,20.892351150512695,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B37640617369838,HND,HND,La Libertad,20.68478183746338,23.681562423706055,22.928964614868164,10,20.68478183746338,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B80950880065989,HND,HND,Lamani,25.476895904541017,31.70965003967285,31.204960441589357,10,25.476895904541017,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B66687640419438,HND,HND,La Trinidad,19.355680465698242,20.106660842895508,19.935333061218262,4,19.355680465698242,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B32250373817394,HND,HND,Lejamani,22.934341430664062,22.934341430664062,22.934341430664062,1,22.934341430664062,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B59484840238498,HND,HND,Meambar,23.706890651157924,27.48398780822754,27.274431228637695,14,23.706890651157924,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B38768397518774,HND,HND,Minas de Oro,19.549063001360214,23.781951904296875,22.1910701751709,14,19.549063001360214,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B51970998087864,HND,HND,Ojos de Agua,22.155046939849854,25.246479034423828,24.63490161895752,4,22.155046939849854,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B29530067641484,HND,HND,San Jerónimo,22.162397066752117,28.068233489990234,25.365964889526367,6,22.162397066752117,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B469892193745,HND,HND,San Jose de Comayagua,22.634326299031574,23.347654342651367,23.15988540649414,3,22.634326299031574,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B91463241716660,HND,HND,San Jose del Potrero,23.29361891746521,27.312108993530273,27.19058017730713,8,23.29361891746521,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B17713094876682,HND,HND,San Luis,21.077720642089844,22.62833595275879,22.048650360107423,4,21.077720642089844,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B99754076346058,HND,HND,San Sebastian,19.02860584259033,21.984956741333008,21.795437240600585,5,19.02860584259033,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B5317078284159,HND,HND,Siguatepeque,20.696143517127403,27.118572235107422,22.759039306640627,13,20.696143517127403,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B41071058173253,HND,HND,Villa de San Antonio,23.2046696799142,31.70825958251953,26.789984512329102,14,23.2046696799142,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B78800320029736,HND,HND,Las Lajas,20.52021884918213,23.446142196655273,22.525715637207032,4,20.52021884918213,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B46005131059519,HND,HND,Taulabe,23.83399282182966,29.660715103149414,29.100082778930663,7,23.83399282182966,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B67086372267843,HND,HND,Santa Rosa de Copan,48.230356979370114,58.32175827026367,56.66986083984375,10,48.230356979370114,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B19494062054761,HND,HND,Cabana,73.20093282063802,81.46906280517578,80.34084701538086,6,73.20093282063802,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B32287838652437,HND,HND,Concepción,62.5993070602417,70.14952087402344,69.57062149047852,4,62.5993070602417,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B42868938000768,HND,HND,Copan Ruinas,75.50181992848714,95.40892028808594,85.62575454711914,12,75.50181992848714,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B19048967289825,HND,HND,Corquin,25.463925933837892,28.249744415283203,27.347249603271486,5,25.463925933837892,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B10036969380413,HND,HND,Cucuyagua,52.61577224731445,55.266441345214844,55.255257034301756,4,52.61577224731445,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B68227571253463,HND,HND,Dolores,59.28886604309082,63.52529525756836,62.67800941467285,2,59.28886604309082,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B52269528402042,HND,HND,Dulce Nombre,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B24019943465841,HND,HND,El Paraiso,62.47602891921997,78.98359680175781,73.12868041992188,8,62.47602891921997,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B95535378381933,HND,HND,Florida,57.58835740522905,64.954833984375,64.32369232177734,11,57.58835740522905,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B73111216600935,HND,HND,La Jigua,53.88740348815918,61.41985321044922,58.990570068359375,4,53.88740348815918,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B95326987561994,HND,HND,La Union,58.170342445373535,71.51959991455078,69.78401947021484,6,58.170342445373535,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B2783617949739,HND,HND,Nueva Arcadia,48.88159103393555,52.6174430847168,51.66590347290039,5,48.88159103393555,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B62722570051096,HND,HND,San Agustin,70.28758239746094,72.02827453613281,71.68013610839844,2,70.28758239746094,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B4235748458284,HND,HND,San Antonio,66.91457443237304,75.45685577392578,73.59510955810546,5,66.91457443237304,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B76095936312839,HND,HND,San Jeronimo,54.13580322265625,57.18524169921875,57.05207824707031,3,54.13580322265625,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B88846849027409,HND,HND,San Jose,55.16884803771973,57.25286865234375,56.83606452941895,2,55.16884803771973,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B15597094221722,HND,HND,San Juan de Opoa,44.13542079925537,49.97909164428711,48.90149421691895,4,44.13542079925537,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B43744954115993,HND,HND,San Nicolas,47.25662422180176,49.3831787109375,48.957867813110354,2,47.25662422180176,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B10717869055207,HND,HND,San Pedro,37.413644790649414,42.868309020996094,42.54754791259766,3,37.413644790649414,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B5309691152519,HND,HND,Santa Rita,80.70669631958008,98.0535659790039,95.87158508300782,10,80.70669631958008,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B52553444667575,HND,HND,Trinidad de Copan,58.30628204345703,58.30628204345703,58.30628204345703,1,58.30628204345703,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B16497975413079,HND,HND,Veracruz,54.50190353393555,54.50190353393555,54.50190353393555,1,54.50190353393555,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B7809661399251,HND,HND,San Pedro Sula,26.347859655107772,41.4747200012207,35.39190406799317,28,26.347859655107772,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B9794587356195,HND,HND,Choloma,32.654831886291504,45.92715072631836,42.64521446228027,18,32.654831886291504,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B94440917052753,HND,HND,Omoa,35.70643591880798,48.508827209472656,43.66119194030762,16,35.70643591880798,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B68412156052956,HND,HND,Pimienta,21.51950168609619,22.67233657836914,22.44176959991455,2,21.51950168609619,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B96940721664513,HND,HND,Potrerillos,18.929607391357422,20.465116500854492,20.26912727355957,3,18.929607391357422,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B79582673708274,HND,HND,Puerto Cortes,46.01373132069906,60.16160583496094,59.78943405151367,12,46.01373132069906,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B17830621331766,HND,HND,San Antonio de Cortes,21.87733977181571,23.629060745239258,22.70942268371582,7,21.87733977181571,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B57789341600381,HND,HND,San Francisco de Yojoa,25.34247080485026,27.286731719970703,27.077457427978516,3,25.34247080485026,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B93491027211902,HND,HND,San Manuel,19.975733947753906,21.40991973876953,21.008892059326172,5,19.975733947753906,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B60496786118463,HND,HND,Santa Cruz de Yojoa,21.515660462556063,29.30609893798828,25.944401168823248,27,21.515660462556063,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B71161947465594,HND,HND,Villanueva,20.613121399512657,27.11259651184082,24.88049354553223,13,20.613121399512657,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B9619051731773,HND,HND,La Lima,17.800856590270996,17.85893440246582,17.847318840026855,2,17.800856590270996,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B45009798989727,HND,HND,Choluteca,1.879141099991337,8.882701873779297,8.275253295898438,31,1.879141099991337,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B80375114467909,HND,HND,Apacilagua,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B30241757511056,HND,HND,Concepcion de Maria,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B17818037881186,HND,HND,Duyure,28.96927490234375,38.210853576660156,37.60651397705078,5,28.96927490234375,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B38689641379995,HND,HND,El Corpus,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B77536199573353,HND,HND,El Triunfo,12.416764163970948,13.63670825958252,13.54502992630005,10,12.416764163970948,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B6766243724539,HND,HND,Marcovia,1.384245143217199,7.8618011474609375,7.832459926605225,17,1.384245143217199,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B91678508389935,HND,HND,Morolica,2.9761494530571833,26.78534507751465,5.357069015502934,9,2.9761494530571833,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B26128912402199,HND,HND,Namasigue,3.6080778666904996,8.641688346862793,8.476203346252442,7,3.6080778666904996,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B30737546448878,HND,HND,Orocuina,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B26352137717049,HND,HND,Pespire,6.778260125054254,61.00434112548828,12.200868225097667,9,6.778260125054254,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B54922271453671,HND,HND,San Antonio de Flores,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B38345308058924,HND,HND,San Isidro,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B7253406385718,HND,HND,San Jose,62.1600341796875,62.1600341796875,62.1600341796875,1,62.1600341796875,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B6198023019370,HND,HND,San Marcos de Colon,0.0,0.0,0.0,18,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B49671611441491,HND,HND,Santa Ana de Yusguare,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B81385886170314,HND,HND,Yuscaran,33.65771880516639,36.4077262878418,36.01104888916016,13,33.65771880516639,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B40096098220117,HND,HND,Alauca,33.80354690551758,36.06243133544922,35.47089309692383,4,33.80354690551758,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B70228202857481,HND,HND,Danli,43.35755392562511,54.83809280395508,52.0750846862793,86,43.35755392562511,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B18582423233621,HND,HND,El Paraiso,39.692861239115395,45.72922134399414,45.4812614440918,12,39.692861239115395,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B48819141488377,HND,HND,Guinope,31.218161010742186,32.85194396972656,32.82474060058594,5,31.218161010742186,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B90337288722280,HND,HND,Jacaleapa,29.769899368286133,30.4859561920166,30.342744827270508,2,29.769899368286133,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B78599057689965,HND,HND,Liure,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B80695499331082,HND,HND,Moroceli,23.380411829267228,29.225292205810547,25.87465114593506,14,23.380411829267228,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B15040698792339,HND,HND,Oropoli,33.803328377859934,36.7635383605957,35.09805679321289,7,33.803328377859934,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B65676299493653,HND,HND,Potrerillos,26.5140479405721,28.960447311401367,28.27927303314209,6,26.5140479405721,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B39425544771184,HND,HND,San Antonio de Flores,35.54858207702637,38.41458511352539,37.505849838256836,4,35.54858207702637,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B72821364591060,HND,HND,San Lucas,23.53155517578125,33.72869110107422,32.874267196655275,4,23.53155517578125,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B8791216164524,HND,HND,San Matias,31.63235902786255,32.23335647583008,32.20427131652832,4,31.63235902786255,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B67097486402294,HND,HND,Soledad,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B60931351506454,HND,HND,Teupasenti,32.37449447313944,41.94896697998047,36.16671180725098,24,32.37449447313944,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B35644327877667,HND,HND,Texiguat,30.170924186706543,39.659912109375,39.350446701049805,6,30.170924186706543,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B76595113857627,HND,HND,Vado Ancho,14.012307167053223,28.024614334106445,25.2221529006958,2,14.012307167053223,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B23214675582882,HND,HND,Yauyupe,40.33761978149414,40.33761978149414,40.33761978149414,1,40.33761978149414,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B23836678424083,HND,HND,Trojes,47.94156662623087,59.866722106933594,52.71489410400391,48,47.94156662623087,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B1179860840093,HND,HND,Distrito Central,29.74746322631836,36.46434020996094,34.46380844116211,47,29.74746322631836,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B63650973406682,HND,HND,Alubaren,54.862552642822266,55.437191009521484,55.32226333618164,2,54.862552642822266,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B52498637855734,HND,HND,Cedros,29.270967336801384,33.143917083740234,31.9028377532959,26,29.270967336801384,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B74261140264311,HND,HND,Curaren,66.02712516784668,74.65763092041016,73.01325912475586,10,66.02712516784668,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B45920652298174,HND,HND,El Porvenir,27.551689020792644,33.94366455078125,31.07923126220703,15,27.551689020792644,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B96410778118504,HND,HND,Guaimaca,30.217860808739296,33.44203186035156,32.04023265838623,26,30.217860808739296,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B53606089505662,HND,HND,La Libertad,69.9897232055664,69.9897232055664,69.9897232055664,1,69.9897232055664,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B10946257085941,HND,HND,La Venta,19.22450180053711,48.25369644165039,48.0997428894043,5,19.22450180053711,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B26269396586320,HND,HND,Lepaterique,31.47383394241333,51.8775749206543,37.755921173095714,20,31.47383394241333,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B63042217012253,HND,HND,Maraita,37.20075692070855,39.334808349609375,39.06436462402344,9,37.20075692070855,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B80016530117423,HND,HND,Marale,24.08368653517503,28.593692779541016,28.436946868896484,13,24.08368653517503,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B91464863052261,HND,HND,Nueva Armenia,21.368216378348215,38.125701904296875,37.921729278564456,7,21.368216378348215,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B52120095193284,HND,HND,Ojojona,40.297404766082764,45.49797058105469,44.93962936401367,8,40.297404766082764,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B54094389197091,HND,HND,Orica,30.03620834350586,34.2925910949707,33.95029754638672,15,30.03620834350586,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B70397594739312,HND,HND,Reitoca,47.65099280221121,52.96535873413086,52.7056167602539,7,47.65099280221121,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B51862105966258,HND,HND,Sabanagrande,33.32206562587193,46.78231430053711,43.14119110107422,7,33.32206562587193,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B20875858813448,HND,HND,San Antonio de Oriente,27.292399406433105,31.12324333190918,29.5433349609375,6,27.292399406433105,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B50330868714175,HND,HND,San Buenaventura,31.011276245117188,32.67900466918945,32.345458984375,2,31.011276245117188,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B25957798922682,HND,HND,San Ignacio,33.47092342376709,35.61910629272461,35.50720367431641,10,33.47092342376709,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B42566611093852,HND,HND,San Juan de Flores,32.009100914001465,36.9736442565918,35.85240364074707,12,32.009100914001465,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B71574157318497,HND,HND,San Miguelito,55.32605743408203,55.32605743408203,55.32605743408203,1,55.32605743408203,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B74591275827965,HND,HND,Santa Ana,35.974069595336914,38.244659423828125,37.79054145812988,2,35.974069595336914,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B58255966540050,HND,HND,Santa Lucia,28.13766860961914,28.474361419677734,28.407022857666014,2,28.13766860961914,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B86037952896272,HND,HND,Talanga,30.748798370361328,34.39735794067383,33.81921806335449,14,30.748798370361328,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B81412432628344,HND,HND,Tatumbla,36.0809326171875,39.11504364013672,38.55363540649414,4,36.0809326171875,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B29826450958821,HND,HND,Valle de Angeles,29.526381492614746,30.956218719482422,30.670251274108885,2,29.526381492614746,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B57613210290297,HND,HND,Villa de San Francisco,27.638346989949543,28.425384521484375,28.298766708374025,3,27.638346989949543,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B71251784838701,HND,HND,Vallecillo,33.47687367030552,34.29484939575195,34.27949600219726,7,33.47687367030552,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B40908355189071,HND,HND,La Esperanza,15.359828154246012,18.717100143432617,18.19611167907715,6,15.359828154246012,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B75939641956291,HND,HND,Camasca,30.074970881144207,31.756311416625977,31.27563896179199,3,30.074970881144207,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B91470082357426,HND,HND,Colomoncagua,36.4525089263916,42.39315414428711,41.55301132202148,5,36.4525089263916,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B925617765542,HND,HND,Concepcion,34.81421613693237,37.96843338012695,37.13245162963867,4,34.81421613693237,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B32253104626052,HND,HND,Dolores,13.638759136199951,14.079054832458496,13.990995693206788,2,13.638759136199951,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B5918981797779,HND,HND,Intibuca,14.943966706593832,18.45766830444336,17.433150863647462,18,14.943966706593832,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B82528281460638,HND,HND,Jesus de Otoro,18.171164921351842,21.042617797851562,20.062043952941895,14,18.171164921351842,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B97095820119427,HND,HND,Magdalena,29.79418182373047,29.79418182373047,29.79418182373047,1,29.79418182373047,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B25129383511057,HND,HND,Masaguara,15.64038348197937,17.936922073364258,17.179704475402833,8,15.64038348197937,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B78525968217176,HND,HND,San Antonio,29.211313247680664,29.335432052612305,29.310608291625975,2,29.211313247680664,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B3515972016416,HND,HND,San Isidro,18.71026611328125,18.980619430541992,18.926548767089844,2,18.71026611328125,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B28906986091339,HND,HND,San Juan,15.759045791625976,18.041873931884766,17.40376510620117,5,15.759045791625976,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B33277731304286,HND,HND,San Marcos de Sierra,25.62963581085205,30.73891258239746,30.525471115112303,4,25.62963581085205,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B17260395757329,HND,HND,San Miguelito,15.263239097595214,17.014890670776367,16.659962844848632,5,15.263239097595214,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B24919955333863,HND,HND,Santa Lucia,26.8042573928833,28.07061004638672,27.817339515686037,2,26.8042573928833,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B33223985620442,HND,HND,Yamaranguila,17.43432815869649,21.319353103637695,20.84200439453125,12,17.43432815869649,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B85472464338427,HND,HND,San Francisco de Opalaca,17.24362670050727,19.575721740722656,19.331561279296874,9,17.24362670050727,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B61672641857391,HND,HND,Roatan,56.73504638671875,56.73504638671875,56.73504638671875,1,56.73504638671875,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B63359869130293,HND,HND,Guanaja,66.24917602539062,66.8072280883789,66.69561767578125,2,66.24917602539062,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B83736805727119,HND,HND,Jose Santos Guardiola,72.01221974690755,77.26852416992188,76.10276794433594,3,72.01221974690755,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B66203278575702,HND,HND,Utila,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B4973342406625,HND,HND,La Paz,19.917682647705078,22.030685424804688,21.898818969726562,6,19.917682647705078,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B50891803381013,HND,HND,Aguanqueterique,38.8010436466762,52.29265594482422,51.35160827636719,7,38.8010436466762,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B79825163063269,HND,HND,Cabanas,36.46693992614746,39.01689910888672,38.813157653808595,4,36.46693992614746,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B14338204727731,HND,HND,Cane,17.67927646636963,17.73857307434082,17.726713752746583,2,17.67927646636963,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B76416581203448,HND,HND,Chinacla,15.88283109664917,16.96489906311035,16.748485469818114,2,15.88283109664917,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B37681585704124,HND,HND,Guajiquiro,24.02965383529663,31.976430892944336,30.68731060028076,10,24.02965383529663,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B69493881597747,HND,HND,Lauterique,67.45019149780273,69.7864990234375,69.31923751831054,2,67.45019149780273,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B78924696380449,HND,HND,Marcala,20.648488759994507,30.447586059570312,28.40946865081787,8,20.648488759994507,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B10683229568553,HND,HND,Mercedes de Oriente,62.694053649902344,70.98709869384766,69.3284896850586,2,62.694053649902344,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B51886309725377,HND,HND,Opatoro,32.29408001899719,46.42269515991211,44.77930107116699,8,32.29408001899719,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B2585232862225,HND,HND,San Antonio del Norte,57.716203689575195,63.55516052246094,62.38736915588379,2,57.716203689575195,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B94160628539031,HND,HND,San Jose,14.06542158126831,14.840608596801758,14.685571193695068,2,14.06542158126831,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B87762475019358,HND,HND,San Juan,41.916154861450195,43.25708770751953,42.988901138305664,2,41.916154861450195,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B44797155238261,HND,HND,San Pedro de Tutule,14.248431205749512,14.248431205749512,14.248431205749512,1,14.248431205749512,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B3859139292279,HND,HND,Santa Ana,31.191000529697963,40.1365966796875,38.597293090820315,7,31.191000529697963,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B24762769200166,HND,HND,Santa Elena,29.81885474068778,34.90719223022461,34.58382339477539,7,29.81885474068778,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B95776032700257,HND,HND,Santa Maria,13.998796939849854,14.225387573242188,14.18006944656372,2,13.998796939849854,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B8735504948943,HND,HND,Santiago de Puringla,17.773189226786297,22.61113929748535,20.314687728881836,6,17.773189226786297,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B51928369453828,HND,HND,Yarula,23.69876766204834,26.780118942260742,26.163848686218262,2,23.69876766204834,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B65386405180850,HND,HND,Gracias,27.04457817077637,36.52457809448242,29.60872917175293,15,27.04457817077637,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B74461525568246,HND,HND,Belen,19.39663587297712,24.437088012695312,21.855916595458986,7,19.39663587297712,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B3501505273689,HND,HND,Candelaria,22.1018123626709,26.980573654174805,26.004821395874025,2,22.1018123626709,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B2519536680444,HND,HND,Cololaca,19.501971449170792,26.467418670654297,26.28072319030762,7,19.501971449170792,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B48277462959075,HND,HND,Erandique,16.5044544393366,20.898889541625977,20.74111557006836,11,16.5044544393366,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B50739684547416,HND,HND,Gualcince,20.545379638671875,29.27808380126953,26.518910217285157,5,20.545379638671875,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B2541592461056,HND,HND,Guarita,13.318912982940674,20.724170684814453,19.248763179779054,4,13.318912982940674,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B33699186297111,HND,HND,La Campa,23.043383598327637,25.74788475036621,25.546669578552248,4,23.043383598327637,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B64546459971627,HND,HND,La Iguala,24.057077407836914,29.274559020996094,29.154821395874023,11,24.057077407836914,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B81012713461680,HND,HND,Las Flores,35.95871829986572,42.77152633666992,41.08857765197754,4,35.95871829986572,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B27008229241101,HND,HND,La Union,26.50432523091634,29.061872482299805,28.79531593322754,3,26.50432523091634,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B16098778662068,HND,HND,La Virtud,15.358104228973389,15.80864143371582,15.710430240631103,4,15.358104228973389,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B68722731922498,HND,HND,Lepaera,37.42448213365343,48.395992279052734,44.21124801635742,9,37.42448213365343,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B86769903642722,HND,HND,Mapulaca,16.844589233398438,16.844589233398438,16.844589233398438,1,16.844589233398438,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B26013568254344,HND,HND,Piraera,26.99826463063558,29.691219329833984,28.766058921813965,6,26.99826463063558,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B74503802640136,HND,HND,San Andres,22.745518445968628,25.43349266052246,24.855016136169432,8,22.745518445968628,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B39491664088355,HND,HND,San Francisco,25.90583038330078,30.2925968170166,29.660049057006837,5,25.90583038330078,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B76708955543126,HND,HND,San Juan Guarita,13.439368089040121,16.38280487060547,16.331585311889647,3,13.439368089040121,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B44208219646971,HND,HND,San Manuel Colohete,22.741343307495118,30.017030715942383,28.55359992980957,5,22.741343307495118,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B54610294304045,HND,HND,San Rafael,21.743422508239746,22.97579002380371,22.708115577697754,4,21.743422508239746,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B86153124151915,HND,HND,San Sebastian,22.002649307250977,25.56502342224121,24.70421600341797,8,22.002649307250977,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B84616155619024,HND,HND,Santa Cruz,17.834560585021972,20.384326934814453,20.311276245117188,5,17.834560585021972,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B88507723108763,HND,HND,Talgua,44.759788513183594,45.73252487182617,45.537977600097655,2,44.759788513183594,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B79169869428311,HND,HND,Tambla,16.711584091186523,16.711584091186523,16.711584091186523,1,16.711584091186523,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B14707888377394,HND,HND,Tomala,17.76461664835612,20.62336540222168,19.823745727539062,3,17.76461664835612,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B50240677201560,HND,HND,Valladolid,12.315341472625732,16.51441192626953,15.674597835540771,2,12.315341472625732,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B15958478050102,HND,HND,Virginia,17.56988525390625,17.56988525390625,17.56988525390625,1,17.56988525390625,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B28555901802935,HND,HND,San Marcos de Caiquin,15.850136439005533,16.25678062438965,16.136244773864746,3,15.850136439005533,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B53241292174391,HND,HND,Ocotepeque,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B17925078657683,HND,HND,Belen Gualcho,23.54665247599284,29.73309326171875,27.609858512878418,6,23.54665247599284,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B60118725213626,HND,HND,Concepcion,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B64666731554953,HND,HND,Dolores Merendon,13.602479457855225,14.945762634277344,14.67710599899292,2,13.602479457855225,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B9362157023488,HND,HND,Fraternidad,14.882025400797525,17.773983001708984,17.106735610961913,3,14.882025400797525,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B87189366820588,HND,HND,La Encarnacion,47.67625427246094,47.67625427246094,47.67625427246094,1,47.67625427246094,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B71632496314223,HND,HND,La Labor,19.47920513153076,25.55401039123535,24.655191802978514,3,19.47920513153076,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B25716596314577,HND,HND,Lucerna,26.757855892181396,30.213258743286133,29.973109626770018,4,26.757855892181396,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B36872574747509,HND,HND,Mercedes,11.659191370010376,27.715030670166016,22.592895507812504,4,11.659191370010376,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B54888668150426,HND,HND,San Fernando,36.88187026977539,37.27653503417969,37.197602081298825,2,36.88187026977539,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B97087706022026,HND,HND,San Francisco del Valle,15.18081283569336,19.55628776550293,18.681192779541014,2,15.18081283569336,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B23999178125718,HND,HND,San Jorge,18.34617805480957,18.34617805480957,18.34617805480957,1,18.34617805480957,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B1401458590490,HND,HND,San Marcos,20.56073061625163,28.899259567260742,28.517244338989258,6,20.56073061625163,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B70826657437169,HND,HND,Santa Fe,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B50269536793474,HND,HND,Sensenti,23.18192481994629,25.01019287109375,25.000254249572755,4,23.18192481994629,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B66978151973678,HND,HND,Sinuapa,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B18258905744745,HND,HND,Juticalpa,42.276157109877644,60.5378532409668,53.993141174316406,85,42.276157109877644,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B55126974743850,HND,HND,Campamento,32.017046483357746,35.87902069091797,33.80802230834961,15,32.017046483357746,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B98073695243909,HND,HND,Catacamas,52.34407100280126,71.32475280761719,60.10973892211914,240,52.34407100280126,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B67988098345344,HND,HND,Concordia,28.650782823562622,30.643991470336914,30.104916381835938,8,28.650782823562622,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B72562154839723,HND,HND,Dulce Nombre de Culmi,54.223357500348776,67.89717102050781,60.52268829345704,105,54.223357500348776,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B45441120072404,HND,HND,El Rosario,20.88103739420573,21.95868492126465,21.8578670501709,3,20.88103739420573,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B82865348656076,HND,HND,Esquipulas del Norte,15.592727237277561,18.939218521118164,18.103069496154784,18,15.592727237277561,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B37652459733493,HND,HND,Gualaco,34.46635475158691,48.118446350097656,42.3972354888916,70,34.46635475158691,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B32639013731604,HND,HND,Guarizama,29.781552505493163,31.948741912841797,31.426570892333984,5,29.781552505493163,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B45988200529008,HND,HND,Guata,22.513577779134113,29.202991485595703,25.323184394836424,24,22.513577779134113,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B80607738611126,HND,HND,Guayape,26.250239508492605,30.18201446533203,29.42054862976074,14,26.250239508492605,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B16054115349616,HND,HND,Jano,20.274704326282848,23.66132354736328,22.17307472229004,11,20.274704326282848,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B95700433875846,HND,HND,La Union,17.599686752666127,21.474035263061523,20.645309829711916,22,17.599686752666127,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B89076502999157,HND,HND,Mangulile,18.8949254989624,19.64425277709961,19.607946395874023,10,18.8949254989624,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B56288500543759,HND,HND,Manto,26.819075478447807,32.14302062988281,30.161293601989748,18,26.819075478447807,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B49586797079584,HND,HND,Salama,23.87258783976237,30.82444953918457,25.86331882476807,12,23.87258783976237,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B69653705101844,HND,HND,San Esteban,48.89569008350372,59.849849700927734,54.750891876220706,64,48.89569008350372,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B71120455883268,HND,HND,San Francisco de Becerra,50.449127197265625,55.01670455932617,54.11714401245117,10,50.449127197265625,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B84408666272476,HND,HND,San Francisco de La Paz,37.105014906989204,43.38800048828125,42.730464935302734,18,37.105014906989204,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B43578423594427,HND,HND,Santa Maria del Real,43.958363427056206,51.26377487182617,48.99377365112305,9,43.958363427056206,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B60662999354453,HND,HND,Silca,25.97115969657898,28.41786766052246,28.082989501953126,8,25.97115969657898,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B97236146307678,HND,HND,Yocon,19.39361596107483,21.297006607055664,20.70998649597168,8,19.39361596107483,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B65375396253537,HND,HND,Patuca,51.494815543845846,60.23678207397461,54.982000732421874,27,51.494815543845846,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B27779659720993,HND,HND,Santa Barbara,22.366505432128907,25.605321884155273,24.954472923278807,10,22.366505432128907,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B41783757195237,HND,HND,Arada,26.771669387817383,32.76092529296875,31.347470855712892,3,26.771669387817383,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B460141259069,HND,HND,Atima,33.623583929879324,37.1796875,37.13996276855469,7,33.623583929879324,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B45825573496458,HND,HND,Azacualpa,54.671104431152344,60.736473083496094,59.844217681884764,8,54.671104431152344,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B41370347512850,HND,HND,Ceguaca,22.095995903015137,22.60101318359375,22.500009727478027,2,22.095995903015137,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B83533862193287,HND,HND,Concepcion del Norte,28.210674285888672,30.4691219329834,30.43380489349365,4,28.210674285888672,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B6871668966766,HND,HND,Concepcion del Sur,22.847951889038086,22.847951889038086,22.847951889038086,1,22.847951889038086,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B5560017961245,HND,HND,Chinda,26.555662155151367,28.9670467376709,28.484769821166992,2,26.555662155151367,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B93278027696890,HND,HND,El Nispero,22.002532958984375,22.00263214111328,22.0026123046875,2,22.002532958984375,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B84597002869459,HND,HND,Gualala,24.21519724527995,25.839296340942383,25.57397117614746,3,24.21519724527995,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B62278865875513,HND,HND,Ilama,24.690074920654297,28.910959243774414,27.14603385925293,5,24.690074920654297,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B20976347050961,HND,HND,Macuelizo,50.3071095602853,60.95486831665039,58.53125762939453,14,50.3071095602853,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B85306984826486,HND,HND,Naranjito,45.17125638326009,50.84428787231445,50.12154769897461,6,45.17125638326009,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B84873430448704,HND,HND,Nuevo Celilac,30.990811347961426,36.650611877441406,35.815656661987305,4,30.990811347961426,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B13660887224612,HND,HND,Petoa,28.205946922302246,30.466976165771484,30.438773155212402,6,28.205946922302246,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B44112403281075,HND,HND,Proteccion,43.35700912475586,49.15880584716797,47.88390960693359,5,43.35700912475586,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B58138028057911,HND,HND,Quimistan,37.36232376098633,50.98455810546875,45.1833381652832,24,37.36232376098633,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B61070827999255,HND,HND,San Francisco de Ojuera,20.842458180018834,23.82994270324707,23.59490623474121,7,20.842458180018834,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B96609935857863,HND,HND,San Jose de Colinas,31.903977394104004,37.04878616333008,35.79587898254395,8,31.903977394104004,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B34299357047893,HND,HND,San Luis,36.51279610853929,40.41273498535156,38.710547637939456,13,36.51279610853929,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B40809128774202,HND,HND,San Marcos,33.805336236953735,36.970279693603516,35.786308670043944,8,33.805336236953735,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B96632165697082,HND,HND,San Nicolas,32.13955068588257,34.31313705444336,34.2376220703125,4,32.13955068588257,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B51644661429984,HND,HND,San Pedro Zacapa,22.94112205505371,24.672821044921875,24.652891159057617,6,22.94112205505371,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B10024798844704,HND,HND,San Vicente Centenario,25.459461212158203,27.844261169433594,27.367301177978515,2,25.459461212158203,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B84919379327477,HND,HND,Santa Rita,25.174638748168945,25.350421905517578,25.315265274047853,2,25.174638748168945,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B30534967485029,HND,HND,Trinidad,27.776514870779856,29.749528884887695,29.5932861328125,7,27.776514870779856,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B74712516647149,HND,HND,Las Vegas,23.42426331837972,25.765182495117188,25.319631576538086,6,23.42426331837972,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B51489907150139,HND,HND,Nacaome,6.101925277709961,49.70097732543945,35.94346961975098,20,6.101925277709961,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B71822643652972,HND,HND,Alianza,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B15608241098476,HND,HND,Amapala,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B66529854122091,HND,HND,Aramecina,73.67722129821777,77.36624145507812,76.48243255615235,4,73.67722129821777,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B77015637320307,HND,HND,Caridad,69.52087783813477,71.20236206054688,70.86606521606446,2,69.52087783813477,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B50126770089567,HND,HND,Goascoran,43.95323715209961,69.79377746582031,63.413507080078126,5,43.95323715209961,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B29831378343973,HND,HND,Langue,57.1133674621582,85.6828842163086,83.81380157470703,5,57.1133674621582,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B95409407730953,HND,HND,San Francisco de Coray,64.20506477355957,70.61222076416016,70.27685852050782,4,64.20506477355957,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B73827570061080,HND,HND,San Lorenzo,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B27527118551469,HND,HND,Yoro,22.447584176992443,34.615177154541016,27.37992935180664,77,22.447584176992443,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B63799157965046,HND,HND,Arenal,17.067726850509644,20.617942810058594,20.36212902069092,4,17.067726850509644,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B11241379941292,HND,HND,El Negrito,22.689050992329914,35.322662353515625,31.0814172744751,18,22.689050992329914,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B1726460774022,HND,HND,El Progreso,21.910331838271198,34.326210021972656,28.029509735107425,17,21.910331838271198,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B24666023972878,HND,HND,Jocon,21.79066821507045,24.060611724853516,23.532675552368165,14,21.79066821507045,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B65366922355243,HND,HND,Morazan,21.266422629356384,27.155141830444336,25.625818252563477,16,21.266422629356384,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B25086521151184,HND,HND,Olanchito,17.733848059355324,31.586326599121094,25.371589279174803,67,17.733848059355324,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B22106740094375,HND,HND,Santa Rita,13.717322826385498,14.750855445861816,14.73657293319702,4,13.717322826385498,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B65323297642251,HND,HND,Sulaco,23.038869040352957,25.00242042541504,23.88063621520996,7,23.038869040352957,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B19722524554409,HND,HND,Yorito,21.498846292495728,23.232667922973633,22.534598541259765,8,21.498846292495728,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B30019857874789,HND,HND,El Porvenir,33.568463219536675,46.39417266845703,45.52761688232422,9,33.568463219536675,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B20969327250579,HND,HND,Puerto Lempira,41.97497703041492,54.43203353881836,48.95868606567384,239,41.97497703041492,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B63914214220022,HND,HND,Brus Laguna,47.93026710356642,69.87440490722656,54.87904968261721,149,47.93026710356642,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B1442019449651,HND,HND,Ahuas,44.11484172732331,56.5432014465332,53.54052810668946,43,44.11484172732331,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B12686081930969,HND,HND,Juan Francisco  Bulnes,61.52668646107549,72.22216033935547,71.71560974121094,23,61.52668646107549,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B49147516395854,HND,HND,Ramón Villeda Morales,41.361538314819335,44.58828353881836,43.43600158691406,20,41.361538314819335,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B3053537582037,HND,HND,Wampusirpi,39.17500095044152,48.519283294677734,44.00714950561523,59,39.17500095044152,simple raster-cell mean; exact pixel-area weighting not applied
+27666195B67496121573402,HND,HND,Victoria,18.93554319654192,22.55742835998535,20.54491024017334,28,18.93554319654192,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B29920218162683,NIC,NIC,Municipio Nueva Guinea,0.0,0.0,0.0,88,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B17988472214620,NIC,NIC,El Viejo (Municipio),10.693834315175595,23.369550704956055,16.92977809906006,46,10.693834315175595,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B85361767626359,NIC,NIC,Corinto (Municipio),20.35040855407715,20.35040855407715,20.35040855407715,1,20.35040855407715,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B6041488955142,NIC,NIC,Puerto Morazán (Municipio),10.411091232299805,11.831987380981445,11.34172534942627,15,10.411091232299805,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B81198571450943,NIC,NIC,Somotillo (Municipio),12.985589752197265,16.410301208496094,15.673654174804687,25,12.985589752197265,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B26067385365497,NIC,NIC,El Realejo (Municipio),18.924285888671875,20.26699447631836,19.966486740112305,3,18.924285888671875,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B22626072900706,NIC,NIC,Santo Tomás del Norte (Municipio),0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B9870414897994,NIC,NIC,San Juan de Cinco Pinos (Municipio),0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B1417571394105,NIC,NIC,San Francisco del Norte (Municipio),0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B12303009438356,NIC,NIC,San Pedro del Norte (Municipio),0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B19677193971793,NIC,NIC,Villanueva (Municipio),14.588663064516508,17.66111946105957,16.5462007522583,26,14.588663064516508,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B4105996695407,NIC,NIC,Chichigalpa (Municipio),25.782241821289062,32.04644012451172,30.856143188476562,8,25.782241821289062,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B35525100883051,NIC,NIC,Chinandega (Municipio),17.932281970977783,26.931346893310547,22.63041133880616,22,17.932281970977783,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B1718799712093,NIC,NIC,Municipio León,24.045598690326397,25.986352920532227,25.736955642700195,26,24.045598690326397,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B69016547634198,NIC,NIC,Quezalguaque (Municipio),27.239910125732422,28.273466110229492,28.06675491333008,2,27.239910125732422,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B99865262372177,NIC,NIC,Municipio Telica,24.18002564566476,27.28141975402832,27.214478302001954,14,24.18002564566476,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B50756255282964,NIC,NIC,Posoltega (Municipio),25.51657404218401,30.186498641967773,29.912552261352538,7,25.51657404218401,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B1679190464603,NIC,NIC,La Paz Centro (Municipio),28.278926787837857,39.639671325683594,34.933006286621094,31,28.278926787837857,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B51172102735517,NIC,NIC,Municipio Larreynaga,23.760091247558595,35.76462173461914,33.773589324951175,25,23.760091247558595,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B18195388081086,NIC,NIC,Nagarote (Municipio),35.00508847443954,54.67063522338867,53.239000701904295,23,35.00508847443954,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B42405349993002,NIC,NIC,Municipio Achuapa,13.306190808614096,16.583223342895508,15.94510259628296,12,13.306190808614096,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B10607629664625,NIC,NIC,Municipio El Sauce,19.23999599615733,23.850557327270508,22.88091869354248,24,19.23999599615733,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B66852028113386,NIC,NIC,Municipio Santa Rosa del Peñón,23.067184448242188,23.570770263671875,23.53986930847168,6,23.067184448242188,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B17437818815297,NIC,NIC,Municipio San Juan de Limay,3.1872255206108093,14.829721450805664,12.873301029205322,16,3.1872255206108093,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B7540318748953,NIC,NIC,El Jicaral (Municipio),27.029606682913645,35.87423324584961,33.54224891662598,14,27.029606682913645,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B30473237121748,NIC,NIC,Municipio Las Sabanas,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B83973751010428,NIC,NIC,Municipio San José de Cusmapa,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B51733006416876,NIC,NIC,Municipio San Lucas,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B17858625010552,NIC,NIC,Somoto (Municipio),13.584171533584595,42.113704681396484,39.666297912597656,16,13.584171533584595,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B60763452238766,NIC,NIC,Municipio Yalagüina,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B28990306524244,NIC,NIC,Totogalpa (Municipio),27.769850158691405,36.61576843261719,36.1877685546875,5,27.769850158691405,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B25333240453308,NIC,NIC,Palacagüina (Municipio),27.26611328125,34.63554000854492,34.594675064086914,6,27.26611328125,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B35768967856860,NIC,NIC,Municipio Telpaneca,32.52214847911488,42.49513626098633,35.79187774658203,11,32.52214847911488,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B37317224519748,NIC,NIC,Municipio San Juan de Río Coco,47.27117474873861,55.24576950073242,54.57315635681152,6,47.27117474873861,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B12807180863257,NIC,NIC,Municipio Pueblo Nuevo,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B56693766830513,NIC,NIC,Municipio Estelí,24.526225725809734,48.27286911010742,43.30899353027344,24,24.526225725809734,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B43521323619670,NIC,NIC,Municipio Condega,27.49784777714656,38.123291015625,37.788327026367185,13,27.49784777714656,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B22267380414447,NIC,NIC,Municipio San Nicolas,37.046998160226,62.59861373901367,60.40017852783203,7,37.046998160226,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B564283861806,NIC,NIC,Municipio La Trinidad,49.63447528415256,66.48979949951172,61.68797149658203,9,49.63447528415256,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B59268644799254,NIC,NIC,Municipio Santa María,37.8065185546875,40.032012939453125,39.40343475341797,6,37.8065185546875,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B64961378058069,NIC,NIC,Municipio Macuelizo,41.40533561706543,46.04148483276367,44.672790908813475,10,41.40533561706543,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B94651334024859,NIC,NIC,Municipio Dipilito,43.8622678120931,44.7858772277832,44.63829803466797,3,43.8622678120931,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B16530197596894,NIC,NIC,Municipio Monzonte,41.9757810320173,45.69309997558594,44.93993453979492,7,41.9757810320173,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B78226136853843,NIC,NIC,Ocotal (Municipio),43.06023406982422,45.233917236328125,44.7393684387207,3,43.06023406982422,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B57977166518542,NIC,NIC,Municipio Ciudad Antigua,40.39592056274414,44.644229888916016,43.50371627807617,5,40.39592056274414,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B15521754331329,NIC,NIC,Municipio San Fernando,41.41008268083845,43.65038299560547,42.47767715454101,7,41.41008268083845,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B59561858101925,NIC,NIC,Municipio El Jacaro,48.61849314371745,58.498687744140625,52.42387237548828,15,48.61849314371745,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B55226501636546,NIC,NIC,Municipio Jalapa,49.41848643620809,58.673397064208984,55.80883522033692,24,49.41848643620809,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B68120786846316,NIC,NIC,Municipio Murra,54.22235782329853,59.44048309326172,59.0418098449707,13,54.22235782329853,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B53566331639399,NIC,NIC,Municipio Quilalí,52.037645486684944,56.65873718261719,54.81452407836914,13,52.037645486684944,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B54884295225875,NIC,NIC,Municipio Wiwilí de Nueva Segovia,56.66231836591448,63.92195129394531,62.604586410522465,14,56.66231836591448,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B82788315427731,NIC,NIC,Villa El Carmen (Municipio),50.34819475809733,55.85096740722656,54.43961868286133,18,50.34819475809733,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B73686140386130,NIC,NIC,San Rafael del Sur (Municipio),47.82891640296349,57.46831512451172,52.19445648193359,13,47.82891640296349,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B91399694285767,NIC,NIC,San Francisco Libre (Municipio),33.33150748050574,39.362701416015625,37.413961791992186,33,33.33150748050574,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B23047176162304,NIC,NIC,Tipitapa (Municipio),20.950850115882027,32.39249038696289,29.761406898498535,36,20.950850115882027,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B53376574374139,NIC,NIC,Mateare (Municipio),34.79967796802521,46.81049728393555,37.45228385925293,16,34.79967796802521,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B27179977513508,NIC,NIC,Diriamba (Municipio),42.9672370323768,50.61262512207031,50.06680908203125,13,42.9672370323768,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B76104537759398,NIC,NIC,Dolores (Municipio),,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B47361215908739,NIC,NIC,Jinotepe (Municipio),43.19322509765625,51.03648376464844,46.68314781188965,10,43.19322509765625,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B47448903667956,NIC,NIC,La Conquista (Municipio),44.405251820882164,48.083797454833984,47.045597076416016,3,44.405251820882164,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B20631449886015,NIC,NIC,La Paz de Carazo (Municipio),47.867950439453125,47.867950439453125,47.867950439453125,1,47.867950439453125,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B77108235985469,NIC,NIC,Santa Teresa (Municipio),47.20831516810826,50.5211296081543,50.03740615844727,7,47.20831516810826,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B55266427441133,NIC,NIC,El Rosario (Municipio),,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B18709487370241,NIC,NIC,San Marcos (Municipio),47.60495630900065,49.9105224609375,49.273590087890625,3,47.60495630900065,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B46304212562790,NIC,NIC,La Concepción (Municipio),43.59776306152344,46.3342170715332,45.78692626953125,2,43.59776306152344,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B75081845328431,NIC,NIC,Catarina (Municipio),20.630674362182617,20.630674362182617,20.630674362182617,1,20.630674362182617,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B95201351767223,NIC,NIC,Masatepe (Municipio),37.315147399902344,37.315147399902344,37.315147399902344,1,37.315147399902344,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B77754664653503,NIC,NIC,Nandasmo (Muncipio),29.80191993713379,29.80191993713379,29.80191993713379,1,29.80191993713379,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B21057014722177,NIC,NIC,Niquinohomo (Municipio),,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B29253428055821,NIC,NIC,San Juan de Oriente (Municipio),,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B24558715702224,NIC,NIC,Altagracia (Municipio),23.85527499946388,56.57201385498047,37.67904434204102,37,23.85527499946388,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B49624081386383,NIC,NIC,Cárdenas,33.40171003341675,69.0044937133789,55.90439109802246,42,33.40171003341675,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B76724333569498,NIC,NIC,San Juan del Sur (Municipio),29.7138892687284,42.026702880859375,40.08250350952149,13,29.7138892687284,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B69176908795082,NIC,NIC,Moyagalpa (Muncipio),23.399327516555786,29.863847732543945,29.49559097290039,8,23.399327516555786,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B65848317869673,NIC,NIC,San Jorge (Municipio),25.78118371963501,30.649694442749023,30.39116268157959,4,25.78118371963501,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B98313064972178,NIC,NIC,Tola (Municipio),29.06833267211914,49.701812744140625,39.09585342407226,15,29.06833267211914,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B90224311807252,NIC,NIC,Belén (Municipio),20.369574904441833,32.07683181762695,30.953966331481933,8,20.369574904441833,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B16882878682213,NIC,NIC,Buenos Aires (Municipio),19.26465027672904,33.05542755126953,32.735937881469724,14,19.26465027672904,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B69755692958912,NIC,NIC,Potosí (Municipio),20.120980262756348,24.087787628173828,24.002408599853517,5,20.120980262756348,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B86091214063878,NIC,NIC,Rivas (Municipio),19.076652786948465,25.488901138305664,23.671764373779297,11,19.076652786948465,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B76497649402022,NIC,NIC,Diriomo (Municipio),22.137475967407227,22.44978904724121,22.387326431274413,2,22.137475967407227,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B9004620436868,NIC,NIC,Diriá (Municipio),21.613887786865234,22.866222381591797,22.615755462646483,2,21.613887786865234,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B87872179311194,NIC,NIC,Nandaime (Municipio),26.002698604877178,45.331451416015625,32.37067909240723,13,26.002698604877178,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B17287296574924,NIC,NIC,Granada (Municipio),9.799928035736084,23.59079360961914,21.346541595458987,50,9.799928035736084,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B8461244820231,NIC,NIC,Tisma (Municipio),23.6310977935791,25.8049373626709,25.371773147583006,3,23.6310977935791,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B82888371591371,NIC,NIC,Masaya (Municipio),24.11390838623047,26.825490951538086,25.903617477416994,5,24.11390838623047,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B14428044867923,NIC,NIC,Nindirí (Municipio),37.22437540690104,39.83912658691406,39.35125541687012,6,37.22437540690104,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B80493320334712,NIC,NIC,Muncipio San Sebastián de Yalí,41.2353219350179,50.59345626831055,49.72683334350586,15,41.2353219350179,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B63419948183184,NIC,NIC,Municipio La Concordia,37.19816284179687,39.16349411010742,38.73473434448242,5,37.19816284179687,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B56620131792900,NIC,NIC,Municipio San Rafael del Norte,44.3158745765686,52.873199462890625,49.459391021728514,8,44.3158745765686,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B22222561531816,NIC,NIC,Municipio de Jinotega,45.48807538350423,52.35599899291992,50.90645217895508,30,45.48807538350423,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B48551329276028,NIC,NIC,Municipio Santa María de Pantasma,46.959337795481964,54.32731246948242,53.084310913085936,17,46.959337795481964,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B91684514747907,NIC,NIC,Municipio El Cuá,51.9753889242808,81.11311340332031,64.55593223571778,24,51.9753889242808,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B82314405656204,NIC,NIC,Municipio San José de Bocay,56.99416914293843,75.96587371826172,65.66836395263672,124,56.99416914293843,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B99280439905911,NIC,NIC,Municipio Wiwilí de Jinotega,55.5510565365062,72.22733306884766,63.68597183227539,85,55.5510565365062,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B6585640653247,NIC,NIC,Municipio San Isidro,33.14730347527398,48.64678192138672,48.27081451416016,9,33.14730347527398,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B70540306001551,NIC,NIC,Municipio Sebaco,30.38041481604943,55.87527847290039,48.81248931884766,13,30.38041481604943,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B88465626823892,NIC,NIC,Municipio Ciudad Darco,20.816712036132813,38.10676574707031,23.494521713256837,25,20.816712036132813,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B5502390866832,NIC,NIC,Municipio Terrabona,13.317554155985514,27.415124893188477,19.253615856170654,6,13.317554155985514,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B76428699695737,NIC,NIC,Municipio San Dionisio,14.463483651479086,25.644712448120117,19.895917892456055,6,14.463483651479086,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B87721253987704,NIC,NIC,Municipio Matagalpa,30.129278802871703,47.2895393371582,42.52800483703614,20,30.129278802871703,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B33046783888381,NIC,NIC,Municipio Esquipulas,8.04796748691135,13.422971725463867,12.996256637573243,9,8.04796748691135,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B21364220712902,NIC,NIC,Municipio Muy Muy,12.922785612253042,22.331073760986328,21.44750556945801,13,12.922785612253042,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B65616251671533,NIC,NIC,Municipio El Tuma - La Dalia,23.99973982856387,49.680908203125,45.289222717285156,21,23.99973982856387,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B81885573908031,NIC,NIC,Municipio San Ramon,26.193657430013022,31.197933197021484,29.979672622680663,15,26.193657430013022,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B23703372823656,NIC,NIC,Municipio Matiguás,27.81612164366479,52.14749526977539,44.8016471862793,51,27.81612164366479,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B75632555635080,NIC,NIC,Municipio Rancho Grande,29.323282098770143,42.10151672363281,39.61600112915039,20,29.323282098770143,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B11227441241972,NIC,NIC,Municipio Teustepe,17.889934886585582,21.00628089904785,20.52586841583252,22,17.889934886585582,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B82609428709208,NIC,NIC,Municipio San José de Los Remates,12.649124357435438,19.828344345092773,19.64736442565918,9,12.649124357435438,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B11181519901589,NIC,NIC,Municipio Santa Lucía,4.973227500915527,19.89291000366211,13.92503700256348,4,4.973227500915527,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B96121368204860,NIC,NIC,San Lorenzo (Municipio),3.1752743227728484,19.1171817779541,16.537731552124022,29,3.1752743227728484,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B62391534805354,NIC,NIC,Municipio Boaco,5.38784206274784,12.712432861328125,11.443575859069824,33,5.38784206274784,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B73222329493387,NIC,NIC,Municipio Camoapa,12.644120464324951,21.752063751220703,20.701717376708984,50,12.644120464324951,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B34168523861786,NIC,NIC,Comalapa (Municipio),4.819182325292517,12.11116886138916,11.442133331298828,27,4.819182325292517,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B602657400093,NIC,NIC,Municipio San Francisco de Cuapa,8.619745466444227,11.63199234008789,11.58605728149414,9,8.619745466444227,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B64543090123083,NIC,NIC,Juigalpa (Municipio),9.341690089967516,17.727319717407227,10.809503555297852,36,9.341690089967516,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B16591560773004,NIC,NIC,Morrito (Municipio),10.476193335748487,23.405363082885742,21.869009017944336,31,10.476193335748487,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B97835043719515,NIC,NIC,Acoyapa,9.336239252940263,24.272329330444336,16.887800216674805,101,9.336239252940263,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B80343158927889,NIC,NIC,Municipio Santo Domingo,3.429855305215587,12.349647521972656,11.447078704833984,23,3.429855305215587,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B48190811236888,NIC,NIC,Municipio Villa Sandino,4.051637927691142,10.485020637512207,10.046997356414796,24,4.051637927691142,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B16799049593642,NIC,NIC,Municipio Santo Tomás,0.6525118771721335,11.09270191192627,0.0,17,0.6525118771721335,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B95352510191818,NIC,NIC,Municipio La Libertad,9.822172971872183,14.165552139282227,12.056509017944336,26,9.822172971872183,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B91452686673321,NIC,NIC,Municipio San Pedro de Lóvago,9.529841150556292,19.804475784301758,18.972473335266113,14,9.529841150556292,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B37829191350570,NIC,NIC,Municipio El Coral,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B41798350281797,NIC,NIC,San Miguelito (Municipio),4.421248270117718,16.601905822753906,13.527658462524414,46,4.421248270117718,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B83781631297987,NIC,NIC,Municipio El Almendro,0.0,0.0,0.0,34,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B60915682205878,NIC,NIC,San Carlos (Municipio),8.722615675979785,38.85215759277344,20.89630928039551,89,8.722615675979785,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B78896367907515,NIC,NIC,Municipio San Juan de Nicaragua,7.202201349394662,28.4875545501709,26.22795295715332,56,7.202201349394662,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B8103194672097,NIC,NIC,Municipio Waslala,48.94248227278391,81.27626037597656,67.28182983398438,48,48.94248227278391,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B85519023744244,NIC,NIC,Municipio Siuna,48.11437559936006,69.0596694946289,59.22212562561035,118,48.11437559936006,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B49873570075163,NIC,NIC,Municipio Mulukukú,30.62785009101585,66.82014465332031,57.56118621826176,54,30.62785009101585,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B19592453866011,NIC,NIC,Municipio Paiwas,11.372121208592466,31.332538604736328,24.050174713134766,76,11.372121208592466,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B19683418565174,NIC,NIC,Municipio Río Blanco,31.621429109573363,44.68500900268555,41.59425849914551,20,31.621429109573363,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B11599288881671,NIC,NIC,Municipio Waspán,40.66837264223641,63.907318115234375,46.48393936157227,299,40.66837264223641,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B97490188129445,NIC,NIC,Municipio Bonanza,42.1960683465004,64.92731475830078,51.71672172546387,64,42.1960683465004,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B63442021771404,NIC,NIC,Municipio Rosita,33.243610820254766,46.399009704589844,38.70874061584473,74,33.243610820254766,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B4922305453104,NIC,NIC,Municipio Puerto Cabezas,35.49076083113508,48.066158294677734,42.83480377197266,205,35.49076083113508,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B63753467336397,NIC,NIC,Municipio Prinzapolka,18.30305165838688,43.14962387084961,33.68740463256836,235,18.30305165838688,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B26434721219648,NIC,NIC,Municipio La Cruz de Río Grande,3.3304431522101687,16.94612693786621,11.662187290191653,114,3.3304431522101687,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B54841034408415,NIC,NIC,Municipio Desembocadura de Cruz Río Grande,8.25800558672113,16.301597595214844,8.747570610046386,59,8.25800558672113,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B40400689855,NIC,NIC,Municipio El Ayote,3.384270985921224,15.213717460632324,12.720610809326171,27,3.384270985921224,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B52316346620660,NIC,NIC,Municipio El Tortugero,3.6402247047424314,20.25960922241211,9.45180540084839,100,3.6402247047424314,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B80689384064512,NIC,NIC,Municipio Laguna de Perlas,7.434525620552801,15.907567024230957,14.748567295074462,62,7.434525620552801,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B88146525793378,NIC,NIC,Municipio Muelle de los Bueyes,0.0,0.0,0.0,49,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B75188103364632,NIC,NIC,Municipio El Rama,0.15487907803247844,11.398836135864258,0.0,126,0.15487907803247844,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B60174828263076,NIC,NIC,Municipio Kukra Hill,0.0,0.0,0.0,44,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B58524180713592,NIC,NIC,Municipio Bluefields,0.16959017435709636,6.5400800704956055,0.0,150,0.16959017435709636,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B26688105291153,NIC,NIC,Managua (Municipio),33.30090980529785,41.975128173828125,36.337514495849604,10,33.30090980529785,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B23096552390048,NIC,NIC,Ciudad Sandino (Municipio),37.550865173339844,42.58208465576172,41.421800994873045,3,37.550865173339844,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B35056962517282,NIC,NIC,El Crucero (Municipio),44.22212219238281,47.69379806518555,47.56675910949707,8,44.22212219238281,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B88505834595932,NIC,NIC,Ticuantepe (Municipio),37.89114634195963,42.595909118652344,41.188134002685544,3,37.89114634195963,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B39887866574539,NIC,NIC,El Castillo (Municipio),0.0,0.0,0.0,56,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+1004716B84581275019273,NIC,NIC,Corn Island,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B1778139424471,PAN,PAN,Changuinola,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B73365109430870,PAN,PAN,Bocas del Toro,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B7059792376072,PAN,PAN,Chiriquí Grande,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B69135506248692,PAN,PAN,Renacimiento,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B1884855613124,PAN,PAN,San Félix,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B97118695767804,PAN,PAN,Barú,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B2044400904902,PAN,PAN,Alanje,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B36404447942008,PAN,PAN,Boquerón,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B71515803064888,PAN,PAN,Boquete,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B94237037415944,PAN,PAN,Bugaba,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B22441081783437,PAN,PAN,Gualaca,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B42415898156118,PAN,PAN,Tolé,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B69995284434654,PAN,PAN,San Lorenzo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B82986872921628,PAN,PAN,Remedios,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B94814953668785,PAN,PAN,Dolega,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B59836826406650,PAN,PAN,Aguadulce,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B51577894822537,PAN,PAN,Antón,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B73573459744927,PAN,PAN,La Pintada,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B34779473724765,PAN,PAN,Natá,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B52438824154031,PAN,PAN,Olá,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B54827397349612,PAN,PAN,Penonomé,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B14615778162617,PAN,PAN,Mironó,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B2015792153620,PAN,PAN,Kankintú,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B37118693502086,PAN,PAN,Kusapín,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B55183613769543,PAN,PAN,Ñürüm,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B46003057824195,PAN,PAN,Müna,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B88224664972653,PAN,PAN,Nole Duima,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B66777465067959,PAN,PAN,Besiko,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B37320508305878,PAN,PAN,Santa Fé,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B34923513195419,PAN,PAN,San Francisco,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B90522605165163,PAN,PAN,La Mesa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B94939099957222,PAN,PAN,Santiago,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B38923835463224,PAN,PAN,Atalaya,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B72055613867107,PAN,PAN,Calobre,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B54310039107980,PAN,PAN,Soná,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B55951329462625,PAN,PAN,Río de Jesús,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B23901142884801,PAN,PAN,Las Palmas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B38467816512648,PAN,PAN,Cañazas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B26445161390898,PAN,PAN,Chitré,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B83627234663474,PAN,PAN,Parita,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B3990390948119,PAN,PAN,Pesé,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B7631989916693,PAN,PAN,Los Pozos,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B32201522330751,PAN,PAN,Ocú,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B70726679944443,PAN,PAN,Las Minas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B33325407624230,PAN,PAN,Santa María,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B62202964850227,PAN,PAN,Pedasí,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B40624021846566,PAN,PAN,Pocrí,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B87180550672206,PAN,PAN,Tonosí,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B24860146435947,PAN,PAN,Las Tablas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B687818134367,PAN,PAN,Guararé,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B79147268573624,PAN,PAN,Macaracas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B37461869790758,PAN,PAN,Los Santos,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B41200753641773,PAN,PAN,Sambú,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B97787935745550,PAN,PAN,Cémaco,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B97743116241572,PAN,PAN,Chepigana,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B85836861885504,PAN,PAN,Pinogana,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B61389009226289,PAN,PAN,Donoso,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B42608984184173,PAN,PAN,Santa Isabel,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B89301673090177,PAN,PAN,Portobelo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B20659112060965,PAN,PAN,Chagres,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B72276923440034,PAN,PAN,Colón,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B8680648562753,PAN,PAN,Balboa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B75623018343213,PAN,PAN,Panamá,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B70550696695084,PAN,PAN,San Miguelito,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B69999703107277,PAN,PAN,Chepo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B77080496682008,PAN,PAN,Chimán,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B53871457264549,PAN,PAN,Capira,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B5601098588879,PAN,PAN,Chame,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B52564118130817,PAN,PAN,San Carlos,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B74789014027071,PAN,PAN,Taboga,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B31550191226189,PAN,PAN,Arraiján,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B93152851867893,PAN,PAN,La Chorrera,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B26872392116911,PAN,PAN,Comarca Kuna Yala,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B4717226524239,PAN,PAN,David,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B44926155348372,PAN,PAN,Mariato,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+35544464B52455238358598,PAN,PAN,Montijo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B39716391239783,SLV,SLV,Metapan,0.0,0.0,0.0,25,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B11387427792539,SLV,SLV,Santa Rosa Guachipilin,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B43764997536293,SLV,SLV,Masahuat,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B64069992176123,SLV,SLV,Citala,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B23377329040310,SLV,SLV,San Antonio Pajonal,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B47376975078069,SLV,SLV,Texistepeque,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B30696724436757,SLV,SLV,Nueva Concepcion,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B21241114592747,SLV,SLV,Agua Caliente,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14690555186791,SLV,SLV,Null,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B63439362798626,SLV,SLV,San Ingnacio,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B91640994883440,SLV,SLV,La Palma,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B50712403936240,SLV,SLV,La Reina,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B44373190309719,SLV,SLV,San Fernando,9.999226570129395,9.999226570129395,9.999226570129395,1,9.999226570129395,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B9144970465334,SLV,SLV,Santiago de la Frontera,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B59172215696932,SLV,SLV,Candelaria de la Frontera,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B37288468321853,SLV,SLV,Chalchuapa,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B64190387367704,SLV,SLV,El Porvenir,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B69252681514756,SLV,SLV,San Sebastian Salitrillo,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B33324445262057,SLV,SLV,Santa Ana,0.0,0.0,0.0,12,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B83892648288540,SLV,SLV,Coatepeque,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B22688321634374,SLV,SLV,El Congo,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B9251356141364,SLV,SLV,El Refugio,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B89742323976161,SLV,SLV,Atiquizaya,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B12195007056985,SLV,SLV,Turin,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B87184016515071,SLV,SLV,San Lorenzo,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B66160395082185,SLV,SLV,Ahuachpan,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B4884982694347,SLV,SLV,Juayua,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B55862864187575,SLV,SLV,Apaneca,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B79197720155257,SLV,SLV,Concepcion de Ataco,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B46702260316580,SLV,SLV,Tacuba,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B79083101241922,SLV,SLV,San Francisco Menendez,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B39024249178048,SLV,SLV,Jujutla,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B28881151694669,SLV,SLV,Guaymango,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B15656170761349,SLV,SLV,San Pedro Puxtla,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B43866171766073,SLV,SLV,Acajutla,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B3666946134951,SLV,SLV,San Francisco Morazan,5.14338231086731,10.681002616882324,10.444459819793702,4,5.14338231086731,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B6162920876089,SLV,SLV,Dulce Nombre de Maria,8.966193199157715,8.966193199157715,8.966193199157715,1,8.966193199157715,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B8005106652117,SLV,SLV,Tejutla,3.2018775939941406,9.605632781982422,7.684506225585938,3,3.2018775939941406,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B81588611642369,SLV,SLV,El Paraiso,4.6783766746521,9.3567533493042,8.42107801437378,2,4.6783766746521,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B12575080956445,SLV,SLV,San Rafael,8.956491470336914,8.956491470336914,8.956491470336914,1,8.956491470336914,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B92083605732567,SLV,SLV,Salcoatitan,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B87573913845404,SLV,SLV,Santa Catarina Masahuat,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B81756807181676,SLV,SLV,Santo Domingo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B56426734857576,SLV,SLV,Nahuizalco,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B54845900881813,SLV,SLV,San Antonio del Monte,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B73120282321330,SLV,SLV,Null,0.0,0.0,0.0,8,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B27237930085437,SLV,SLV,Nahulingo,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B61024232293340,SLV,SLV,Sonsonate,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B52861243769540,SLV,SLV,Izalco,0.0,0.0,0.0,5,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B15699975007255,SLV,SLV,Caluco,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B16332019908900,SLV,SLV,Cuisnahuat,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B97184435061197,SLV,SLV,San Julian,9.75810432434082,9.788010597229004,9.782029342651366,2,9.75810432434082,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B93813443509848,SLV,SLV,Santa Isabel Ishuatan,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B93116045518759,SLV,SLV,Armenia,2.9171202977498374,8.751360893249512,7.00108871459961,3,2.9171202977498374,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B18547918884366,SLV,SLV,Sacacoyo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B30676307149380,SLV,SLV,Tepecoyo,9.5054349899292,9.53431224822998,9.528536796569824,2,9.5054349899292,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B28105144261265,SLV,SLV,Teotepeque,2.14901065826416,8.59604263305664,6.01722984313965,4,2.14901065826416,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B89809373997375,SLV,SLV,San Pablo Tacachico,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B50564246883292,SLV,SLV,El Paisnal,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B35993444863813,SLV,SLV,Aguilares,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B75858091491233,SLV,SLV,Ciudad Arce,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14593460253093,SLV,SLV,Jicalapa,3.967463970184326,7.934927940368652,7.141435146331787,2,3.967463970184326,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B3763071273846,SLV,SLV,Chiltiupán,6.697298367818196,10.371487617492676,10.241271591186523,3,6.697298367818196,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B97499206921043,SLV,SLV,Jayaque,9.416978359222412,10.254857063293457,10.087281322479248,2,9.416978359222412,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B98039027185158,SLV,SLV,Tamanique,7.225649197896321,11.23187255859375,11.074513053894043,3,7.225649197896321,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B68531510505764,SLV,SLV,Opico,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B64353781119286,SLV,SLV,San Matias,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B6796894377003,SLV,SLV,Quezaltepeque,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B90706400022034,SLV,SLV,Colón,4.712192535400391,9.424385070800781,8.481946563720703,2,4.712192535400391,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B64720154459307,SLV,SLV,Talnique,10.620519638061523,10.620519638061523,10.620519638061523,1,10.620519638061523,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B83830652945762,SLV,SLV,Comasagua,12.2969388961792,12.814382553100586,12.716285133361817,3,12.2969388961792,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B65816888820880,SLV,SLV,Santa Tecla,5.81636381149292,12.14907169342041,11.839265251159668,4,5.81636381149292,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B55375051519151,SLV,SLV,Zaragoza,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B57511949533028,SLV,SLV,Nuevo Cuscatlán,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B80367069215289,SLV,SLV,El Carrizal,8.435038566589355,8.435038566589355,8.435038566589355,1,8.435038566589355,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B29924680071783,SLV,SLV,La Laguna,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B24722198093505,SLV,SLV,Comalapa,8.6786527633667,8.6786527633667,8.6786527633667,1,8.6786527633667,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B29196841489463,SLV,SLV,Santa Rita,7.848641872406006,15.697283744812012,14.12755537033081,2,7.848641872406006,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B88702349883992,SLV,SLV,Ojos de Agua,12.14276647567749,15.94365119934082,15.183474254608154,2,12.14276647567749,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B51225933452893,SLV,SLV,Las Vueltas,14.558568000793457,14.558568000793457,14.558568000793457,1,14.558568000793457,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B30507553712048,SLV,SLV,Concepcion Quezaltepeque,15.832894325256348,15.832894325256348,15.832894325256348,1,15.832894325256348,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B44742877117508,SLV,SLV,Chalatenago,14.902379671732584,15.12191104888916,15.119418716430664,3,14.902379671732584,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B45562191663104,SLV,SLV,San Jose Villanueva,11.337882995605469,11.337882995605469,11.337882995605469,1,11.337882995605469,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B67275787236305,SLV,SLV,Huizucar,9.77236270904541,10.262251853942871,10.16427402496338,2,9.77236270904541,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B97564710343662,SLV,SLV,Antiguo Cuscatlan,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B50555596847343,SLV,SLV,Nejapa,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B23581403220274,SLV,SLV,San Salvador,6.846085866292317,10.321223258972168,10.300385475158691,3,6.846085866292317,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B60166083872241,SLV,SLV,San Marcos,9.24771785736084,9.24771785736084,9.24771785736084,1,9.24771785736084,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B64508526570153,SLV,SLV,Mejicanos,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B15952379491398,SLV,SLV,Apopa,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B20795097594485,SLV,SLV,Ayutuxtepeque,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B15002894177618,SLV,SLV,Cuscatancingo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B16218870700964,SLV,SLV,Delgado,4.008009910583496,8.016019821166992,7.214417839050293,2,4.008009910583496,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B64976158073406,SLV,SLV,Guazapa,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B16649044373913,SLV,SLV,Arcatao,11.542032957077026,15.275473594665527,14.528785467147827,2,11.542032957077026,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B84304690864499,SLV,SLV,Nueva Trinidad,14.508899688720703,14.508899688720703,14.508899688720703,1,14.508899688720703,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B58597926868291,SLV,SLV,Nombre de Jesus,15.843771934509277,15.843771934509277,15.843771934509277,1,15.843771934509277,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B482670125274,SLV,SLV,San Antonio de la Cruz,14.831823348999023,14.831823348999023,14.831823348999023,1,14.831823348999023,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B77383078083147,SLV,SLV,San Jose Las Flores,14.339513778686523,14.339513778686523,14.339513778686523,1,14.339513778686523,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B28991056951510,SLV,SLV,San Isidro Labrador,14.346555233001709,14.379855155944824,14.373195171356201,2,14.346555233001709,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B88320880206273,SLV,SLV,San Antonia Los Ranchos,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B11854735716069,SLV,SLV,San Miguel de Mercedes,14.338104248046875,14.338104248046875,14.338104248046875,1,14.338104248046875,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B60715586035531,SLV,SLV,San Jose Cancasque,16.860702514648438,16.860702514648438,16.860702514648438,1,16.860702514648438,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B63410883785834,SLV,SLV,Potonico,4.127485752105713,8.254971504211426,7.429474353790283,2,4.127485752105713,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B79913298248778,SLV,SLV,San Luis del Carmen,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B61762263444110,SLV,SLV,Azacualpa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B81860372869585,SLV,SLV,San Francisco Lempa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B83048937220923,SLV,SLV,La Libertad,7.177520370483398,9.500433921813965,9.275996589660645,5,7.177520370483398,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B63782301710302,SLV,SLV,Rosario de Mora,10.67661190032959,10.67661190032959,10.67661190032959,1,10.67661190032959,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B93923145926056,SLV,SLV,Panchimalco,9.289585590362549,9.838109016418457,9.82837381362915,4,9.289585590362549,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B91995103964553,SLV,SLV,Soyapango,6.864968776702881,6.864968776702881,6.864968776702881,1,6.864968776702881,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B72742203497130,SLV,SLV,Santo Tomas,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14554153149615,SLV,SLV,Ilopango,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B51394050606114,SLV,SLV,Tonacatepeque,2.8363349437713623,5.672669887542725,5.105402898788452,2,2.8363349437713623,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B99064855901693,SLV,SLV,Santiago Texacuangos,8.292131423950195,8.292131423950195,8.292131423950195,1,8.292131423950195,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B8332040892436,SLV,SLV,Olocuilta,9.210001309712728,10.007665634155273,9.805144309997559,3,9.210001309712728,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B95271518401936,SLV,SLV,San Luis Talpa,8.446019172668457,8.8695707321167,8.814183616638184,5,8.446019172668457,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B89727671560909,SLV,SLV,San Juan Talpa,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B52080177135978,SLV,SLV,Cuyultitán,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B59411245897989,SLV,SLV,San Francsico Chinameca,8.692943572998047,8.692943572998047,8.692943572998047,1,8.692943572998047,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B13403044609430,SLV,SLV,Tapalhuaca,9.633993148803711,9.633993148803711,9.633993148803711,1,9.633993148803711,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B84342093482333,SLV,SLV,San Antonio Masahuat,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B3806321694601,SLV,SLV,San Jose Guayabal,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B76492657224613,SLV,SLV,San Martin,6.3082709312438965,7.0167317390441895,6.875039577484131,2,6.3082709312438965,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B16345419733055,SLV,SLV,San Miguel Tepezontes,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B45155466226613,SLV,SLV,El Rosario,8.342692852020264,8.572711944580078,8.526708126068115,2,8.342692852020264,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B40906067193470,SLV,SLV,San Juan Tepezontes,8.878954887390137,8.878954887390137,8.878954887390137,1,8.878954887390137,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B20634553620761,SLV,SLV,Oratorio de Concepcion,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B68929541258956,SLV,SLV,San Bartolome Perulapia,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B92906817022615,SLV,SLV,San Pedro Perulapan,4.931283315022786,8.037083625793457,7.781020164489746,3,4.931283315022786,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B22426566538206,SLV,SLV,Suchitoto,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B69237324383311,SLV,SLV,Tenancingo,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B74601792189974,SLV,SLV,Cinquera,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B23390079838525,SLV,SLV,Teujutepeque,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B78651790213252,SLV,SLV,Jutiapa,14.10877799987793,14.641411781311035,14.534885025024414,2,14.10877799987793,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B80392289599084,SLV,SLV,Victoria,26.265888690948486,29.221202850341797,28.967982864379884,4,26.265888690948486,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14613066597096,SLV,SLV,Sensuntepeque,22.790050411224364,30.738391876220703,25.625533294677734,10,22.790050411224364,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B37793229962315,SLV,SLV,Guacoteci,25.11237335205078,25.11237335205078,25.11237335205078,1,25.11237335205078,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B91791198774998,SLV,SLV,Ciudad Ilobasco,13.506296793619791,21.08152198791504,16.60083351135254,9,13.506296793619791,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B41516197400917,SLV,SLV,San Isidro,19.33772150675456,25.41942596435547,23.600569915771484,3,19.33772150675456,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B65212935039399,SLV,SLV,El Rosario,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B7744042478235,SLV,SLV,San Rafael Cedros,17.9671573638916,17.9671573638916,17.9671573638916,1,17.9671573638916,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B22324098183845,SLV,SLV,Monte San Juan,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B63707478046471,SLV,SLV,Santa Cruz Michapa,6.69992208480835,6.69992208480835,6.69992208480835,1,6.69992208480835,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B59073363211022,SLV,SLV,El Carmen,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B20346858369055,SLV,SLV,Cojutepeque,11.280930360158285,13.655187606811523,13.635593032836914,3,11.280930360158285,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B51987205560493,SLV,SLV,Candelaria,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B61693360751920,SLV,SLV,San Ramon,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B97482080846399,SLV,SLV,San Cristobal,13.387191772460938,13.387191772460938,13.387191772460938,1,13.387191772460938,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B62931478156428,SLV,SLV,Santa Cruz Analquito,15.11315631866455,15.11315631866455,15.11315631866455,1,15.11315631866455,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B82662647576832,SLV,SLV,Jerusalen,14.686388969421387,14.686388969421387,14.686388969421387,1,14.686388969421387,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B90489018525670,SLV,SLV,Verapaz,14.726627349853516,14.726627349853516,14.726627349853516,1,14.726627349853516,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B95898658703869,SLV,SLV,San Emigdo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B78003288159238,SLV,SLV,Paraíso de Osorio,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B34577462540081,SLV,SLV,Mercedes La Ceiba,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B62566819946411,SLV,SLV,Santa María Ostuma,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B23802298145360,SLV,SLV,San Pedro Nonualco,8.261138916015625,8.290494918823242,8.284623718261718,2,8.261138916015625,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B84108847330895,SLV,SLV,San Sebastian,19.974053064982098,20.68743324279785,20.67973403930664,3,19.974053064982098,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B33093457347300,SLV,SLV,Santo Domingo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B10001749277791,SLV,SLV,San Lorenzo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B31550147369737,SLV,SLV,Tepetitan,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B71390951113356,SLV,SLV,San Cayetano Istepeque,19.653608322143555,19.653608322143555,19.653608322143555,1,19.653608322143555,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B99150675091026,SLV,SLV,San Esteban Catarina,24.365652084350586,25.34151268005371,25.146340560913085,2,24.365652084350586,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B86595410574585,SLV,SLV,Santiago Nonualco,10.596753120422363,15.203878402709961,13.532638740539552,4,10.596753120422363,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B33887915664095,SLV,SLV,Null,11.454130172729492,14.81379222869873,14.141859817504884,2,11.454130172729492,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14868811920959,SLV,SLV,Guadalupe,8.832581520080566,8.832581520080566,8.832581520080566,1,8.832581520080566,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B86177498250325,SLV,SLV,San Rafael Obrajuelo,9.075786590576172,9.075786590576172,9.075786590576172,1,9.075786590576172,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B7146540815247,SLV,SLV,San Juan Nonualco,11.286101659138998,15.122411727905273,14.028447914123536,3,11.286101659138998,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B94447773522509,SLV,SLV,Dolores,24.201406478881836,30.27806282043457,27.942637252807618,4,24.201406478881836,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B82083625873900,SLV,SLV,Santa Clara,28.909591293334962,35.1545295715332,32.74168853759765,5,28.909591293334962,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B88120716083834,SLV,SLV,Apastepeque,29.85264015197754,36.766517639160156,34.434488677978514,4,29.85264015197754,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B54364686150997,SLV,SLV,San Vicente,19.6715022193061,27.926467895507812,23.7870361328125,9,19.6715022193061,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B36764695607586,SLV,SLV,San Luis La Herradura,8.278850078582764,8.358893394470215,8.342884731292724,2,8.278850078582764,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B51596434492977,SLV,SLV,Zacatecoluca,10.209715604782104,15.056937217712402,14.538130283355713,8,10.209715604782104,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B29449237638687,SLV,SLV,Tecoluca,12.525918324788412,20.50027084350586,18.98567924499512,12,12.525918324788412,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B99762611748167,SLV,SLV,San Ildefonso,32.64281730651855,37.905067443847656,37.551144409179685,5,32.64281730651855,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B13778557188445,SLV,SLV,Estanzuelas,27.427343368530273,33.987613677978516,32.67555961608887,2,27.427343368530273,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B99179183190773,SLV,SLV,Nuevo Eden de San Juan,27.15000343322754,29.73162269592285,29.153514099121093,3,27.15000343322754,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B346679513867,SLV,SLV,Mercedes Umaña,27.467833201090496,30.702716827392578,30.092768478393555,3,27.467833201090496,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B3910193527367,SLV,SLV,Berlin,24.9364808400472,28.662609100341797,27.741685104370116,3,24.9364808400472,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B65140783843548,SLV,SLV,San Agustin,24.83147366841634,28.005277633666992,27.72412567138672,3,24.83147366841634,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B89800757890613,SLV,SLV,Jiquilisco,21.378052491408127,52.864078521728516,45.123128509521486,13,21.378052491408127,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B86841984687248,SLV,SLV,Null,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B69543299009522,SLV,SLV,Null,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B47681423579390,SLV,SLV,Puerto El Triunfo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B77500170137701,SLV,SLV,Null,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B19260773575494,SLV,SLV,Null,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B48359666859160,SLV,SLV,San Francisco Javier,31.236454010009766,31.236454010009766,31.236454010009766,1,31.236454010009766,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B9121955400146,SLV,SLV,Alegría,40.42685063680013,44.30610656738281,43.36653366088867,3,40.42685063680013,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B88641565505680,SLV,SLV,Tecapán,28.10628318786621,28.10628318786621,28.10628318786621,1,28.10628318786621,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B72331758964079,SLV,SLV,Ozatlan,34.745357513427734,34.745357513427734,34.745357513427734,1,34.745357513427734,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B10579863539428,SLV,SLV,Santiago de Maria,45.67536926269531,45.67536926269531,45.67536926269531,1,45.67536926269531,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B4303083409375,SLV,SLV,California,45.856231689453125,45.856231689453125,45.856231689453125,1,45.856231689453125,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B47910472447580,SLV,SLV,San Gerardo,27.381837209065754,29.830707550048828,29.148776626586915,3,27.381837209065754,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B45430639104766,SLV,SLV,Nueva Granada,31.89287821451823,36.746158599853516,35.68073196411133,3,31.89287821451823,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B1074429628551,SLV,SLV,Sesori,32.747671127319336,36.28071212768555,35.2997314453125,7,32.747671127319336,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B67871335159639,SLV,SLV,El Triunfo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B57569501893632,SLV,SLV,Jucuapa,43.62164115905762,47.85131072998047,47.0053768157959,2,43.62164115905762,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B70705018160064,SLV,SLV,San Buenaventura,40.43284225463867,40.43284225463867,40.43284225463867,1,40.43284225463867,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B78661995875719,SLV,SLV,Lolotique,44.893216133117676,49.80193328857422,48.924177169799805,4,44.893216133117676,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B11373677383490,SLV,SLV,Nueva Guadalupe,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B82505145234001,SLV,SLV,Chinameca,23.721667289733887,50.26767349243164,48.57307014465332,4,23.721667289733887,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B74787052715916,SLV,SLV,Santa Elena,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B287645729491,SLV,SLV,San Dionisio,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B68893851192533,SLV,SLV,Usulutan,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B25959400304708,SLV,SLV,Santa María,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B83878115862603,SLV,SLV,Ereguayquín,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B85489801773843,SLV,SLV,San Luis de la Reina,28.757792790730793,29.899621963500977,29.60101776123047,3,28.757792790730793,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B31641334211700,SLV,SLV,San Jorge,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B33674130591539,SLV,SLV,San Rafael,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B53503035270469,SLV,SLV,Concepción Batres,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B37680767331657,SLV,SLV,El Transito,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B12746718022647,SLV,SLV,Carolina,29.203804969787598,29.53584098815918,29.469433784484863,2,29.203804969787598,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B38727167793446,SLV,SLV,Ciudad Barrios,35.82249323527018,38.1251220703125,37.72518768310547,3,35.82249323527018,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B22545432113696,SLV,SLV,Chapeltique,43.44732538859049,46.629329681396484,46.08845901489258,3,43.44732538859049,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B94858643210446,SLV,SLV,Moncagua,39.12922668457031,43.07539367675781,42.77063827514648,3,39.12922668457031,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B22242380488135,SLV,SLV,Quelepa,32.788917541503906,32.788917541503906,32.788917541503906,1,32.788917541503906,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B31133619180523,SLV,SLV,San Antonio,28.083396911621094,28.083396911621094,28.083396911621094,1,28.083396911621094,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B91576737756092,SLV,SLV,Torola,29.579429626464844,29.579429626464844,29.579429626464844,1,29.579429626464844,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B40793175088004,SLV,SLV,San Isidro,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B81535707039763,SLV,SLV,San Simon,40.10856628417969,40.10856628417969,40.10856628417969,1,40.10856628417969,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B83813091780755,SLV,SLV,Guatajiagua,43.44407653808594,43.454994201660156,43.45281066894531,2,43.44407653808594,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B93359070000438,SLV,SLV,El Rosario,30.569013595581055,30.569013595581055,30.569013595581055,1,30.569013595581055,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B60793117335439,SLV,SLV,Gualococti,31.453353881835938,31.453353881835938,31.453353881835938,1,31.453353881835938,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B76817254995906,SLV,SLV,San Fernando,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B61732768803138,SLV,SLV,Yamabal,32.96236801147461,32.96236801147461,32.96236801147461,1,32.96236801147461,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B42812411509914,SLV,SLV,Sensembra,36.129173278808594,36.129173278808594,36.129173278808594,1,36.129173278808594,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B15049228022920,SLV,SLV,Perquin,39.796015930175784,46.740047454833984,45.37916641235351,5,39.796015930175784,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B98442573650790,SLV,SLV,Jocoaitique,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B89451063851506,SLV,SLV,Arambala,33.530792236328125,33.530792236328125,33.530792236328125,1,33.530792236328125,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B34067607508772,SLV,SLV,Meanguera,27.381235122680664,30.228952407836914,29.659408950805663,2,27.381235122680664,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B74024261126533,SLV,SLV,Delicias de Concepcion,33.59777069091797,33.59777069091797,33.59777069091797,1,33.59777069091797,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B37185421427517,SLV,SLV,Yoloaiquin,26.886489868164062,26.886489868164062,26.886489868164062,1,26.886489868164062,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B15672715346163,SLV,SLV,Joateca,34.6699473063151,36.68510437011719,36.28665008544922,3,34.6699473063151,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B65183963779708,SLV,SLV,Jucuarán,0.0,0.0,0.0,11,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14981494390945,SLV,SLV,Cacaopera,30.12239360809326,35.065879821777344,34.482900619506836,4,30.12239360809326,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B62683925529681,SLV,SLV,Lolotiquillo,32.499629974365234,32.499629974365234,32.499629974365234,1,32.499629974365234,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B21436150640126,SLV,SLV,Corinto,39.477503299713135,50.270145416259766,50.15293846130371,4,39.477503299713135,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B84780474662802,SLV,SLV,San Francisco,32.449748039245605,33.079959869384766,32.953917503356934,2,32.449748039245605,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B31320267138614,SLV,SLV,San Carlos,32.40309143066406,32.40309143066406,32.40309143066406,1,32.40309143066406,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B31995662922872,SLV,SLV,Null,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B5656264018914,SLV,SLV,Lislique,57.57857418060303,59.522762298583984,59.278834915161134,4,57.57857418060303,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B92912224375807,SLV,SLV,Sociedad,33.416396617889404,34.78547668457031,34.45340347290039,4,33.416396617889404,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B60700507895627,SLV,SLV,Jocoro,14.03320026397705,28.0664005279541,25.259760475158693,2,14.03320026397705,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B58056698139917,SLV,SLV,El Divisadero,23.81244150797526,43.801025390625,40.56808013916016,3,23.81244150797526,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B66369020490916,SLV,SLV,Comacarán,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B61468215624461,SLV,SLV,Uluazapa,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B57230923160780,SLV,SLV,Yayantique,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B62992281929492,SLV,SLV,San Miguel,6.256882773505317,42.906883239746094,34.64874458312988,18,6.256882773505317,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B2864727772405,SLV,SLV,Chirilagua,0.0,0.0,0.0,6,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B37192350542382,SLV,SLV,Null,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B77183491634669,SLV,SLV,Nueva Esparta,58.58059883117676,62.75784683227539,62.09991226196289,4,58.58059883117676,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B19086896998626,SLV,SLV,Anamoros,56.668203353881836,58.2174072265625,57.907566452026366,2,56.668203353881836,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B66157008088608,SLV,SLV,Poloros,61.822470347086586,66.49307250976562,65.46147232055664,3,61.822470347086586,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B80600730449198,SLV,SLV,Concepcion de Oriente,70.91113662719727,75.63653564453125,74.69145584106445,2,70.91113662719727,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B47950461762120,SLV,SLV,El Sauce,52.44209213256836,58.57111358642578,56.744189453125,5,52.44209213256836,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B52450806978859,SLV,SLV,Pasaquina,16.16106923421224,56.956871032714844,52.87020721435547,9,16.16106923421224,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B52241346055675,SLV,SLV,Santa Rosa de Lima,47.95949172973633,56.16661834716797,55.337040710449216,5,47.95949172973633,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B59795553540693,SLV,SLV,San Jose,17.844257354736328,35.688514709472656,32.11966323852539,2,17.844257354736328,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B14364767693196,SLV,SLV,Bolivar,35.86278533935547,35.86278533935547,35.86278533935547,1,35.86278533935547,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B9903520434007,SLV,SLV,Yucuaiquin,0.0,0.0,0.0,2,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B37324001782995,SLV,SLV,San Alejo,0.0,0.0,0.0,7,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B43009809112841,SLV,SLV,Intipuca,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B89253814837781,SLV,SLV,El Carmen,0.0,0.0,0.0,3,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B28833031300793,SLV,SLV,Conchagua,0.0,0.0,0.0,9,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B96043073035116,SLV,SLV,Null,0.0,0.0,0.0,4,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B80691700287091,SLV,SLV,La Union,0.0,0.0,0.0,1,0.0,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B51532332828438,SLV,SLV,San Pedro Masahuat,10.619714736938477,14.882460594177246,13.709064483642578,3,10.619714736938477,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B57651569246803,SLV,SLV,Chilanga,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B49353341662068,SLV,SLV,Osicala,30.296003341674805,30.296003341674805,30.296003341674805,1,30.296003341674805,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B82742941471895,SLV,SLV,Chilanga,34.88532066345215,36.397979736328125,36.09544792175293,2,34.88532066345215,simple raster-cell mean; exact pixel-area weighting not applied
+79315794B74155623627122,SLV,SLV,Meanguera del Golfo,,,,0,,simple raster-cell mean; exact pixel-area weighting not applied

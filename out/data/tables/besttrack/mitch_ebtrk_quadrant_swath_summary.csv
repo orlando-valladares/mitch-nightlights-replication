@@ -1,0 +1,13 @@
+threshold,quadrant,municipalities_any_all,municipalities_any_est_sample,municipalities_share_ge_50_all,municipalities_share_ge_50_est_sample,countries,departments_top,lon_min,lat_min,lon_max,lat_max
+r34,NE,84,84,73,73,"BLZ, HND, NIC",HND/HND: 80; NIC/NIC: 3; BLZ/BLZ: 1,-91.4,11.6,-75.489,30.007
+r34,SE,48,48,34,34,"HND, NIC",NIC/NIC: 25; HND/HND: 23,-91.4,10.763,-74.553,27.5
+r34,SW,64,64,54,54,"HND, NIC",HND/HND: 62; NIC/NIC: 2,-91.93,11.465,-77.6,27.5
+r34,NW,273,273,230,230,"BLZ, GTM, HND",HND/HND: 153; GTM/GTM: 110; BLZ/BLZ: 10,-90.706,11.6,-77.6,29.171
+r50,NE,5,5,0,0,HND,HND/HND: 5,-85.8,12.9,-76.618,28.001
+r50,SE,13,13,7,7,HND,HND/HND: 13,-85.8,12.565,-76.847,27.5
+r50,SW,23,23,16,16,HND,HND/HND: 23,-86.902,13.663,-77.9,27.5
+r50,NW,6,6,3,3,HND,HND/HND: 6,-87.336,14.498,-77.9,18.973
+r64,NE,2,2,0,0,HND,HND/HND: 2,-85.8,14.499,-77.213,18.137
+r64,SE,8,8,3,3,HND,HND/HND: 8,-85.8,13.398,-77.213,17.3
+r64,SW,14,14,7,7,HND,HND/HND: 14,-86.468,13.83,-77.9,17.3
+r64,NW,6,6,2,2,HND,HND/HND: 6,-86.468,14.499,-77.9,18.137

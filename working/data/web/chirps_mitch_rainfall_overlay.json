@@ -1,0 +1,10 @@
+{
+  "png": "C:\\Users\\orlan\\EC64\\data\\web\\chirps_mitch_rainfall_overlay.png",
+  "bounds_wgs84": {
+    "west": -92.25042197750078,
+    "south": 10.700048944815808,
+    "east": -82.7003782931091,
+    "north": 18.50008462421425
+  },
+  "source": "C:\\Users\\orlan\\EC64\\raw\\chirps_mitch_daily_stack_19981027_19981104_ca5.tif"
+}

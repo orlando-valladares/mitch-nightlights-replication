@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/v04r01/access/csv/ibtracs.NA.list.v04r01.csv",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\ibtracs.NA.list.v04r01.csv",
+    "status": "downloaded",
+    "bytes": 57074222
+  },
+  {
+    "url": "https://rammb2.cira.colostate.edu/wp-content/uploads/2020/11/EBTRK_AL_final_1851-2021_new_format_02-Sep-2022-1.txt",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\ebtrk_atlc_1851_2021.txt",
+    "status": "downloaded",
+    "bytes": 6545750
+  },
+  {
+    "url": "https://rammb2.cira.colostate.edu/wp-content/uploads/2020/11/EBTRK_AL_final_1851-2021_old_format_02-Sep-2022.txt",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\ebtrk_atlc_1851_2021_old_format.txt",
+    "status": "downloaded",
+    "bytes": 6231554
+  },
+  {
+    "url": "https://rammb2.cira.colostate.edu/wp-content/uploads/2020/11/EBTRK_README_v3.0.2_16-Oct-2022.txt",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\EBTRK_README_v3.0.2.txt",
+    "status": "downloaded",
+    "bytes": 18536
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/BLZ/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_BLZ_metadata.json",
+    "status": "metadata",
+    "bytes": 1809
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BLZ/ADM2/geoBoundaries-BLZ-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_BLZ.geojson",
+    "status": "downloaded",
+    "bytes": 1005704
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/GTM/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_GTM_metadata.json",
+    "status": "metadata",
+    "bytes": 2055
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/GTM/ADM2/geoBoundaries-GTM-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_GTM.geojson",
+    "status": "downloaded",
+    "bytes": 5045097
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/SLV/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_SLV_metadata.json",
+    "status": "metadata",
+    "bytes": 1832
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/SLV/ADM2/geoBoundaries-SLV-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_SLV.geojson",
+    "status": "downloaded",
+    "bytes": 1236336
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/HND/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_HND_metadata.json",
+    "status": "metadata",
+    "bytes": 2043
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/905b0ba/releaseData/gbOpen/HND/ADM2/geoBoundaries-HND-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_HND.geojson",
+    "status": "downloaded",
+    "bytes": 81198615
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/NIC/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_NIC_metadata.json",
+    "status": "metadata",
+    "bytes": 1875
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NIC/ADM2/geoBoundaries-NIC-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_NIC.geojson",
+    "status": "downloaded",
+    "bytes": 9771422
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/CRI/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_CRI_metadata.json",
+    "status": "metadata",
+    "bytes": 1854
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CRI/ADM2/geoBoundaries-CRI-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_CRI.geojson",
+    "status": "downloaded",
+    "bytes": 11763739
+  },
+  {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/PAN/ADM2/",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_PAN_metadata.json",
+    "status": "metadata",
+    "bytes": 2044
+  },
+  {
+    "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PAN/ADM2/geoBoundaries-PAN-ADM2.geojson",
+    "path": "C:\\Users\\orlan\\EC64\\data\\external\\geoboundaries_adm2_PAN.geojson",
+    "status": "downloaded",
+    "bytes": 32249201
+  }
+]

@@ -1,0 +1,9 @@
+raw/GAUL_2024_L2.shp
+working/data/processed/municipalities_adm2_analytical.geojson
+working/data/processed/did_dashboard/gaul_name_matched_municipalities_analytical.geojson
+working/overleaf/
+working/.venv/
+**/__pycache__/
+working/logs/
+*.log
+*.pdf
