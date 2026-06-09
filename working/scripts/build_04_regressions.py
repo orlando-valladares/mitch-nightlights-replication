@@ -26,11 +26,8 @@ def main() -> None:
     else:
         assignment = engine.pd.read_csv(engine.WORKING / "data" / "processed" / "municipality_attributes.csv")
         panel = engine.build_panel(assignment)
-    engine.write_reghdfe_bridge(panel)
-    engine.run_regressions(panel)
     engine.write_structured_regression_tables(panel)
-    engine.write_robustness_tables(panel)
-    print("Built regression outputs")
+    print("Built final-paper regression tables")
 
 
 if __name__ == "__main__":

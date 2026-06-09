@@ -23,10 +23,11 @@ from pipeline_utils import to_numeric
 ROOT = Path(__file__).resolve().parents[2]
 WORKING = ROOT / "working"
 OUT = ROOT / "out"
-PAPER_ROOT = WORKING / "overleaf" / "Paper_Figures"
+PAPER_ROOT = ROOT / "paper" / "Paper_Figures"
 PAPER_LEGACY = PAPER_ROOT / "legacy"
 AREA_CRS = "EPSG:6933"
 GEOD = Geod(ellps="WGS84")
+PRE_MITCH_NTL_MEDIAN = 101.79
 
 THRESHOLDS = ["r64", "r50", "r34"]
 THRESHOLD_LABELS = {"r34": "34 kt", "r50": "50 kt", "r64": "64 kt"}
@@ -54,7 +55,7 @@ EVENT_PERIODS = TABLE_EVENT_PERIODS + [
 REFERENCE_PERIOD = (1996, 1997)
 SELECTED_COUNTRIES = {"Belize", "Guatemala", "El Salvador", "Honduras", "Nicaragua"}
 EXPANDED_OUT = OUT / "Expanded version"
-EXPANDED_OVERLEAF = WORKING / "overleaf" / "Paper_Figures" / "extended"
+EXPANDED_OVERLEAF = PAPER_ROOT / "extended"
 MAHAJAN_APPENDIX_PDF_CANDIDATES = [
     ROOT
     / "Mahajan, Parag; Dean Yang - Appendix, Taken by Storm; Hurricanes, Migrant Networks, and US Immigration (2020, American Economic Journal Applied Economics).pdf",
@@ -404,7 +405,7 @@ def build_assignment(munis_gdf: gpd.GeoDataFrame) -> pd.DataFrame:
     mean = no_filter.mean()
     sd = no_filter.std(ddof=1)
     out["mp_x_gjst_z_nofilter"] = (out["mp_x_gjst"] - mean) / sd if sd > 0 else 0.0
-    filt = out.loc[out["in_selected_country"].eq(1) & out["pre_mean_stable_sum"].notna() & out["pre_mean_stable_sum"].ge(100), "mp_x_gjst"]
+    filt = out.loc[out["in_selected_country"].eq(1) & out["pre_mean_stable_sum"].notna() & out["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN), "mp_x_gjst"]
     fmean = filt.mean()
     fsd = filt.std(ddof=1)
     out["mp_x_gjst_z_prefilter"] = (out["mp_x_gjst"] - fmean) / fsd if fsd > 0 else 0.0
@@ -515,18 +516,18 @@ def summary_tex_number(value: object, digits: int = 3) -> str:
 
 def build_summary_tables(assignment: pd.DataFrame) -> pd.DataFrame:
     sample = assignment.loc[assignment["in_selected_country"].eq(1)].copy()
-    pre = sample.loc[sample["pre_mean_stable_sum"].notna() & sample["pre_mean_stable_sum"].ge(100)].copy()
+    pre = sample.loc[sample["pre_mean_stable_sum"].notna() & sample["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
     ntl = pd.read_csv(WORKING / "data" / "processed" / "did_dashboard" / "ntl_municipality_year_panel.csv")
     ntl["stable_sum"] = pd.to_numeric(ntl["stable_sum"], errors="coerce")
     ntl = ntl.merge(sample[["muni_key", "pre_mean_stable_sum"]].rename(columns={"pre_mean_stable_sum": "sample_pre_mean"}), on="muni_key", how="inner")
-    ntl_pre = ntl.loc[ntl["sample_pre_mean"].ge(100)].copy()
+    ntl_pre = ntl.loc[ntl["sample_pre_mean"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
 
     def row(panel, section, measure, vals, source="", geography="Municipality", treated="", treated_filter=""):
         stats = stat_summary(vals)
         return {"panel": panel, "section": section, "measure": measure, "source": source, "geography": geography, "treated": treated, "treated_filter": treated_filter, **stats}
 
     rows = []
-    for panel_label, ntl_sub in [("Full retained sample", ntl), ("NTL above 100 pre-Mitch", ntl_pre)]:
+    for panel_label, ntl_sub in [("Full retained sample", ntl), ("Pre-Mitch NTL at or above median (101.79)", ntl_pre)]:
         muni_n = ntl_sub["muni_key"].nunique()
         rows.append(row(panel_label, "Dependent Variable: Nightlights", "DMSP-OLS stable lights, 1998", ntl_sub.loc[ntl_sub["year"].eq(1998), "stable_sum"], source="DMSP-OLS", geography=f"{muni_n:,} municipalities"))
         rows.append(row(panel_label, "Dependent Variable: Nightlights", "DMSP-OLS stable lights, all years", ntl_sub["stable_sum"], source="DMSP-OLS", geography=f"{muni_n:,} municipalities"))
@@ -587,10 +588,10 @@ def write_expanded_summary_table(assignment: pd.DataFrame, ntl: pd.DataFrame | N
         ntl = ntl.merge(sample[["muni_key", "pre_mean_stable_sum"]].rename(columns={"pre_mean_stable_sum": "sample_pre_mean"}), on="muni_key", how="inner")
     ntl = ntl.copy()
     ntl["log_ntl"] = np.log1p(pd.to_numeric(ntl["stable_sum"], errors="coerce"))
-    ntl_pre = ntl.loc[pd.to_numeric(ntl["sample_pre_mean"], errors="coerce").ge(100)].copy()
+    ntl_pre = ntl.loc[pd.to_numeric(ntl["sample_pre_mean"], errors="coerce").ge(PRE_MITCH_NTL_MEDIAN)].copy()
 
     dep_rows = []
-    for label, frame in [("All retained municipalities", ntl), ("Pre-Mitch NTL > 100", ntl_pre)]:
+    for label, frame in [("All retained municipalities", ntl), ("Pre-Mitch NTL at or above median (101.79)", ntl_pre)]:
         dep_rows.append(_expanded_summary_row("Stable lights, all years", "DMSP-OLS", label, frame["stable_sum"], units=frame["muni_key"].nunique(), obs=len(frame)))
         dep_rows.append(_expanded_summary_row("Stable lights, 1998", "DMSP-OLS", label, frame.loc[frame["year"].eq(1998), "stable_sum"], units=frame.loc[frame["year"].eq(1998), "muni_key"].nunique(), obs=int(frame["year"].eq(1998).sum())))
         dep_rows.append(_expanded_summary_row("log(1 + stable lights), all years", "DMSP-OLS", label, frame["log_ntl"], units=frame["muni_key"].nunique(), obs=len(frame)))
@@ -603,9 +604,6 @@ def write_expanded_summary_table(assignment: pd.DataFrame, ntl: pd.DataFrame | N
             flags = share.ge(cutoff)
             treated_depts = sample.loc[flags, "state_key"].nunique()
             indep_rows.append(_expanded_summary_row(f"{THRESHOLD_LABELS[threshold]} area coverage >= {int(cutoff * 100)}%", "Extended Best Track", "Municipality share", share, treated_munis=int(flags.sum()), treated_depts=int(treated_depts)))
-        positive = share.loc[share.gt(0)]
-        indep_rows.append(_expanded_summary_row(f"{THRESHOLD_LABELS[threshold]} continuous area share", "Extended Best Track", "All municipalities", share, treated_munis="", treated_depts=""))
-        indep_rows.append(_expanded_summary_row(f"{THRESHOLD_LABELS[threshold]} continuous area share, if > 0", "Extended Best Track", "Positive coverage", positive, treated_munis="", treated_depts=""))
 
     rainfall = pd.to_numeric(sample["rain_max_daily_anomaly_mm"], errors="coerce")
     rain_flags = sample["chirps_max_anomaly_top10"].eq(1)
@@ -617,12 +615,6 @@ def write_expanded_summary_table(assignment: pd.DataFrame, ntl: pd.DataFrame | N
     death_flags = states["death_pc_top10_state"].eq(1)
     indep_rows.append(_expanded_summary_row("Deaths per capita", "Government reports", "All departments/states", deaths, treated_munis="", treated_depts=int(death_flags.sum())))
     indep_rows.append(_expanded_summary_row("Deaths per capita, if > 0", "Government reports", "Positive departments/states", deaths.loc[deaths.gt(0)], treated_munis="", treated_depts=int(death_flags.sum())))
-
-    for col, label in [("mp_x_gjst", "Mahajan-Parag x_gjst"), ("mp_pwind", "Mahajan-Parag predicted wind"), ("mp_grid_pop", "Mahajan-Parag grid population")]:
-        if col in sample.columns:
-            vals = pd.to_numeric(sample[col], errors="coerce")
-            indep_rows.append(_expanded_summary_row(label, "Mahajan-Parag", "All municipalities", vals, treated_munis="", treated_depts=""))
-            indep_rows.append(_expanded_summary_row(f"{label}, if > 0", "Mahajan-Parag", "Positive exposure", vals.loc[vals.gt(0)], treated_munis="", treated_depts=""))
 
     dep = pd.DataFrame(dep_rows)
     indep = pd.DataFrame(indep_rows)
@@ -1124,7 +1116,7 @@ def regression_tex(rows: list[RegressionResult], continuous: bool = False) -> st
 def event_coefficients(panel: pd.DataFrame, treat_col: str, prefilter: bool, year_fe: bool) -> pd.DataFrame:
     df = panel.loc[panel["pre_mean_stable_sum"].notna()].copy()
     if prefilter:
-        df = df.loc[df["pre_mean_stable_sum"].ge(100)].copy()
+        df = df.loc[df["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
     base = df.drop_duplicates("muni_unit_id")
     if base[treat_col].eq(1).sum() == 0 or base[treat_col].eq(0).sum() == 0:
         return pd.DataFrame(
@@ -1172,6 +1164,17 @@ def period_midpoint(start: int, end: int) -> float:
     return (start + end) / 2
 
 
+def filter_panel_by_pre_ntl_snr(panel: pd.DataFrame, threshold: float = 1.0) -> pd.DataFrame:
+    pre = (
+        panel.loc[panel["year"].le(1997)]
+        .groupby("muni_unit_id")["stable_sum"]
+        .agg(pre_mean="mean", pre_sd="std")
+    )
+    snr = pre["pre_mean"].div(pre["pre_sd"])
+    keep = pre["pre_mean"].gt(0) & (pre["pre_sd"].eq(0) | snr.ge(threshold))
+    return panel.loc[panel["muni_unit_id"].isin(pre.index[keep])].copy()
+
+
 def event_period_coefficients(
     panel: pd.DataFrame,
     treat_col: str,
@@ -1181,7 +1184,7 @@ def event_period_coefficients(
 ) -> pd.DataFrame:
     df = panel.loc[panel["pre_mean_stable_sum"].notna()].copy()
     if prefilter:
-        df = df.loc[df["pre_mean_stable_sum"].ge(100)].copy()
+        df = df.loc[df["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
     base = df.drop_duplicates("muni_unit_id")
     if binary and (base[treat_col].eq(1).sum() == 0 or base[treat_col].eq(0).sum() == 0):
         return pd.DataFrame(
@@ -1285,8 +1288,8 @@ def table_period_label(start: int, end: int) -> str:
 
 
 def spec_label_tex(label: str) -> str:
-    if label == "Unit + Year FE for NTL > 100":
-        return "\\begin{tabular}{@{}l@{}}Unit + Year FE\\\\for NTL $>$ 100\\end{tabular}"
+    if label == "Unit + Year FE for pre-Mitch NTL median":
+        return "\\begin{tabular}{@{}l@{}}Unit + Year FE\\\\for pre-Mitch NTL median\\end{tabular}"
     return tex_escape(label)
 
 def write_ebtrk_event_table(panel: pd.DataFrame) -> pd.DataFrame:
@@ -1303,7 +1306,7 @@ def write_ebtrk_event_table(panel: pd.DataFrame) -> pd.DataFrame:
         specs = [
             (f"{THRESHOLD_LABELS[threshold]} winds and above", False, False),
             (r"\hspace{1em}with year FE", False, True),
-            (r"\hspace{1em}with NTL above 100 and year FE", True, True),
+            (r"\hspace{1em}with pre-Mitch NTL median and year FE", True, True),
         ]
         for label, prefilter, year_fe in specs:
             ev = event_period_coefficients(panel, treat_col, prefilter=prefilter, year_fe=year_fe, binary=True)
@@ -1332,6 +1335,7 @@ def write_ebtrk_event_table(panel: pd.DataFrame) -> pd.DataFrame:
     tex = "\n".join(tex_lines)
     write_text_outputs([
         OUT / "paper_figures" / "regression_table_ebtrk_binary.tex",
+        PAPER_ROOT / "regression_table_ebtrk_binary.tex",
         PAPER_LEGACY / "regression_table_ebtrk_binary.tex",
     ], tex)
     return out
@@ -1379,7 +1383,7 @@ def write_mp_annual_table(panel: pd.DataFrame, assignment: pd.DataFrame) -> pd.D
     specs = [
         ("Point Exposure Index (SD)", "mp_x_gjst_z_nofilter", False, False, 1.0),
         (r"\hspace{1em}with year FE", "mp_x_gjst_z_nofilter", False, True, 1.0),
-        (r"\hspace{1em}with NTL above 100 and year FE", "mp_x_gjst_z_prefilter", True, True, 1.0),
+        (r"\hspace{1em}with pre-Mitch NTL median and year FE", "mp_x_gjst_z_prefilter", True, True, 1.0),
         ("90th percentile positive index, implied", "mp_x_gjst_z_nofilter", False, True, z90_positive),
     ]
     display_headers = [r"$\cdots$"] + [period_label(start, end) for start, end in TABLE_EVENT_PERIODS] + [r"$\cdots$"]
@@ -1450,6 +1454,7 @@ def write_mp_annual_table(panel: pd.DataFrame, assignment: pd.DataFrame) -> pd.D
     tex = "\n".join(tex_lines)
     write_text_outputs([
         OUT / "paper_figures" / "regression_table_mahajan_continuous.tex",
+        PAPER_ROOT / "regression_table_mahajan_continuous.tex",
         PAPER_LEGACY / "regression_table_mahajan_continuous.tex",
     ], tex)
     return out
@@ -1466,7 +1471,7 @@ def run_regressions(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
 def did_series(panel: pd.DataFrame, treat_col: str, prefilter: bool = False, year_fe: bool = False) -> pd.DataFrame:
     df = panel.loc[panel["pre_mean_stable_sum"].notna()].copy()
     if prefilter:
-        df = df.loc[df["pre_mean_stable_sum"].ge(100)].copy()
+        df = df.loc[df["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
     if year_fe:
         df["adj"] = residualize(df["log_ntl"].to_numpy(float), df["muni_unit_id"].to_numpy(), df["year"].to_numpy())
     else:
@@ -1491,7 +1496,7 @@ def visual_gap(panel: pd.DataFrame, treat_col: str, prefilter: bool = False) -> 
 def event_series(panel: pd.DataFrame, treat_col: str, continuous: bool = False, prefilter: bool = False, year_fe: bool = True) -> pd.DataFrame:
     df = panel.loc[panel["pre_mean_stable_sum"].notna()].copy()
     if prefilter:
-        df = df.loc[df["pre_mean_stable_sum"].ge(100)].copy()
+        df = df.loc[df["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
     years = sorted(df["year"].unique())
     xcols = []
     for y in years:
@@ -1515,7 +1520,7 @@ def event_series(panel: pd.DataFrame, treat_col: str, continuous: bool = False, 
 def did_period_series(panel: pd.DataFrame, treat_col: str, prefilter: bool = False, year_fe: bool = False) -> pd.DataFrame:
     df = panel.loc[panel["pre_mean_stable_sum"].notna()].copy()
     if prefilter:
-        df = df.loc[df["pre_mean_stable_sum"].ge(100)].copy()
+        df = df.loc[df["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
     df["period_start"] = 1992 + 2 * np.floor((df["year"] - 1992) / 2).astype(int)
     if year_fe:
         df["adj"] = residualize(df["log_ntl"].to_numpy(float), df["muni_unit_id"].to_numpy(), df["year"].to_numpy())
@@ -1574,7 +1579,7 @@ program define run_event
     preserve
     display as text "=== `rowlabel' ==="
     if `prefilter' == 1 {{
-        keep if pre_mean_stable_sum >= 100 & !missing(pre_mean_stable_sum)
+        keep if pre_mean_stable_sum >= {PRE_MITCH_NTL_MEDIAN:.2f} & !missing(pre_mean_stable_sum)
     }}
     local rhs ""
     foreach pair in {pairs} {{
@@ -1599,13 +1604,13 @@ end
 
 run_event, rowlabel("64 kt winds and above") treatvar(t_r64) prefilter(0) yearfe(0)
 run_event, rowlabel("64 kt with year FE") treatvar(t_r64) prefilter(0) yearfe(1)
-run_event, rowlabel("64 kt NTL above 100 and year FE") treatvar(t_r64) prefilter(1) yearfe(1)
+run_event, rowlabel("64 kt pre-Mitch NTL median and year FE") treatvar(t_r64) prefilter(1) yearfe(1)
 run_event, rowlabel("50 kt winds and above") treatvar(t_r50) prefilter(0) yearfe(0)
 run_event, rowlabel("50 kt with year FE") treatvar(t_r50) prefilter(0) yearfe(1)
-run_event, rowlabel("50 kt NTL above 100 and year FE") treatvar(t_r50) prefilter(1) yearfe(1)
+run_event, rowlabel("50 kt pre-Mitch NTL median and year FE") treatvar(t_r50) prefilter(1) yearfe(1)
 run_event, rowlabel("34 kt winds and above") treatvar(t_r34) prefilter(0) yearfe(0)
 run_event, rowlabel("34 kt with year FE") treatvar(t_r34) prefilter(0) yearfe(1)
-run_event, rowlabel("34 kt NTL above 100 and year FE") treatvar(t_r34) prefilter(1) yearfe(1)
+run_event, rowlabel("34 kt pre-Mitch NTL median and year FE") treatvar(t_r34) prefilter(1) yearfe(1)
 run_event, rowlabel("Mahajan-Parag point exposure index SD") treatvar(c_mpz) prefilter(0) yearfe(1)
 run_event, rowlabel("CHIRPS max-rainfall anomaly top decile") treatvar(t_chirps) prefilter(0) yearfe(1)
 run_event, rowlabel("Deaths per capita top decile state-level") treatvar(t_death) prefilter(0) yearfe(1)
@@ -1830,7 +1835,7 @@ FOUR_TREATMENT_MEASURES = [MEASURES[0], MEASURES[1], MEASURES[3], MEASURES[4]]
 SPEC_FOLDERS = [
     ("no_year_fe", False, False, "Unit FE"),
     ("year_fe", True, False, "Unit + Year FE"),
-    ("year_fe_ntl_filter", True, True, "Unit + Year FE for NTL > 100"),
+    ("year_fe_ntl_filter", True, True, "Unit + Year FE for pre-Mitch NTL median"),
 ]
 PAPER = PAPER_ROOT
 TABLE_SPEC_FOLDERS = [folder for folder in SPEC_FOLDERS if folder[3] != "Unit FE"]
@@ -1885,25 +1890,101 @@ def write_canonical_processed_files(assignment: pd.DataFrame, panel: pd.DataFram
 
 def write_reader_summary_table(assignment: pd.DataFrame) -> None:
     sample = assignment.loc[assignment["in_selected_country"].eq(1)].copy()
-    pre = sample.loc[sample["pre_mean_stable_sum"].notna() & sample["pre_mean_stable_sum"].ge(100)].copy()
+    pre = sample.loc[
+        sample["pre_mean_stable_sum"].notna()
+        & sample["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)
+    ].copy()
     ntl = pd.read_csv(WORKING / "data" / "processed" / "did_dashboard" / "ntl_municipality_year_panel.csv")
     ntl["stable_sum"] = pd.to_numeric(ntl["stable_sum"], errors="coerce")
-    dep = stat_summary(ntl.loc[ntl["muni_key"].isin(sample["muni_key"]) & ntl["year"].eq(1998), "stable_sum"])
-    lines = [r"\begin{tabular}{lrrrrr}", r"\toprule", r"\multicolumn{6}{l}{\emph{Dependent Variable: Nightlights}} \\", r"Name & Mean & SD & P10 & P50 & P90 \\", r"\midrule"]
-    lines.append("DMSP-OLS stable lights, 1998 & " + " & ".join(summary_tex_number(dep[k], 6) for k in ["mean", "sd", "p10", "p50", "p90"]) + r" \\")
-    lines.append(r"\addlinespace[0.45em]")
-    lines.append(r"\multicolumn{6}{l}{\emph{Independent Variable: Mitch Exposure Measures}} \\")
-    lines.append(r"Name & Source & Amount treated & Treated with filter &  &  \\")
-    lines.append(r"\midrule")
-    rows = [
-        ("64 kt winds", "Extended Best Track", sample[f"{EBTRK_TREAT_PREFIX}_r64_all"].sum(), pre[f"{EBTRK_TREAT_PREFIX}_r64_all"].sum()),
-        ("50 kt winds", "Extended Best Track", sample[f"{EBTRK_TREAT_PREFIX}_r50_all"].sum(), pre[f"{EBTRK_TREAT_PREFIX}_r50_all"].sum()),
-        ("34 kt winds", "Extended Best Track", sample[f"{EBTRK_TREAT_PREFIX}_r34_all"].sum(), pre[f"{EBTRK_TREAT_PREFIX}_r34_all"].sum()),
-        ("Top 10% maximum rainfall anomaly", "CHIRPS", sample["chirps_max_anomaly_top10"].sum(), pre["chirps_max_anomaly_top10"].sum()),
-        ("Top 10% deaths per capita (state)", "Government Reports", sample["death_pc_top10_state"].sum(), pre["death_pc_top10_state"].sum()),
+    all_vals = ntl.loc[ntl["muni_key"].isin(sample["muni_key"]), "stable_sum"].dropna()
+    pre_vals = pd.to_numeric(sample["pre_mean_stable_sum"], errors="coerce").dropna()
+
+    def reader_stats(vals: pd.Series) -> dict[str, float]:
+        stats = stat_summary(vals)
+        stats["p25"] = float(vals.quantile(0.25))
+        stats["p75"] = float(vals.quantile(0.75))
+        return stats
+
+    keys = ["mean", "sd", "p10", "p25", "p50", "p75", "p90"]
+    dep_all = reader_stats(all_vals)
+    dep_pre = reader_stats(pre_vals)
+    row_end = " " + chr(92) * 2
+    lines = [
+        r"\begin{tabular}{lrrrrrrr}",
+        r"\toprule",
+        r"\multicolumn{8}{l}{\emph{Dependent Variable: Nightlights}}" + row_end,
+        "Name & Mean & SD & P10 & P25 & P50 & P75 & P90" + row_end,
+        r"\midrule",
     ]
-    for name, source, treated, treated_filter in rows:
-        lines.append(f"{tex_escape(name)} & {tex_escape(source)} & {int(treated):,} & {int(treated_filter):,} & & " + r"\\")
+    lines.append(
+        "DMSP-OLS stable lights & "
+        + " & ".join(summary_tex_number(dep_all[key], 6) for key in keys)
+        + row_end
+    )
+    pre_cells = [summary_tex_number(dep_pre[key], 6) for key in keys]
+    pre_cells[keys.index("p50")] = f"{dep_pre['p50']:.2f}"
+    lines.append("DMSP-OLS stable lights pre-Mitch & " + " & ".join(pre_cells) + row_end)
+    lines.append(r"\addlinespace[0.45em]")
+    lines.append(r"\multicolumn{8}{l}{\emph{Independent Variable: Mitch Exposure Measures}}" + row_end)
+    lines.append(
+        r"Name & Source & Amount treated & "
+        r"\begin{tabular}{@{}c@{}}Treated at or above\\pre-Mitch median\end{tabular} & "
+        r"Amount control & "
+        r"\begin{tabular}{@{}c@{}}Controls at or above\\pre-Mitch median\end{tabular} &  & "
+        + row_end
+    )
+    lines.append(r"\midrule")
+    municipal_units = sample["muni_key"].nunique()
+    filtered_municipal_units = pre["muni_key"].nunique()
+    rows = []
+    for name, source, flag_col in [
+        ("64 kt winds", "Extended Best Track", f"{EBTRK_TREAT_PREFIX}_r64_all"),
+        ("50 kt winds", "Extended Best Track", f"{EBTRK_TREAT_PREFIX}_r50_all"),
+        ("34 kt winds", "Extended Best Track", f"{EBTRK_TREAT_PREFIX}_r34_all"),
+        ("Top 10% maximum rainfall anomaly", "CHIRPS", "chirps_max_anomaly_top10"),
+    ]:
+        treated = sample[flag_col].sum()
+        treated_filter = pre[flag_col].sum()
+        rows.append(
+            (
+                name,
+                source,
+                treated,
+                treated_filter,
+                municipal_units - treated,
+                filtered_municipal_units - treated_filter,
+                False,
+            )
+        )
+    death_states = build_death_state_panel(assignment).drop_duplicates("state_key")
+    retained_death_states = death_states.loc[
+        death_states["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)
+    ]
+    death_treated = death_states["death_pc_top10_state"].sum()
+    death_treated_filter = retained_death_states["death_pc_top10_state"].sum()
+    rows.append(
+        (
+            "Top 10% deaths per capita (state*)",
+            "Government Reports",
+            death_treated,
+            death_treated_filter,
+            death_states["state_key"].nunique() - death_treated,
+            retained_death_states["state_key"].nunique() - death_treated_filter,
+            True,
+        )
+    )
+    for name, source, treated, treated_filter, control, control_filter, add_asterisk in rows:
+        suffix = "*" if add_asterisk else ""
+        numeric_cells = [
+            f"{int(value):,}{suffix}"
+            for value in [treated, treated_filter, control, control_filter]
+        ]
+        lines.append(
+            f"{tex_escape(name)} & {tex_escape(source)} & "
+            + " & ".join(numeric_cells)
+            + " & &"
+            + row_end
+        )
     lines.extend([r"\bottomrule", r"\end{tabular}", ""])
     tex = "\n".join(lines)
     for path in [PAPER / "data" / "summary_tables" / "table_exposure_summary_reader.tex", OUT / "paper_figures" / "table_exposure_summary_reader.tex"]:
@@ -1955,28 +2036,69 @@ def plot_mitch_intro_map(munis_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame) -> No
 TREAT_RED = "#c9281d"
 INCREMENTAL_RED = "#f26b4f"
 BASE_MAP_FILL = "#fff7ec"
+EXCLUDED_CONTROL_FILL = "#fee8c8"
 
 
-def _plot_treatment_fill(ax, plot_gdf: gpd.GeoDataFrame, flag_col: str, zorder: int = 4) -> list:
+def _plot_treatment_fill(
+    ax,
+    plot_gdf: gpd.GeoDataFrame,
+    flag_col: str,
+    zorder: int = 4,
+    retained_col: str | None = None,
+) -> list:
     from matplotlib.patches import Patch
     handles = []
     if flag_col not in plot_gdf.columns:
         return handles
+    if retained_col is None:
+        retained_mask = plot_gdf["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)
+        observed_filter = pd.Series(True, index=plot_gdf.index)
+    else:
+        retained_values = plot_gdf[retained_col]
+        retained_mask = retained_values.eq(1).fillna(False)
+        observed_filter = retained_values.notna()
+    excluded_controls = plot_gdf.loc[
+        plot_gdf[flag_col].eq(0) & observed_filter & ~retained_mask
+    ].copy()
     treated = plot_gdf.loc[plot_gdf[flag_col].eq(1)].copy()
-    if treated.empty:
-        return handles
-    retained = treated.loc[treated["pre_mean_stable_sum"].ge(100)]
-    dropped = treated.loc[~treated["pre_mean_stable_sum"].ge(100)]
+    treated_retained = retained_mask.reindex(treated.index)
+    treated_observed = observed_filter.reindex(treated.index)
+    retained = treated.loc[treated_retained]
+    dropped = treated.loc[treated_observed & ~treated_retained]
+    if not excluded_controls.empty:
+        excluded_controls.plot(
+            ax=ax,
+            color=EXCLUDED_CONTROL_FILL,
+            edgecolor="#333333",
+            linewidth=0.25,
+            zorder=max(2, zorder - 2),
+        )
+        handles.append(
+            Patch(
+                facecolor=EXCLUDED_CONTROL_FILL,
+                edgecolor="#333333",
+                label="Control municipalities excluded by pre-Mitch NTL median filter",
+            )
+        )
     if not retained.empty:
         retained.plot(ax=ax, color=TREAT_RED, alpha=0.84, edgecolor="#111111", linewidth=0.35, zorder=zorder)
         handles.append(Patch(facecolor=TREAT_RED, edgecolor="#111111", label="Treated and retained"))
     if not dropped.empty:
         dropped.plot(ax=ax, color=INCREMENTAL_RED, alpha=0.88, edgecolor="#111111", linewidth=0.35, zorder=zorder + 1)
-        handles.append(Patch(facecolor=INCREMENTAL_RED, edgecolor="#111111", label="Dropped by NTL > 100 filter"))
+        handles.append(Patch(facecolor=INCREMENTAL_RED, edgecolor="#111111", label="Dropped by pre-Mitch NTL median filter"))
     return handles
 
 
-def plot_single_exposure_map(plot_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame, title: str, flag_col: str, out_path: Path, fill: str, threshold: str | None = None) -> None:
+def plot_single_exposure_map(
+    plot_gdf: gpd.GeoDataFrame,
+    ebtrk: pd.DataFrame,
+    title: str,
+    flag_col: str,
+    out_path: Path,
+    fill: str,
+    threshold: str | None = None,
+    retained_col: str | None = None,
+) -> None:
     bounds = plot_gdf.total_bounds
     xpad = (bounds[2] - bounds[0]) * 0.05
     ypad = (bounds[3] - bounds[1]) * 0.07
@@ -1986,7 +2108,13 @@ def plot_single_exposure_map(plot_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame, ti
         geom = threshold_swath_geometry(ebtrk, threshold)
         if geom is not None:
             gpd.GeoSeries([geom], crs="EPSG:4326").plot(ax=ax, color="#fb6a4a", alpha=0.28, edgecolor="#b30000", linewidth=0.8, zorder=3)
-    treatment_handles = _plot_treatment_fill(ax, plot_gdf, flag_col, zorder=4)
+    treatment_handles = _plot_treatment_fill(
+        ax,
+        plot_gdf,
+        flag_col,
+        zorder=4,
+        retained_col=retained_col,
+    )
     track = ebtrk.sort_values("iso_time").dropna(subset=["lon", "lat"])
     ax.plot(track["lon"], track["lat"], color="#005fe8", linewidth=2.0, zorder=7)
     ax.set_title(title, fontsize=14)
@@ -2007,15 +2135,26 @@ def plot_single_exposure_map(plot_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame, ti
 def plot_four_treatment_map(plot_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame, out_path: Path) -> None:
     from matplotlib.patches import Patch
     fig, axes = plt.subplots(2, 2, figsize=(12, 8), constrained_layout=True)
-    specs = [("64 kt", f"{EBTRK_TREAT_PREFIX}_r64_all", "r64"), ("50 kt", f"{EBTRK_TREAT_PREFIX}_r50_all", "r50"), ("Top 10% max rainfall", "chirps_max_anomaly_top10", None), ("Top 10% deaths per c.", "death_pc_top10_state", None)]
+    specs = [
+        ("64 kt", f"{EBTRK_TREAT_PREFIX}_r64_all", "r64", None),
+        ("50 kt", f"{EBTRK_TREAT_PREFIX}_r50_all", "r50", None),
+        ("Top 10% max rainfall", "chirps_max_anomaly_top10", None, None),
+        ("Top 10% deaths per c.", "death_pc_top10_state", None, "death_state_filter_retained"),
+    ]
     bounds = plot_gdf.total_bounds
-    for ax, (title, col, threshold) in zip(axes.ravel(), specs):
+    for ax, (title, col, threshold, retained_col) in zip(axes.ravel(), specs):
         plot_gdf.plot(ax=ax, color=BASE_MAP_FILL, edgecolor="#333333", linewidth=0.18)
         if threshold is not None:
             geom = threshold_swath_geometry(ebtrk, threshold)
             if geom is not None:
-                gpd.GeoSeries([geom], crs="EPSG:4326").plot(ax=ax, color="#bdbdbd", alpha=0.24, edgecolor="#666666", linewidth=0.7)
-        _plot_treatment_fill(ax, plot_gdf, col, zorder=4)
+                gpd.GeoSeries([geom], crs="EPSG:4326").plot(ax=ax, color="#bdbdbd", alpha=0.24, edgecolor="#666666", linewidth=0.7, zorder=3)
+        _plot_treatment_fill(
+            ax,
+            plot_gdf,
+            col,
+            zorder=4,
+            retained_col=retained_col,
+        )
         track = ebtrk.sort_values("iso_time").dropna(subset=["lon", "lat"])
         ax.plot(track["lon"], track["lat"], color="#005fe8", linewidth=1.5)
         ax.set_title(title, fontsize=11)
@@ -2025,7 +2164,12 @@ def plot_four_treatment_map(plot_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame, out
     fig.suptitle("Four treatment definitions, excluding 34 kt", fontsize=14)
     handles = [
         Patch(facecolor=TREAT_RED, edgecolor="#111111", label="Treated and retained"),
-        Patch(facecolor=INCREMENTAL_RED, edgecolor="#111111", label="Dropped by NTL > 100 filter"),
+        Patch(facecolor=INCREMENTAL_RED, edgecolor="#111111", label="Dropped by pre-Mitch NTL median filter"),
+        Patch(
+            facecolor=EXCLUDED_CONTROL_FILL,
+            edgecolor="#333333",
+            label="Control municipalities excluded by pre-Mitch NTL median filter",
+        ),
         Patch(facecolor="#bdbdbd", edgecolor="#666666", alpha=0.35, label="EBTRK swath"),
         Patch(facecolor="none", edgecolor="#005fe8", label="Mitch track"),
     ]
@@ -2046,13 +2190,34 @@ def plot_structured_exposure_maps(munis_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFra
         plot_gdf["state_key"] = plot_gdf["country_name"].astype(str) + "|" + plot_gdf["department_name"].astype(str)
     plot_gdf = add_state_impacts(plot_gdf)
     plot_gdf = add_expanded_exposure_flags(plot_gdf)
-    specs = [("64 kt EBTRK exposure", f"{EBTRK_TREAT_PREFIX}_r64_all", TREAT_RED, "r64", "map_64kt.png"), ("50 kt EBTRK exposure", f"{EBTRK_TREAT_PREFIX}_r50_all", TREAT_RED, "r50", "map_50kt.png"), ("34 kt EBTRK exposure", f"{EBTRK_TREAT_PREFIX}_r34_all", TREAT_RED, "r34", "map_34kt.png"), ("Top 10% max CHIRPS anomaly", "chirps_max_anomaly_top10", TREAT_RED, None, "map_top10_rain_anomaly.png"), ("Top 10% deaths per c.", "death_pc_top10_state", TREAT_RED, None, "map_deaths_per_capita.png")]
-    for title, col, color, threshold, filename in specs:
+    death_state_panel = load_death_state_panel().drop_duplicates("state_key")
+    death_state_retained = death_state_panel.set_index("state_key")[
+        "pre_mean_stable_sum"
+    ].ge(PRE_MITCH_NTL_MEDIAN)
+    plot_gdf["death_state_filter_retained"] = (
+        plot_gdf["state_key"].map(death_state_retained).astype("Int64")
+    )
+    specs = [
+        ("64 kt EBTRK exposure", f"{EBTRK_TREAT_PREFIX}_r64_all", TREAT_RED, "r64", "map_64kt.png", None),
+        ("50 kt EBTRK exposure", f"{EBTRK_TREAT_PREFIX}_r50_all", TREAT_RED, "r50", "map_50kt.png", None),
+        ("34 kt EBTRK exposure", f"{EBTRK_TREAT_PREFIX}_r34_all", TREAT_RED, "r34", "map_34kt.png", None),
+        ("Top 10% max CHIRPS anomaly", "chirps_max_anomaly_top10", TREAT_RED, None, "map_top10_rain_anomaly.png", None),
+        ("Top 10% deaths per c.", "death_pc_top10_state", TREAT_RED, None, "map_deaths_per_capita.png", "death_state_filter_retained"),
+    ]
+    for title, col, color, threshold, filename, retained_col in specs:
         for base in [PAPER / "data" / "exposure_maps", OUT / "results" / "figures" / "structured" / "data" / "exposure_maps"]:
-            plot_single_exposure_map(plot_gdf, ebtrk, title, col, base / filename, color, threshold)
+            plot_single_exposure_map(
+                plot_gdf,
+                ebtrk,
+                title,
+                col,
+                base / filename,
+                color,
+                threshold,
+                retained_col=retained_col,
+            )
     for base in [PAPER / "data" / "exposure_maps", OUT / "results" / "figures" / "structured" / "data" / "exposure_maps"]:
         plot_four_treatment_map(plot_gdf, ebtrk, base / "map_four_treatments_no34.png")
-
 
 
 def _google_earth_asset() -> Path | None:
@@ -2165,7 +2330,7 @@ def did_table_for_specs(panel: pd.DataFrame, specs: list[dict]) -> str:
         for _, year_fe, prefilter, label in TABLE_SPEC_FOLDERS:
             df = spec_panel.loc[spec_panel["pre_mean_stable_sum"].notna()].copy()
             if prefilter:
-                df = df.loc[df["pre_mean_stable_sum"].ge(100)].copy()
+                df = df.loc[df["pre_mean_stable_sum"].ge(PRE_MITCH_NTL_MEDIAN)].copy()
             r = run_did(df, spec["col"], spec["label"], label, year_fe=year_fe, continuous=not spec.get("binary", True))
             coef = "--" if pd.isna(r.coef) else f"{r.coef:.3f}{star(r.p)}"
             se = "" if pd.isna(r.se) else f"({r.se:.3f})"
@@ -2176,7 +2341,13 @@ def did_table_for_specs(panel: pd.DataFrame, specs: list[dict]) -> str:
     return "\n".join(lines)
 
 
-def event_table_for_specs(panel: pd.DataFrame, specs: list[dict]) -> str:
+def event_table_for_specs(
+    panel: pd.DataFrame,
+    specs: list[dict],
+    table_spec_folders: list[tuple[str, bool, bool, str]] | None = None,
+) -> str:
+    if table_spec_folders is None:
+        table_spec_folders = TABLE_SPEC_FOLDERS
     row_end = " " + chr(92) * 2
     headers = [table_period_label(start, end) for start, end in TABLE_OUTPUT_PERIODS]
     lines = [rf"\begin{{tabular}}{{ll{'r' * len(headers)}}}", r"\toprule", "Treatment & Specification & " + " & ".join(headers) + row_end, r"\midrule"]
@@ -2184,7 +2355,7 @@ def event_table_for_specs(panel: pd.DataFrame, specs: list[dict]) -> str:
         first = True
         short = spec.get("short_label", spec["label"])
         spec_panel = panel_for_spec(panel, spec)
-        for _, year_fe, prefilter, label in TABLE_SPEC_FOLDERS:
+        for _, year_fe, prefilter, label in table_spec_folders:
             ev = event_period_coefficients(spec_panel, spec["col"], prefilter=prefilter, year_fe=year_fe, binary=spec.get("binary", True))
             cells = []
             for start, end in TABLE_OUTPUT_PERIODS:
@@ -2207,6 +2378,14 @@ def write_structured_regression_tables(panel: pd.DataFrame) -> None:
                 base.mkdir(parents=True, exist_ok=True)
                 (base / f"table_{spec['slug']}.tex").write_text(tex, encoding="utf-8")
 
+
+    unit_fe_tex = event_table_for_specs(panel, FOUR_TREATMENT_MEASURES, table_spec_folders=[SPEC_FOLDERS[0]])
+    for base in [
+        PAPER / "appendix" / "regression_tables",
+        OUT / "results" / "tables" / "structured" / "appendix" / "regression_tables",
+    ]:
+        base.mkdir(parents=True, exist_ok=True)
+        (base / "table_four_treatments_no34_unit_fe.tex").write_text(unit_fe_tex, encoding="utf-8")
 
 
 def plot_dynamic_measure(panel: pd.DataFrame, specs: list[dict], title: str, path: Path, prefilter: bool, year_fe: bool) -> None:
@@ -2239,13 +2418,25 @@ def plot_dynamic_measure(panel: pd.DataFrame, specs: list[dict], title: str, pat
     plt.close(fig)
 
 
-def plot_event_measure(panel: pd.DataFrame, specs: list[dict], title: str, path: Path, year_fe: bool, prefilter: bool) -> None:
+def plot_event_measure(
+    panel: pd.DataFrame,
+    specs: list[dict],
+    title: str,
+    path: Path,
+    year_fe: bool,
+    prefilter: bool,
+    sample_filter: str | None = None,
+) -> None:
     n = len(specs)
     ncols = 2 if n == 4 else n
     nrows = 2 if n == 4 else 1
     fig, axes = plt.subplots(nrows, ncols, figsize=(6.0 * ncols, 3.9 * nrows), squeeze=False, constrained_layout=True)
     for ax, spec in zip(axes.ravel(), specs):
         spec_panel = panel_for_spec(panel, spec)
+        if sample_filter == "pre_ntl_snr":
+            spec_panel = filter_panel_by_pre_ntl_snr(spec_panel)
+        elif sample_filter is not None:
+            raise ValueError(f"Unknown event-study sample filter: {sample_filter}")
         ev = event_period_coefficients(spec_panel, spec["col"], prefilter=prefilter, year_fe=year_fe, binary=spec.get("binary", True))
         ev = ev.loc[ev[["period_start", "period_end"]].apply(tuple, axis=1).isin(TABLE_EVENT_PERIODS)].copy()
         ax.fill_between(ev["x"].to_numpy(float), ev["lb"].to_numpy(float), ev["ub"].to_numpy(float), color="#d9d9d9")
@@ -2274,6 +2465,21 @@ def write_structured_main_figures(panel: pd.DataFrame) -> None:
             for base in [PAPER / "main_results" / "figures" / "event_study" / folder, OUT / "results" / "figures" / "structured" / "main_results" / "figures" / "event_study" / folder]:
                 plot_event_measure(panel, specs, f"Event study: {label}", base / f"fig_{spec['slug']}.png", year_fe=year_fe, prefilter=prefilter)
 
+
+def write_snr_event_study_figure(panel: pd.DataFrame) -> None:
+    for base in [
+        PAPER / "robustness" / "figures" / "event_study" / "year_fe_snr_filter",
+        OUT / "results" / "figures" / "structured" / "robustness" / "figures" / "event_study" / "year_fe_snr_filter",
+    ]:
+        plot_event_measure(
+            panel,
+            FOUR_TREATMENT_MEASURES,
+            "Event study: Unit + Year FE for pre-Mitch NTL mean / SD >= 1",
+            base / "fig_four_treatments_no34.png",
+            year_fe=True,
+            prefilter=False,
+            sample_filter="pre_ntl_snr",
+        )
 
 
 def write_robustness_tables(panel: pd.DataFrame) -> None:
@@ -2349,7 +2555,7 @@ def single_year_continuous_mp_table(panel: pd.DataFrame) -> str:
     years = EVENT_TABLE_YEARS
     rows = [
         ("Mahajan-Parag exposure index (SD)", "mp_x_gjst_z_nofilter", False, "Unit + Year FE"),
-        ("", "mp_x_gjst_z_prefilter", True, "Unit + Year FE for NTL > 100"),
+        ("", "mp_x_gjst_z_prefilter", True, "Unit + Year FE for pre-Mitch NTL median"),
     ]
     lines = [rf"\begin{{tabular}}{{ll{'r' * len(years)}}}", r"\toprule", "Treatment & Specification & " + " & ".join(annual_year_label(y) for y in years) + row_end, r"\midrule"]
     for treatment, col, prefilter, label in rows:
@@ -2393,22 +2599,19 @@ def plot_single_year_event_measure(panel: pd.DataFrame, specs: list[dict], title
 
 def write_single_year_outputs(panel: pd.DataFrame) -> None:
     single_dirs = [PAPER / "single_years", OUT / "paper_figures" / "single_years"]
-    table_sets = {
-        "regression_table_ebtrk_binary.tex": [MEASURES[0], MEASURES[1], MEASURES[2]],
-        "regression_table_four_treatments_no34.tex": FOUR_TREATMENT_MEASURES,
-    }
-    for filename, specs in table_sets.items():
-        tex = single_year_table_for_specs(panel, specs)
-        write_text_outputs([base / filename for base in single_dirs], tex)
-    write_text_outputs([base / "regression_table_mahajan_continuous.tex" for base in single_dirs], single_year_continuous_mp_table(panel))
-    figure_sets = {
-        "eventstudy_annual_ebtrk_thresholds.png": [MEASURES[0], MEASURES[1], MEASURES[2]],
-        "did_annual_ebtrk_thresholds.png": [MEASURES[0], MEASURES[1], MEASURES[2]],
-        "eventstudy_annual_four_treatments_no34.png": FOUR_TREATMENT_MEASURES,
-    }
-    for filename, specs in figure_sets.items():
-        for base in single_dirs:
-            plot_single_year_event_measure(panel, specs, "Single-year event-study robustness", base / filename, prefilter=True)
+    tex = single_year_table_for_specs(panel, FOUR_TREATMENT_MEASURES)
+    write_text_outputs(
+        [base / "regression_table_four_treatments_no34.tex" for base in single_dirs],
+        tex,
+    )
+    for base in single_dirs:
+        plot_single_year_event_measure(
+            panel,
+            FOUR_TREATMENT_MEASURES,
+            "Single-year event-study robustness",
+            base / "eventstudy_annual_four_treatments_no34.png",
+            prefilter=True,
+        )
 
 
 def copy_appendix_expanded_outputs() -> None:
@@ -2693,6 +2896,7 @@ def build_structured_outputs(munis_gdf: gpd.GeoDataFrame, ebtrk: pd.DataFrame, a
     copy_structured_time_series()
     write_structured_regression_tables(panel)
     write_structured_main_figures(panel)
+    write_snr_event_study_figure(panel)
     write_single_year_outputs(panel)
     write_robustness_tables(panel)
     create_presentation_assets()

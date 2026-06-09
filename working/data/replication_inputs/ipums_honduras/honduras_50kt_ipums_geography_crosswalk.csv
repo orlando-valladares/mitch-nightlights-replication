@@ -1,0 +1,17 @@
+muni_key,department_name,municipality_name,ebtrk_share_r50_all,ebtrk_share_r64_all,geo2_hn,ipums_group_label,ipums_group_municipality_count,treated_municipalities_in_group,clean_treated_group,geography_note
+111_1422_17232,Colon,Balfate,1.0,0.370981,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17233,Colon,Bonito Oriental,1.0,1.0,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17234,Colon,Iriona,0.986541,0.546185,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17235,Colon,Limon,1.0,0.960741,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17237,Colon,Santa Fe,1.0,1.0,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17238,Colon,Santa Rosa De Aguan,1.0,1.0,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17241,Colon,Trujillo,1.0,1.0,340002001,"Balfate, Bonito Oriental, Limon, Santa Fe, Santa Rosa de Aguan, Trujillo, Iriona",7,7,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17236,Colon,Saba,1.0,0.0,340002003,"Saba, Sonaguera, Tocoa",3,3,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17239,Colon,Sonaguera,1.0,0.072844,340002003,"Saba, Sonaguera, Tocoa",3,3,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1422_17240,Colon,Tocoa,1.0,0.623859,340002003,"Saba, Sonaguera, Tocoa",3,3,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1427_17327,Gracias A Dios,Brus Laguna,0.669656,0.002831,340009001,"Ahuas, Brus Laguna, Juan Francisco Bulnes, Puerto Lempira, Villeda Morales, Wampusirpi",6,1,False,This harmonized IPUMS group combines treated and untreated municipalities.
+111_1429_17345,Islas De Bahia,Guanaja,1.0,1.0,340011001,"Guanaja, Jose Santos Guardiola, Roatan, Utila",4,3,False,This harmonized IPUMS group combines treated and untreated municipalities.
+111_1429_17346,Islas De Bahia,Jose Santos Guardiola,1.0,1.0,340011001,"Guanaja, Jose Santos Guardiola, Roatan, Utila",4,3,False,This harmonized IPUMS group combines treated and untreated municipalities.
+111_1429_17347,Islas De Bahia,Roatan,1.0,0.127888,340011001,"Guanaja, Jose Santos Guardiola, Roatan, Utila",4,3,False,This harmonized IPUMS group combines treated and untreated municipalities.
+111_1434_17418,Olancho,Gualaco,0.586488,0.007415,340015006,"Gualaco, San Esteban",2,2,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
+111_1434_17429,Olancho,San Esteban,0.828166,0.13104,340015006,"Gualaco, San Esteban",2,2,True,All municipalities in this harmonized IPUMS group satisfy the 50-kt treatment rule.
