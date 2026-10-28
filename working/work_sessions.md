@@ -497,6 +497,7 @@ Unresolved issues: local `latexmk` and `pdflatex` are unavailable on PATH, so I 
 - Outputs created: generated and ignored `stata_analysis_panel_main.dta`; a three-page, 200-line coding-sample PDF; redesigned README reviewer dashboard. The fast-path result CSV remains byte-identical.
 - Validation: raw satellite rows collapse to 24,904 audited municipality-years before the selected-country restriction and 21,912 afterward; 1,738 unmatched raw rows are explicitly checked; the preferred sample remains 10,956 observations/498 municipalities; treatments and keys match; rebuilt numeric fields agree within machine precision; all code, smoke, static, and link checks passed.
 - Result changes: none. Coefficients, standard errors, samples, treatment definitions, and committed result CSVs are unchanged.
+- GitHub: rewrote the five published project commits as `cleaning 1` through `cleaning 5` in a clean worktree, verified identical old/new tree hashes, and updated both `main` and `predoc-coding-sample` with `--force-with-lease`; both remote branches resolved to `cb11b4d` before this final log commit.
 - Unresolved issues: the Stata sample begins with raw nightlights but consumes documented municipality exposure attributes built by the upstream geospatial pipeline; it does not portray raster/swath construction as Stata work. Pre-existing unrelated dirty-worktree files remain unstaged and preserved.
 
 ## 2026-06-08 23:58 EDT - Public GitHub replication package
