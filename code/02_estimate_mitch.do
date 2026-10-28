@@ -1,8 +1,16 @@
 version 18
 
+*******************************************************************************
+* 1. Consequential analysis settings
+*******************************************************************************
+
 local ntl_cutoff 101.79
 local reference_start 1996
 local reference_end 1997
+
+*******************************************************************************
+* 2. Results container and reusable estimator
+*******************************************************************************
 
 tempfile stata_results
 tempname results
@@ -120,6 +128,10 @@ program define post_mitch_model
     restore
 end
 
+*******************************************************************************
+* 3. Municipality-level specifications
+*******************************************************************************
+
 import delimited using "working/data/processed/analysis_panel_main.csv", clear varnames(1)
 isid muni_unit_id year
 
@@ -151,6 +163,10 @@ foreach sample in all median {
     }
 }
 
+*******************************************************************************
+* 4. State-level mortality specifications
+*******************************************************************************
+
 import delimited using "working/data/processed/state_year_panel_deaths.csv", clear varnames(1)
 isid muni_unit_id year
 
@@ -164,6 +180,10 @@ foreach sample in all median {
     post_mitch_model, treatment(death_pc_top10_state) slug("deaths_top10") panel("state") ///
         sample("`sample'") model("did") yearfe(1) cutoff(`ntl_cutoff')
 }
+
+*******************************************************************************
+* 5. Export and verify the result file
+*******************************************************************************
 
 postclose `results'
 macro drop MITCH_POST_HANDLE

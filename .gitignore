@@ -6,6 +6,7 @@ working/overleaf/
 working/.venv/
 **/__pycache__/
 working/logs/
+working/data/processed/stata_analysis_panel_main.dta
 out/replication_packet/
 out/replication_packet.zip
 *.log

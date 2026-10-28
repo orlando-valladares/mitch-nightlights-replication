@@ -5,6 +5,7 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 STATA_FILES = [
     ROOT / "code" / "00_master.do",
+    ROOT / "code" / "01_build_panel.do",
     ROOT / "code" / "01_validate_panel.do",
     ROOT / "code" / "02_estimate_mitch.do",
     ROOT / "coding-sample" / "stata_coding_sample.do",
@@ -17,6 +18,7 @@ for path in STATA_FILES:
 
 readme = (ROOT / "README.md").read_text(encoding="utf-8")
 assert "code/00_master.do" in readme
+assert "code/01_build_panel.do" in readme
 assert "AI-assisted exploratory visualization tools" in readme
 
 expected = [

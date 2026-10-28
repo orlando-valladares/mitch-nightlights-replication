@@ -1,12 +1,16 @@
 version 18
 
-capture confirm file "working/data/processed/analysis_panel_main.csv"
+*******************************************************************************
+* 1. Validate the municipality-year panel
+*******************************************************************************
+
+capture confirm file "working/data/processed/stata_analysis_panel_main.dta"
 if _rc {
-    display as error "Missing analysis panel: working/data/processed/analysis_panel_main.csv"
+    display as error "Missing Stata panel. Run code/01_build_panel.do first."
     exit 601
 }
 
-import delimited using "working/data/processed/analysis_panel_main.csv", clear varnames(1)
+use "working/data/processed/stata_analysis_panel_main.dta", clear
 
 confirm variable muni_unit_id year log_ntl stable_sum pre_mean_stable_sum
 confirm variable ebtrk_treat50_r64_all ebtrk_treat50_r50_all
@@ -36,6 +40,10 @@ foreach treatment in ebtrk_treat50_r64_all ebtrk_treat50_r50_all ///
     assert inlist(`treatment', 0, 1)
     bysort muni_unit_id: assert `treatment' == `treatment'[1]
 }
+
+*******************************************************************************
+* 2. Validate the state-year mortality panel
+*******************************************************************************
 
 capture confirm file "working/data/processed/state_year_panel_deaths.csv"
 if _rc {

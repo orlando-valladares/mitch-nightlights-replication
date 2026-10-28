@@ -2,7 +2,7 @@
 
 How did Hurricane Mitch affect local economic activity in Central America, and how quickly did exposed municipalities recover? This senior seminar project combines annual DMSP-OLS stable-light measurements with municipality-level wind and rainfall exposure and state-level mortality exposure. The principal analysis is a 1992–2013 panel with municipality and year fixed effects, two-year event-time bins, and standard errors clustered by municipality.
 
-**Start with the Stata code:** [`code/00_master.do`](code/00_master.do) → [`code/01_validate_panel.do`](code/01_validate_panel.do) → [`code/02_estimate_mitch.do`](code/02_estimate_mitch.do). A compact submission copy is available as [`coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf`](coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf).
+**Start with the Stata code:** [`code/00_master.do`](code/00_master.do) → [`code/01_build_panel.do`](code/01_build_panel.do) → [`code/01_validate_panel.do`](code/01_validate_panel.do) → [`code/02_estimate_mitch.do`](code/02_estimate_mitch.do). A submission copy is available as [`coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf`](coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf).
 
 In the preferred pre-Mitch-light sample, the 64-knot specification estimates coefficients of −0.110 in 1998–1999 and −0.229 in 2000–2001; the corresponding 50-knot coefficients are −0.168 and −0.228. These are changes in `log(1 + stable lights)`, not exact percentage changes in untransformed light. Treatment is not randomly assigned, the wind-treated groups are small, and satellite and boundary limitations matter; see [`METHODS_AND_LIMITATIONS.md`](METHODS_AND_LIMITATIONS.md).
 
@@ -15,7 +15,7 @@ stata -b do code/00_master.do
 python3 code/03_render_stata_outputs.py
 ```
 
-The first command validates the real analysis panels and estimates the preferred and supporting specifications in native Stata. The second command performs no estimation: it places Stata's coefficients, clustered standard errors, confidence intervals, and p-values into the established LaTeX and PNG designs.
+The first command reconstructs the municipality-year nightlight panel from the public satellite-level file and documented exposure attributes, validates the real analysis panels, and estimates the preferred and supporting specifications in native Stata. The second command performs no estimation: it places Stata's coefficients, clustered standard errors, confidence intervals, and p-values into the established LaTeX and PNG designs.
 
 Key outputs:
 
