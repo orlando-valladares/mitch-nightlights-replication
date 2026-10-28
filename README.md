@@ -1,10 +1,27 @@
 # Hurricane Mitch and Municipal Nighttime Lights
 
-How did Hurricane Mitch affect local economic activity in Central America, and how quickly did exposed municipalities recover? This senior seminar project combines annual DMSP-OLS stable-light measurements with municipality-level wind and rainfall exposure and state-level mortality exposure. The principal analysis is a 1992–2013 panel with municipality and year fixed effects, two-year event-time bins, and standard errors clustered by municipality.
+> A reproducible municipality-year study of Hurricane Mitch, nighttime lights, and local recovery in Central America, 1992–2013.
 
-**Start with the Stata code:** [`code/00_master.do`](code/00_master.do) → [`code/01_build_panel.do`](code/01_build_panel.do) → [`code/01_validate_panel.do`](code/01_validate_panel.do) → [`code/02_estimate_mitch.do`](code/02_estimate_mitch.do). A submission copy is available as [`coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf`](coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf).
+[`Coding-sample PDF`](coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf) · [`Stata master`](code/00_master.do) · [`Panel construction`](code/01_build_panel.do) · [`Estimation`](code/02_estimate_mitch.do) · [`Reproducibility`](REPRODUCIBILITY.md)
+
+## Reviewer dashboard
+
+| Item | Project implementation |
+|---|---|
+| Research question | How did Hurricane Mitch affect local economic activity, and how quickly did exposed municipalities recover? |
+| Unit and window | 996 municipalities observed annually, 1992–2013 |
+| Outcome | `ln(1 + DMSP-OLS stable-light sum)` |
+| Design | Two-year event study with municipality and year fixed effects |
+| Inference | Standard errors clustered by municipality |
+| Preferred sample | 498 municipalities above the 1992–1997 pre-treatment light threshold |
+| Start here | [`code/00_master.do`](code/00_master.do) |
+| Submit/read first | [`Orlando_Valladares_Stata_Coding_Sample.pdf`](coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf) |
+
+The Stata workflow constructs municipality-year nighttime lights from the public satellite-level file, checks merge cardinality and panel balance, verifies the rebuilt fields against the versioned analysis panel, and estimates the principal specifications. Wind and rainfall attributes are constructed upstream from documented geospatial inputs; their definitions and limitations remain visible rather than being hidden inside the regression stage.
 
 In the preferred pre-Mitch-light sample, the 64-knot specification estimates coefficients of −0.110 in 1998–1999 and −0.229 in 2000–2001; the corresponding 50-knot coefficients are −0.168 and −0.228. These are changes in `log(1 + stable lights)`, not exact percentage changes in untransformed light. Treatment is not randomly assigned, the wind-treated groups are small, and satellite and boundary limitations matter; see [`METHODS_AND_LIMITATIONS.md`](METHODS_AND_LIMITATIONS.md).
+
+![Preferred event-study estimates for wind, rainfall, and mortality exposure](out/results/figures/structured/main_results/figures/event_study/year_fe_ntl_filter/fig_four_treatments_no34.png)
 
 ## Reproduce the Stata showcase
 
@@ -35,8 +52,8 @@ Primary inputs are NOAA/EOG DMSP-OLS nighttime lights, NOAA Extended Best Track 
 ## Repository map
 
 ```text
-code/                    Stata validation/estimation and style-preserving renderer
-coding-sample/           Short runnable Stata excerpt and submission PDF
+code/                    Stata panel construction, validation, and estimation
+coding-sample/           Runnable 200-line Stata sample and three-page PDF
 raw/                     Immutable source inputs
 working/scripts/         Geospatial and data-construction code
 working/data/processed/  Analysis-ready panels and intermediate data

@@ -11,6 +11,7 @@
 | Municipality attributes | `working/data/processed/municipality_attributes.csv` | `working/scripts/build_01_municipality_attributes.py` | Treatment assignment |
 | Nightlight panel | `working/data/processed/did_dashboard/ntl_municipality_year_panel.csv` | source-preparation scripts | Outcome construction |
 | Analysis panel | `working/data/processed/analysis_panel_main.csv` | `working/scripts/build_03_analysis_panel.py` | Stata municipality regressions |
+| Stata panel audit | Raw DMSP file + `municipality_attributes.csv` | `code/01_build_panel.do` | Field-checked Stata panel |
 | Mortality panel | `working/data/processed/state_year_panel_deaths.csv` | project panel builder | Stata state regressions |
 | Estimates | `out/results/stata/mitch_event_study_results.*` | `code/02_estimate_mitch.do` | Tables and figures |
 | Presentation assets | `out/results/`, `paper/Paper_Figures/` | `code/03_render_stata_outputs.py` | Paper and reviewer outputs |

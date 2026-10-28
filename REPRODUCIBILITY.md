@@ -19,7 +19,7 @@ stata -b do make.do
 
 This path depends on Python and geospatial libraries. In the audited environment, the direct Python stages completed, but Stata's shell wrapper returned `r(693)` after a successful Python stage. For that environment, run the ordered Python stages directly as documented in their file headers.
 
-## B. Reproduce from the analysis-ready panels
+## B. Reproduce the Stata panel and estimates
 
 Status: **verified**.
 
@@ -30,11 +30,14 @@ python3 code/03_render_stata_outputs.py
 
 Inputs:
 
+- `raw/dmsp_satellite_municipality_year_1992_2013_ca7_sum_count.csv`
+- `working/data/processed/municipality_attributes.csv`
 - `working/data/processed/analysis_panel_main.csv`
 - `working/data/processed/state_year_panel_deaths.csv`
 
 Expected outputs:
 
+- `working/data/processed/stata_analysis_panel_main.dta` (generated and ignored)
 - `out/results/stata/mitch_event_study_results.csv`
 - `out/results/stata/mitch_event_study_results.dta`
 - `out/results/tables/structured/main_results/regression_tables/event_study/*.tex`
@@ -50,7 +53,7 @@ Status: **verified**.
 stata -b do coding-sample/stata_coding_sample.do
 ```
 
-This validates the preferred real-data sample and reproduces the 64- and 50-knot two-year event-study estimates in `out/results/stata/preferred_wind_event_study.csv`. It does not fabricate or simulate data.
+This 200-line sample cleans the satellite-level nightlights, averages overlapping satellites, merges audited exposure attributes, validates the balanced panel and pre-treatment sample, and reproduces the 64- and 50-knot two-year event-study estimates in `out/results/stata/preferred_wind_event_study.csv`. It does not fabricate or simulate data.
 
 ## External inputs and terms
 
