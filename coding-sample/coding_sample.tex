@@ -10,7 +10,7 @@
 \definecolor{commentgreen}{RGB}{35,105,55}
 \lstset{
   language={},
-  morekeywords={version,clear,set,local,capture,confirm,if,display,exit,import,delimited,using,variable,isid,assert,bysort,keep,quietly,count,tempfile,tempname,postfile,replace,foreach,in,gettoken,parse,generate,double,areg,absorb,vce,cluster,forvalues,post,postclose,use,sort,export},
+  morekeywords={version,clear,set,local,capture,confirm,if,display,exit,import,delimited,using,variable,isid,assert,bysort,keep,quietly,count,tempfile,tempname,postfile,replace,foreach,in,gettoken,parse,generate,double,collapse,mean,merge,rename,egen,group,areg,absorb,vce,cluster,forvalues,post,postclose,use,sort,export},
   basicstyle=\ttfamily\scriptsize,
   backgroundcolor=\color{codegray},
   commentstyle=\color{commentgreen},
@@ -33,11 +33,11 @@
 
 {\Large\bfseries Stata Coding Sample}\hfill Orlando Valladares
 
-This coding sample presents the validation and preferred event-study estimation layer from my senior seminar project on Hurricane Mitch and municipal nighttime lights in Central America. The complete project and replication package are available at \href{https://github.com/orlando-valladares/mitch-nightlights-replication}{github.com/orlando-valladares/mitch-nightlights-replication}.
+This coding sample presents the data cleaning, panel construction, validation, and preferred event-study estimation from my senior seminar project on Hurricane Mitch and municipal nighttime lights in Central America. The complete project and replication package are available at \href{https://github.com/orlando-valladares/mitch-nightlights-replication}{github.com/orlando-valladares/mitch-nightlights-replication}.
 
 My GitHub also includes replication packages for recent Guatemalan and Honduran drought reports that I have been disseminating to help channel funding into the region in response to the severe 2026 El Ni\~no drought.
 
-The code below runs on the real analysis panel distributed with the repository. It checks the panel structure, applies a pre-treatment sample rule, estimates the 64- and 50-knot two-year event studies with municipality and year fixed effects, clusters inference by municipality, and exports machine-readable results. The omitted period is 1996--1997.
+The code below starts from the public satellite-level nightlights file and documented municipality exposure attributes. It averages overlapping satellites, checks merge cardinality and panel structure, distinguishes measured zeros from missing observations, constructs the pre-treatment sample rule, estimates the 64- and 50-knot two-year event studies with municipality and year fixed effects, clusters inference by municipality, and exports machine-readable results. The upstream geospatial construction of the exposure attributes is documented separately in the repository. The omitted period is 1996--1997.
 
 \lstinputlisting{stata_coding_sample.do}
 
