@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+\hypersetup{colorlinks=true,urlcolor=blue!55!black,linkcolor=blue!55!black}
+\definecolor{codegray}{RGB}{247,247,247}
+\definecolor{commentgreen}{RGB}{35,105,55}
+\lstset{
+  language={},
+  morekeywords={version,clear,set,local,capture,confirm,if,display,exit,import,delimited,using,variable,isid,assert,bysort,keep,quietly,count,tempfile,tempname,postfile,replace,foreach,in,gettoken,parse,generate,double,areg,absorb,vce,cluster,forvalues,post,postclose,use,sort,export},
+  basicstyle=\ttfamily\scriptsize,
+  backgroundcolor=\color{codegray},
+  commentstyle=\color{commentgreen},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  numbersep=8pt,
+  frame=single,
+  rulecolor=\color{black!20},
+  breaklines=true,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  aboveskip=0.7em,
+  belowskip=0.7em
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+
+\begin{document}
+
+{\Large\bfseries Stata Coding Sample}\hfill Orlando Valladares
+
+This coding sample presents the validation and preferred event-study estimation layer from my senior seminar project on Hurricane Mitch and municipal nighttime lights in Central America. The complete project and replication package are available at \href{https://github.com/orlando-valladares/mitch-nightlights-replication}{github.com/orlando-valladares/mitch-nightlights-replication}.
+
+My GitHub also includes replication packages for recent Guatemalan and Honduran drought reports that I have been disseminating to help channel funding into the region in response to the severe 2026 El Ni\~no drought.
+
+The code below runs on the real analysis panel distributed with the repository. It checks the panel structure, applies a pre-treatment sample rule, estimates the 64- and 50-knot two-year event studies with municipality and year fixed effects, clusters inference by municipality, and exports machine-readable results. The omitted period is 1996--1997.
+
+\lstinputlisting{stata_coding_sample.do}
+
+\end{document}

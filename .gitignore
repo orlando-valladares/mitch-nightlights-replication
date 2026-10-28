@@ -10,3 +10,6 @@ out/replication_packet/
 out/replication_packet.zip
 *.log
 *.pdf
+!coding-sample/*.pdf
+coding-sample/*.aux
+coding-sample/*.out

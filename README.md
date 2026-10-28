@@ -1,46 +1,68 @@
-# Mitch Nightlights Replication
+# Hurricane Mitch and Municipal Nighttime Lights
 
-Replication materials for *Lost to Mitch: Evidence from Nightlight Years and Hurricane Exposure in Central American Municipalities*.
+How did Hurricane Mitch affect local economic activity in Central America, and how quickly did exposed municipalities recover? This senior seminar project combines annual DMSP-OLS stable-light measurements with municipality-level wind and rainfall exposure and state-level mortality exposure. The principal analysis is a 1992–2013 panel with municipality and year fixed effects, two-year event-time bins, and standard errors clustered by municipality.
 
-The repository contains the data, cleaning code, analysis code, paper source, and generated tables and figures needed to reproduce the submitted project. The main entry point is `make.do`.
+**Start with the Stata code:** [`code/00_master.do`](code/00_master.do) → [`code/01_validate_panel.do`](code/01_validate_panel.do) → [`code/02_estimate_mitch.do`](code/02_estimate_mitch.do). A compact submission copy is available as [`coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf`](coding-sample/Orlando_Valladares_Stata_Coding_Sample.pdf).
 
-## Quick Start
+In the preferred pre-Mitch-light sample, the 64-knot specification estimates coefficients of −0.110 in 1998–1999 and −0.229 in 2000–2001; the corresponding 50-knot coefficients are −0.168 and −0.228. These are changes in `log(1 + stable lights)`, not exact percentage changes in untransformed light. Treatment is not randomly assigned, the wind-treated groups are small, and satellite and boundary limitations matter; see [`METHODS_AND_LIMITATIONS.md`](METHODS_AND_LIMITATIONS.md).
 
-1. Download or clone this repository and open Stata from the repository root.
-2. Install Python 3.11 or newer and the required packages:
+## Reproduce the Stata showcase
 
-   ```bash
-   python -m pip install -r requirements.txt
-   ```
+From the repository root:
 
-3. In Stata, run:
+```bash
+stata -b do code/00_master.do
+python3 code/03_render_stata_outputs.py
+```
 
-   ```stata
-   do make.do
-   ```
+The first command validates the real analysis panels and estimates the preferred and supporting specifications in native Stata. The second command performs no estimation: it places Stata's coefficients, clustered standard errors, confidence intervals, and p-values into the established LaTeX and PNG designs.
 
-`make.do` runs `analyze.do` and `graph.do`. It restores the two packaged compressed boundary files, rebuilds the municipality attributes and panel, estimates the final specifications, and recreates the paper assets. On Windows it calls `python`; on macOS and Linux it calls `python3`. A different executable can be selected before running with, for example, `global ECON64_PYTHON "py -3"`.
+Key outputs:
 
-## Main Outputs
+- [`out/results/stata/mitch_event_study_results.csv`](out/results/stata/mitch_event_study_results.csv): machine-readable Stata estimates.
+- [`out/results/tables/structured/main_results/regression_tables/event_study/table_four_treatments_no34.tex`](out/results/tables/structured/main_results/regression_tables/event_study/table_four_treatments_no34.tex): principal table fragment.
+- [`out/results/figures/structured/main_results/figures/event_study/year_fe_ntl_filter/fig_four_treatments_no34.png`](out/results/figures/structured/main_results/figures/event_study/year_fe_ntl_filter/fig_four_treatments_no34.png): principal event-study figure.
+- [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md): full, analysis-ready, and reviewer-fast reproduction paths.
 
-- Final paper source: `paper/main.tex`
-- Paper figures and LaTeX table fragments: `paper/Paper_Figures/`
-- Processed analysis data: `working/data/processed/`
-- Review copies of results, tables, and figures: `out/`
-- Run logs: `working/logs/`
+## Design and data
 
-The LaTeX paper uses `biblatex` with Biber. Compile from `paper/` after running the pipeline.
+The main municipality panel contains 996 municipalities observed for every year from 1992 through 2013. The outcome is `log(1 + stable_sum)`, where municipality-year DMSP-OLS stable-light sums are averaged across satellites when more than one satellite observes the same year. The preferred sample retains the 498 municipalities whose mean stable lights during 1992–1997 are at least 101.79.
 
-## Workflow
+Wind treatment equals one when at least half of a municipality's area lies inside the storm-total Extended Best Track 50- or 64-knot wind swath. Rainfall treatment identifies the top decile of maximum CHIRPS rainfall anomalies. Mortality treatment is assigned at the state level and estimated on a state-year panel. The preferred event studies omit 1996–1997, absorb unit and year fixed effects, and cluster by the panel unit.
 
-- `make.do`: master Stata entry point.
-- `analyze.do`: runs municipality construction, the nightlight panel, the merged analysis panel, and final regression tables.
-- `graph.do`: runs final summary tables, maps, event studies, annual specifications, the census robustness check, and the CHIRPS descriptive figure.
-- `working/scripts/pipeline_engine.py`: shared construction, estimation, table, and figure functions.
-- `working/scripts/build_01_*.py` through `build_06_*.py`: ordered analysis stages.
-- `working/scripts/source_prep/`: source-specific preparation and optional licensed-data rebuild scripts.
+Primary inputs are NOAA/EOG DMSP-OLS nighttime lights, NOAA Extended Best Track and IBTrACS storm data, CHIRPS precipitation, geoBoundaries administrative geometry, and compiled subnational mortality records. Modern administrative boundaries are used; they are not a reconstructed 1998 boundary vintage. No cross-satellite intercalibration is implemented.
 
-The active `make.do` path is intentionally narrower than the exploratory work history: it produces the specifications and assets used in the final paper rather than every regression considered during development.
+## Repository map
+
+```text
+code/                    Stata validation/estimation and style-preserving renderer
+coding-sample/           Short runnable Stata excerpt and submission PDF
+raw/                     Immutable source inputs
+working/scripts/         Geospatial and data-construction code
+working/data/processed/  Analysis-ready panels and intermediate data
+out/results/stata/       Native Stata estimates
+out/results/             Tables and figures
+paper/                   LaTeX paper source and assets
+tests/                   Stata smoke tests and static checks
+```
+
+Python remains necessary for geospatial construction and image rendering. It is not the authoritative estimator for the showcased regressions.
+
+## Optional HTML visualizations
+
+The HTML dashboards in `out/` are optional, AI-assisted exploratory visualization tools. They were coded to inspect newly assembled spatial and meteorological data and to guide later integration into the formal Stata analysis. They are not the replication entry point and do not supply the reported regression estimates.
+
+- [`out/Mitch_integrated_dashboard.html`](out/Mitch_integrated_dashboard.html)
+- [`out/besttrack_extended_dashboard.html`](out/besttrack_extended_dashboard.html)
+- [`out/chirps_dashboard.html`](out/chirps_dashboard.html)
+
+## Access, licensing, and software
+
+Stata 18-compatible syntax is used and was verified with StataNow 19.5 BE. The estimators rely only on built-in Stata commands. Python requirements are listed in [`requirements.txt`](requirements.txt).
+
+Project-authored code is released under [`LICENSE`](LICENSE). Third-party data retain their original terms: DMSP and CHIRPS are publicly distributed; NOAA storm data are openly accessible; geoBoundaries gbOpen files require attribution under CC BY 4.0; and IPUMS microdata may not be redistributed. The repository contains disclosure-safe aggregates for the census appendix, not the restricted household-level extract.
+
+See [`DATA_PROVENANCE.md`](DATA_PROVENANCE.md) for file-level sources and [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md) for the variables used by the Stata showcase.
 
 ## IPUMS Data
 

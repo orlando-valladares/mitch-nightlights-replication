@@ -1,0 +1,2 @@
+out/*.html linguist-generated=true
+working/ado/** linguist-vendored=true
