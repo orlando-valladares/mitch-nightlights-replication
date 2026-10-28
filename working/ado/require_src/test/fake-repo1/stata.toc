@@ -1,3 +1,0 @@
-v 3
-d Lorem Ipsum
-p fake2 LOREM IPSUM

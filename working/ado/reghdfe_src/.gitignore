@@ -1,9 +1,0 @@
-# Stata specific
-*.log
-
-*.temp
-*.tmp
-*.zip
-
-# Misc
-misc/Benchmarks/last_*

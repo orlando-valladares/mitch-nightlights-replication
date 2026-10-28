@@ -1,4 +1,0 @@
-stata >= 16
-reghdfe >= 6
-asdasd
-rdrobust >= 9

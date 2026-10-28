@@ -1,3 +1,0 @@
- After about 10 minutes your account will be created and then you can SSH into one of our nodes (e.g. ssh netid@andes.dartmouth.edu). You can load stata with a command like `module load stata` and then be off to the races command line with interactive runs. There is a whole HPC cluster available via the command line and if that interests you I can send you notes on how to submit jobs.
- 
- my netid is f006g8g

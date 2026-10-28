@@ -1,5 +1,11 @@
 MIT License
 
+NOTE ON DATA LICENSING
+
+This license applies to the SOURCE CODE in this repository only. Data products
+in `data/` have varying licensing terms. See the data licensing and provenance
+section of `README.md` before reusing or redistributing any data file.
+
 Copyright (c) 2026 Orlando Valladares
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

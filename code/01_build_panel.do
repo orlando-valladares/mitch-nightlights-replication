@@ -6,9 +6,9 @@ set more off
 * 1. File locations
 *******************************************************************************
 
-local ntl_source "raw/dmsp_satellite_municipality_year_1992_2013_ca7_sum_count.csv"
-local attributes "working/data/processed/municipality_attributes.csv"
-local stata_panel "working/data/processed/stata_analysis_panel_main.dta"
+local ntl_source "data/raw/dmsp_satellite_municipality_year_1992_2013_ca7_sum_count.csv"
+local attributes "data/processed/municipality_attributes.csv"
+local stata_panel "data/processed/stata_analysis_panel_main.dta"
 
 foreach required_file in "`ntl_source'" "`attributes'" {
     capture confirm file `required_file'
@@ -62,8 +62,7 @@ foreach treatment in ebtrk_treat50_r64_all ebtrk_treat50_r50_all ///
     assert inlist(`treatment', 0, 1)
 }
 
-keep muni_key in_selected_country mp_x_gjst_z_nofilter ///
-    mp_x_gjst_z_prefilter mp_x_gjst chirps_max_anomaly_top10 ///
+keep muni_key in_selected_country chirps_max_anomaly_top10 ///
     death_pc_top10_state rain50_chirps_top10 ebtrk_share_r64_all ///
     ebtrk_share_r50_all ebtrk_share_r34_all ebtrk_treat50_r64_all ///
     ebtrk_treat50_r50_all ebtrk_treat50_r34_all
@@ -112,9 +111,9 @@ display as text "Preferred-sample municipality-years: " r(N)
 tempfile rebuilt_panel
 save `rebuilt_panel'
 
-capture confirm file "working/data/processed/analysis_panel_main.csv"
+capture confirm file "data/processed/analysis_panel_main.csv"
 if !_rc {
-    import delimited using "working/data/processed/analysis_panel_main.csv", ///
+    import delimited using "data/processed/analysis_panel_main.csv", ///
         clear varnames(1) case(lower) asdouble
     keep muni_key year stable_sum log_ntl pre_mean_stable_sum ///
         ebtrk_treat50_r64_all ebtrk_treat50_r50_all ebtrk_treat50_r34_all

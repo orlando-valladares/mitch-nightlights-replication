@@ -1,1 +1,0 @@
-reghdfe do-file ran locally; see working/logs/reghdfe_event_tables.log.

@@ -1,8 +1,0 @@
-panel,item,definition,mean,sd,p10,p25,p50,p75,p90,min,max,n,source
-summary,Stable lights sum,Sum of DMSP-OLS stable-lights digital values inside the municipality,558.3706294863214,1315.8871,0,58.44706,206,554.36469,1298.6588,0,24854.365,36855,DMSP-OLS/GAUL
-summary,Valid stable-light pixels,Count of valid stable-light pixels inside the municipality,449.6714150047483,1101.0059,27,63,151,354,868,0,13537,36855,DMSP-OLS/GAUL
-coverage,Belize,GAUL-coded municipalities in retained sample,,,,,,,,,,6,DMSP-OLS/GAUL
-coverage,El Salvador,GAUL-coded municipalities in retained sample,,,,,,,,,,262,DMSP-OLS/GAUL
-coverage,Guatemala,GAUL-coded municipalities in retained sample,,,,,,,,,,336,DMSP-OLS/GAUL
-coverage,Honduras,GAUL-coded municipalities in retained sample,,,,,,,,,,291,DMSP-OLS/GAUL
-coverage,Nicaragua,GAUL-coded municipalities in retained sample,,,,,,,,,,158,DMSP-OLS/GAUL

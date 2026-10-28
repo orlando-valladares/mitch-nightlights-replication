@@ -1,2 +1,0 @@
-not_a_package
-also_not_a_package
